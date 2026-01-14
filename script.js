@@ -264,14 +264,20 @@ function displayResults(results) {
 }
 
 // 绑定搜索按钮点击事件
-document.getElementById('search-btn').addEventListener('click', searchVocabulary);
+const searchBtn = document.getElementById('search-btn');
+if (searchBtn) {
+    searchBtn.addEventListener('click', searchVocabulary);
+}
 
 // 绑定搜索输入框回车事件
-document.getElementById('search-input').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') {
-        searchVocabulary();
-    }
-});
+const searchInput = document.getElementById('search-input');
+if (searchInput) {
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            searchVocabulary();
+        }
+    });
+}
 
 // 响应式导航菜单交互
 const navToggle = document.querySelector('.nav-toggle');
