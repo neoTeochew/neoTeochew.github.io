@@ -97899,7 +97899,8 @@
     "word": "cham-siâng",
     "pronunciation": "cham-siâng",
     "hanzi": [
-      "参商"
+      "参详",
+      "參詳"
     ],
     "speech": "动词",
     "category": [
@@ -164619,15 +164620,15 @@
   },
   {
     "word": "Việt Nam",
-    "pronunciation": "Việt Nam",
+    "pronunciation": "Uad-nâm",
     "hanzi": [
       "越南"
     ],
     "speech": "国",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Uad-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164655,20 +164656,20 @@
         }
       }
     ],
-    "note": ""
+    "note": "本身是汉字音的，按汉字音发音，不音译。"
   },
   {
     "word": "France",
-    "pronunciation": "France",
+    "pronunciation": "Hô-rân-sir",
     "hanzi": [
       "法兰西"
     ],
     "speech": "国",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hô-rân-se.",
-    "romazi": "Huap-lân-sai.",
+    "definition": "汉字发音：Huap-lân-sai.",
+    "romazi": "Hàn-zī huap-im: Huap-lân-sai.",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -164699,15 +164700,15 @@
   },
   {
     "word": "Beijing",
-    "pronunciation": "Beijing",
+    "pronunciation": "Pak-kya",
     "hanzi": [
       "北京"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Pak-kya.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164739,15 +164740,15 @@
   },
   {
     "word": "Tianjin",
-    "pronunciation": "Tianjin",
+    "pronunciation": "Thian-tsin",
     "hanzi": [
       "天津"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Thian-tsin.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164779,15 +164780,15 @@
   },
   {
     "word": "Hebei",
-    "pronunciation": "Hebei",
+    "pronunciation": "Hô-pak",
     "hanzi": [
       "河北"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hô-pak.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164819,15 +164820,15 @@
   },
   {
     "word": "Shanxi",
-    "pronunciation": "Shanxi",
+    "pronunciation": "Swa-sai",
     "hanzi": [
       "山西"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Swa-sai.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164859,16 +164860,16 @@
   },
   {
     "word": "Nei Mongol",
-    "pronunciation": "Nei Mongol",
+    "pronunciation": "Lǎi Mông-góu",
     "hanzi": [
       "内蒙古"
     ],
     "speech": "自治区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "推荐读音：Lǎi Mông-góu.",
-    "romazi": "汉字发音：Lǎi Mông-kóu.",
+    "definition": "汉字发音：Lǎi Mông-kóu.",
+    "romazi": "Hàn-zī huat-im: Lǎi Mông-kóu.",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -164899,15 +164900,15 @@
   },
   {
     "word": "Liaoning",
-    "pronunciation": "Liaoning",
+    "pronunciation": "Liâu-nêng",
     "hanzi": [
       "辽宁"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Liâu-nêng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164939,15 +164940,15 @@
   },
   {
     "word": "Jilin",
-    "pronunciation": "Jilin",
+    "pronunciation": "Kit-lîm",
     "hanzi": [
       "吉林"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kit-lîm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -164979,15 +164980,15 @@
   },
   {
     "word": "Heilongjiang",
-    "pronunciation": "Heilongjiang",
+    "pronunciation": "Hek-lêng-kang",
     "hanzi": [
       "黑龙江"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hek-lêng-kang.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165019,15 +165020,15 @@
   },
   {
     "word": "Shanghai",
-    "pronunciation": "Shanghai",
+    "pronunciation": "Siǎng-hái",
     "hanzi": [
       "上海"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Siǎng-hái.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165059,15 +165060,15 @@
   },
   {
     "word": "Jiangsu",
-    "pronunciation": "Jiangsu",
+    "pronunciation": "Kang-sou",
     "hanzi": [
       "江苏"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kang-sou.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165099,15 +165100,15 @@
   },
   {
     "word": "Zhejiang",
-    "pronunciation": "Zhejiang",
+    "pronunciation": "Tsit-kang",
     "hanzi": [
       "浙江"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tsit-kang.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165139,15 +165140,15 @@
   },
   {
     "word": "Anhui",
-    "pronunciation": "Anhui",
+    "pronunciation": "An-hui",
     "hanzi": [
       "安徽"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "An-hui.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165179,15 +165180,15 @@
   },
   {
     "word": "Fujian",
-    "pronunciation": "Fujian",
+    "pronunciation": "Hok-kiàn",
     "hanzi": [
       "福建"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hok-kiàn.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165219,15 +165220,15 @@
   },
   {
     "word": "Jiangxi",
-    "pronunciation": "Jiangxi",
+    "pronunciation": "Kang-sai",
     "hanzi": [
       "江西"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kang-sai.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165259,15 +165260,15 @@
   },
   {
     "word": "Shandong",
-    "pronunciation": "Shandong",
+    "pronunciation": "Swa-tang",
     "hanzi": [
       "山东"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Swa-tang.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165299,15 +165300,15 @@
   },
   {
     "word": "Henan",
-    "pronunciation": "Henan",
+    "pronunciation": "Hô-nâm",
     "hanzi": [
       "河南"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hô-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165339,15 +165340,15 @@
   },
   {
     "word": "Hubei",
-    "pronunciation": "Hubei",
+    "pronunciation": "Ôu-pak",
     "hanzi": [
       "湖北"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Ôu-pak.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165379,15 +165380,15 @@
   },
   {
     "word": "Hunan",
-    "pronunciation": "Hunan",
+    "pronunciation": "Ôu-nâm",
     "hanzi": [
       "湖南"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Ôu-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165419,16 +165420,16 @@
   },
   {
     "word": "Guangdong",
-    "pronunciation": "Guangdong",
+    "pronunciation": "Kńg-tang",
     "hanzi": [
       "广东",
       "廣東"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kńg-tang.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165460,15 +165461,15 @@
   },
   {
     "word": "Guangxi",
-    "pronunciation": "Guangxi",
+    "pronunciation": "Kńg-sai",
     "hanzi": [
       "广西"
     ],
     "speech": "自治区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kńg-sai.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165500,15 +165501,15 @@
   },
   {
     "word": "Hainan",
-    "pronunciation": "Hainan",
+    "pronunciation": "Hái-nâm",
     "hanzi": [
       "海南"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hái-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165540,15 +165541,15 @@
   },
   {
     "word": "Chongqing",
-    "pronunciation": "Chongqing",
+    "pronunciation": "Têng-qèng",
     "hanzi": [
       "重庆"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Têng-qèng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165576,19 +165577,19 @@
         }
       }
     ],
-    "note": ""
+    "note": "习惯上可能读Tǒng-qèng，这里根据词源来，规定为Têng-qèng"
   },
   {
     "word": "Sichuan",
-    "pronunciation": "Sichuan",
+    "pronunciation": "Sì-chuan",
     "hanzi": [
       "四川"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Sì-chuan.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165620,15 +165621,15 @@
   },
   {
     "word": "Guizhou",
-    "pronunciation": "Guizhou",
+    "pronunciation": "Kuì-tsiu",
     "hanzi": [
       "贵州"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kuì-tsiu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165660,15 +165661,15 @@
   },
   {
     "word": "Yunnan",
-    "pronunciation": "Yunnan",
+    "pronunciation": "Hûn-nâm",
     "hanzi": [
       "云南"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hûn-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165700,15 +165701,15 @@
   },
   {
     "word": "Xizang",
-    "pronunciation": "Xizang",
+    "pronunciation": "Sai-tsǎng",
     "hanzi": [
       "西藏"
     ],
     "speech": "自治区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Sai-tsǎng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165740,15 +165741,15 @@
   },
   {
     "word": "Shaanxi",
-    "pronunciation": "Shaanxi",
+    "pronunciation": "Siám-sai",
     "hanzi": [
       "陕西"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Siám-sai.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165780,15 +165781,15 @@
   },
   {
     "word": "Gansu",
-    "pronunciation": "Gansu",
+    "pronunciation": "Kam-sok",
     "hanzi": [
       "甘肃"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kam-sok.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165820,15 +165821,15 @@
   },
   {
     "word": "Qinghai",
-    "pronunciation": "Qinghai",
+    "pronunciation": "Cher-hái",
     "hanzi": [
       "青海"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Cher-hái.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165860,15 +165861,15 @@
   },
   {
     "word": "Ningxia",
-    "pronunciation": "Ningxia",
+    "pronunciation": "Nêng-hē",
     "hanzi": [
       "宁夏"
     ],
     "speech": "自治区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nêng-hē.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165900,15 +165901,15 @@
   },
   {
     "word": "Xinjiang",
-    "pronunciation": "Xinjiang",
+    "pronunciation": "Sin-kiang",
     "hanzi": [
       "新疆"
     ],
     "speech": "自治区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Sin-kiang.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165940,15 +165941,15 @@
   },
   {
     "word": "Taiwan",
-    "pronunciation": "Taiwan",
+    "pronunciation": "Thâi-uan",
     "hanzi": [
       "台湾"
     ],
     "speech": "省",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Thâi-uan.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -165980,15 +165981,15 @@
   },
   {
     "word": "Hongkong",
-    "pronunciation": "Hongkong",
+    "pronunciation": "Hiang-káng",
     "hanzi": [
       "香港"
     ],
     "speech": "特别行政区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hiang-káng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166020,15 +166021,15 @@
   },
   {
     "word": "Macau",
-    "pronunciation": "Macau",
+    "pronunciation": "Ò-mûn",
     "hanzi": [
       "澳门"
     ],
     "speech": "特别行政区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Ò-mûn.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166060,16 +166061,16 @@
   },
   {
     "word": "Shantou",
-    "pronunciation": "Shantou",
+    "pronunciation": "Swa-thâu",
     "hanzi": [
       "汕头",
       "汕頭"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Swa-thâu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166101,15 +166102,15 @@
   },
   {
     "word": "Chenghai",
-    "pronunciation": "Chenghai",
+    "pronunciation": "Thêng-hái",
     "hanzi": [
       "澄海"
     ],
     "speech": "区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Thêng-hái.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166141,15 +166142,15 @@
   },
   {
     "word": "Fengxiang",
-    "pronunciation": "Fengxiang",
+    "pronunciation": "Hǒng-siâng",
     "hanzi": [
       "凤翔"
     ],
     "speech": "街道",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hǒng-siâng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166181,16 +166182,16 @@
   },
   {
     "word": "Batou",
-    "pronunciation": "Batou",
+    "pronunciation": "Pà-thâu",
     "hanzi": [
       "坝头",
       "壩頭"
     ],
-    "speech": "古镇",
+    "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Pà-thâu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166222,16 +166223,16 @@
   },
   {
     "word": "Guangyi",
-    "pronunciation": "Guangyi",
+    "pronunciation": "Kuáng-iah",
     "hanzi": [
       "广益",
       "廣益"
     ],
     "speech": "街道",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kuáng-iah.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166263,15 +166264,15 @@
   },
   {
     "word": "Bumei",
-    "pronunciation": "Bumei",
+    "pronunciation": "Pou-bué",
     "hanzi": [
       "埔美"
     ],
     "speech": "社区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Pou-bué.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166303,15 +166304,15 @@
   },
   {
     "word": "Chenghua",
-    "pronunciation": "Chenghua",
+    "pronunciation": "Thêng-huâ",
     "hanzi": [
       "澄华"
     ],
     "speech": "街道",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Thêng-huâ.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166343,15 +166344,15 @@
   },
   {
     "word": "Shanghua",
-    "pronunciation": "Shanghua",
+    "pronunciation": "Siǎng-huâ",
     "hanzi": [
       "上华"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Siǎng-huâ.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166383,15 +166384,15 @@
   },
   {
     "word": "Xiachen",
-    "pronunciation": "Xiachen",
+    "pronunciation": "Ě-tân",
     "hanzi": [
       "下陈"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Ě-tân.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166423,15 +166424,15 @@
   },
   {
     "word": "Juchi",
-    "pronunciation": "Juchi",
+    "pronunciation": "Kek-tî",
     "hanzi": [
       "菊池"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kek-tî.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166463,16 +166464,16 @@
   },
   {
     "word": "Lianxia",
-    "pronunciation": "Lianxia",
+    "pronunciation": "Nôi-ě",
     "hanzi": [
       "莲下",
       "蓮下"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nôi-ě.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166504,15 +166505,15 @@
   },
   {
     "word": "Jianyang",
-    "pronunciation": "Jianyang",
+    "pronunciation": "Kiǎn-iâng",
     "hanzi": [
       "建阳"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kiǎn-iâng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166544,16 +166545,16 @@
   },
   {
     "word": "Wantou",
-    "pronunciation": "Wantou",
+    "pronunciation": "Uan-thâu",
     "hanzi": [
       "湾头",
       "灣頭"
     ],
-    "speech": "古镇",
+    "speech": "镇",
     "category": [
-      ""
+      "旧行政区"
     ],
-    "definition": "Uan-thâu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166585,16 +166586,16 @@
   },
   {
     "word": "Nanwan",
-    "pronunciation": "Nanwan",
+    "pronunciation": "Nâm-uan",
     "hanzi": [
       "南湾",
       "南灣"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nâm-uan.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166626,16 +166627,16 @@
   },
   {
     "word": "Beiwan",
-    "pronunciation": "Beiwan",
+    "pronunciation": "Pak-uan",
     "hanzi": [
       "北湾",
       "北灣"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Pak-uan.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166667,16 +166668,16 @@
   },
   {
     "word": "Dongwan",
-    "pronunciation": "Dongwan",
+    "pronunciation": "Tang-uan",
     "hanzi": [
       "东湾",
       "東灣"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tang-uan.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166708,15 +166709,15 @@
   },
   {
     "word": "Haihou",
-    "pronunciation": "Haihou",
+    "pronunciation": "Hái-ǎu",
     "hanzi": [
       "海后"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hái-ǎu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166748,15 +166749,15 @@
   },
   {
     "word": "Beicun",
-    "pronunciation": "Beicun",
+    "pronunciation": "Pak-chng",
     "hanzi": [
       "北村"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Pak-chng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166788,15 +166789,15 @@
   },
   {
     "word": "Lianshang",
-    "pronunciation": "Lianshang",
+    "pronunciation": "Nôi-tsyē",
     "hanzi": [
       "莲上"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nôi-tsyē.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166828,15 +166829,15 @@
   },
   {
     "word": "Yongsin",
-    "pronunciation": "Yongsin",
+    "pronunciation": "Ióng-sin",
     "hanzi": [
       "永新"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Ióng-sin.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166868,15 +166869,15 @@
   },
   {
     "word": "Tucheng",
-    "pronunciation": "Tucheng",
+    "pronunciation": "Thôu-syâ",
     "hanzi": [
       "涂城"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Thôu-syâ.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166908,15 +166909,15 @@
   },
   {
     "word": "Zhulin",
-    "pronunciation": "Zhulin",
+    "pronunciation": "Tek-nâ",
     "hanzi": [
       "竹林"
     ],
     "speech": "村",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tek-nâ.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166948,15 +166949,15 @@
   },
   {
     "word": "Xinan",
-    "pronunciation": "Xinan",
+    "pronunciation": "Qoi-nâm",
     "hanzi": [
       "溪南"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Qoi-nâm.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -166988,15 +166989,15 @@
   },
   {
     "word": "Dongli",
-    "pronunciation": "Dongli",
+    "pronunciation": "Tang-léng",
     "hanzi": [
       "东里"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tang-léng.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167028,15 +167029,15 @@
   },
   {
     "word": "Yanhong",
-    "pronunciation": "Yanhong",
+    "pronunciation": "Iâm-hông",
     "hanzi": [
       "盐鸿"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Iâm-hông.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167068,15 +167069,15 @@
   },
   {
     "word": "Lianhua",
-    "pronunciation": "Lianhua",
+    "pronunciation": "Nôi-huâ",
     "hanzi": [
       "莲华"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nôi-huâ.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167108,15 +167109,15 @@
   },
   {
     "word": "Longdu",
-    "pronunciation": "Longdu",
+    "pronunciation": "Lông-tou",
     "hanzi": [
       "隆都"
     ],
     "speech": "镇",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Lông-tou.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167148,15 +167149,15 @@
   },
   {
     "word": "Chaozhou",
-    "pronunciation": "Chaozhou",
+    "pronunciation": "Tiê-tsiu",
     "hanzi": [
       "潮州"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tiê-tsiu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167188,15 +167189,15 @@
   },
   {
     "word": "Chaoan",
-    "pronunciation": "Chaoan",
+    "pronunciation": "Tiê-an",
     "hanzi": [
       "潮安"
     ],
     "speech": "区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Tiê-an.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167228,16 +167229,16 @@
   },
   {
     "word": "Jieyang",
-    "pronunciation": "Jieyang",
+    "pronunciation": "Kit-yê",
     "hanzi": [
       "揭阳",
       "揭陽"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kit-yê.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167269,15 +167270,15 @@
   },
   {
     "word": "Shanwei",
-    "pronunciation": "Shanwei",
+    "pronunciation": "Swà-bué",
     "hanzi": [
       "汕尾"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Swà-bué.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167309,15 +167310,15 @@
   },
   {
     "word": "Meizhou",
-    "pronunciation": "Meizhou",
+    "pronunciation": "Buê-tsiu",
     "hanzi": [
       "梅州"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Buê-tsiu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167349,15 +167350,15 @@
   },
   {
     "word": "Shenzhen",
-    "pronunciation": "Shenzhen",
+    "pronunciation": "Chim-tsùn",
     "hanzi": [
       "深圳"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Chim-tsùn.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167389,15 +167390,15 @@
   },
   {
     "word": "Futian",
-    "pronunciation": "Futian",
+    "pronunciation": "Hok-thiân",
     "hanzi": [
       "福田"
     ],
     "speech": "区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Hok-thiân.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167429,15 +167430,15 @@
   },
   {
     "word": "Nanshan",
-    "pronunciation": "Nanshan",
+    "pronunciation": "Nâm-san",
     "hanzi": [
       "南山"
     ],
     "speech": "区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Nâm-san.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167469,15 +167470,15 @@
   },
   {
     "word": "Yantian",
-    "pronunciation": "Yantian",
+    "pronunciation": "Iâm-thiân",
     "hanzi": [
       "盐田"
     ],
     "speech": "区",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Iâm-thiân.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -167509,15 +167510,15 @@
   },
   {
     "word": "Guangzhou",
-    "pronunciation": "Guangzhou",
+    "pronunciation": "Kńg-tsiu",
     "hanzi": [
       "广州"
     ],
     "speech": "市",
     "category": [
-      ""
+      "行政区"
     ],
-    "definition": "Kńg-tsiu.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
