@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 粤东闽方言, 辞典, 词典, 字典, 白话字, 罗马字">
     <meta name="description" content="潮汕话辞典，兼收古今中外潮人所用词汇。统一拼写各自发音。多语言对照。">
-    <title>所有词汇|新潮汕话探索</title>
+    <title>所有词汇|潮语埠</title>
     <link rel="icon" href="logo/logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,7 +23,7 @@
                     <div class="logo">
                         <img src="logo/logo.png" alt="neoTeochew Logo" width="50" height="50">
                     </div>
-                    <h1 class="site-name">新潮汕话探索</h1>
+                    <h1 class="site-name">潮语埠</h1>
                 </div>
                 <div class="header-meta">
                     <div class="language-switcher">
@@ -79,6 +79,23 @@
                 <article class="content">
                     <h2>所有词汇</h2>
                     <p>以下是本辞典收录的所有词汇，按字母顺序排列。</p>
+                    
+                    <!-- 筛选控件 -->
+                    <div class="filter-controls">
+                        <div class="filter-item">
+                            <label for="speech-filter">词性筛选：</label>
+                            <select id="speech-filter">
+                                <option value="">全部</option>
+                            </select>
+                        </div>
+                        <div class="filter-item">
+                            <label for="category-filter">分类筛选：</label>
+                            <select id="category-filter">
+                                <option value="">全部</option>
+                            </select>
+                        </div>
+                        <button id="reset-filters" class="reset-btn">重置筛选</button>
+                    </div>
                     
                     <div id="words-container" class="words-container">
                         <div class="loading">正在加载词汇...</div>
@@ -137,60 +154,146 @@
             });
         });
 
+        // 全局变量
+        let allVocabularyData = [];
+        
         // 加载所有词汇
         async function loadAllWords() {
             try {
                 const response = await fetch('data.json');
-                const vocabularyData = await response.json();
-                
-                const wordsContainer = document.getElementById('words-container');
-                wordsContainer.innerHTML = '';
+                allVocabularyData = await response.json();
                 
                 // 按词汇排序
-                vocabularyData.sort((a, b) => a.word.localeCompare(b.word));
+                allVocabularyData.sort((a, b) => a.word.localeCompare(b.word));
                 
-                // 创建表格
-                const table = document.createElement('table');
-                table.className = 'words-table';
+                // 初始化筛选控件
+                initializeFilters();
                 
-                // 创建表头
-                const thead = document.createElement('thead');
-                thead.innerHTML = `
-                    <tr>
-                        <th>词汇<br>[发音]</th>
-                        <th>汉字<br>漢字</th>
-                        <th>词性</th>
-                        <th>定义</th>
-                        <th>普通话</th>
-                    </tr>
-                `;
-                table.appendChild(thead);
-                
-                // 创建表体
-                const tbody = document.createElement('tbody');
-                
-                vocabularyData.forEach(item => {
-                    const tr = document.createElement('tr');
-                    
-                    // 构建表格行，只显示必要信息
-                    tr.innerHTML = `
-                        <td>${item.word}<br>[${item.pronunciation || ''}]</td>
-                        <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
-                        <td>${item.speech || ''}</td>
-                        <td>${item.definition || ''}<br>${item.romazi || ''}</td>
-                        <td>${item.translations.putonghua || ''}</td>
-                    `;
-                    
-                    tbody.appendChild(tr);
-                });
-                
-                table.appendChild(tbody);
-                wordsContainer.appendChild(table);
+                // 渲染表格
+                renderTable(allVocabularyData);
                 
             } catch (error) {
                 console.error('加载数据失败:', error);
                 document.getElementById('words-container').innerHTML = '<div class="error">加载词汇失败</div>';
             }
+        }
+        
+        // 初始化筛选控件
+        function initializeFilters() {
+            // 提取所有词性和分类
+            const speechSet = new Set();
+            const categorySet = new Set();
+            
+            allVocabularyData.forEach(item => {
+                if (item.speech) {
+                    speechSet.add(item.speech);
+                }
+                item.category.forEach(cat => {
+                    if (cat) {
+                        categorySet.add(cat);
+                    }
+                });
+            });
+            
+            // 填充词性筛选
+            const speechFilter = document.getElementById('speech-filter');
+            Array.from(speechSet).sort().forEach(speech => {
+                const option = document.createElement('option');
+                option.value = speech;
+                option.textContent = speech;
+                speechFilter.appendChild(option);
+            });
+            
+            // 填充分类筛选
+            const categoryFilter = document.getElementById('category-filter');
+            Array.from(categorySet).sort().forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categoryFilter.appendChild(option);
+            });
+            
+            // 添加筛选事件监听
+            speechFilter.addEventListener('change', applyFilters);
+            categoryFilter.addEventListener('change', applyFilters);
+            
+            // 添加重置筛选事件监听
+            document.getElementById('reset-filters').addEventListener('click', resetFilters);
+        }
+        
+        // 应用筛选
+        function applyFilters() {
+            const speechFilter = document.getElementById('speech-filter').value;
+            const categoryFilter = document.getElementById('category-filter').value;
+            
+            // 筛选数据
+            let filteredData = allVocabularyData.filter(item => {
+                // 词性筛选
+                if (speechFilter && item.speech !== speechFilter) {
+                    return false;
+                }
+                
+                // 分类筛选
+                if (categoryFilter && !item.category.includes(categoryFilter)) {
+                    return false;
+                }
+                
+                return true;
+            });
+            
+            // 渲染筛选结果
+            renderTable(filteredData);
+        }
+        
+        // 重置筛选
+        function resetFilters() {
+            document.getElementById('speech-filter').value = '';
+            document.getElementById('category-filter').value = '';
+            renderTable(allVocabularyData);
+        }
+        
+        // 渲染表格
+        function renderTable(data) {
+            const wordsContainer = document.getElementById('words-container');
+            wordsContainer.innerHTML = '';
+            
+            // 创建表格
+            const table = document.createElement('table');
+            table.className = 'words-table';
+            
+            // 创建表头
+            const thead = document.createElement('thead');
+            thead.innerHTML = `
+                <tr>
+                    <th>词汇<br>[发音]</th>
+                    <th>汉字<br>漢字</th>
+                    <th>词性</th>
+                    <th>分类</th>
+                    <th>普通话</th>
+                </tr>
+            `;
+            table.appendChild(thead);
+            
+            // 创建表体
+            const tbody = document.createElement('tbody');
+            
+            data.forEach(item => {
+                const tr = document.createElement('tr');
+                
+                // 构建表格行，包含category列
+                tr.innerHTML = `
+                    <td>${item.word}<br>[${item.pronunciation || ''}]</td>
+                    <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
+                    <td>${item.speech || ''}</td>
+                    <td>${item.category.some(c => c) ? item.category.filter(c => c).join('<br>') : ''}</td>
+                    <td>${item.translations.putonghua || ''}</td>
+                `;
+                
+                tbody.appendChild(tr);
+            });
+            
+            table.appendChild(tbody);
+            wordsContainer.appendChild(table);
         }
 
         // 页面加载时加载所有词汇
