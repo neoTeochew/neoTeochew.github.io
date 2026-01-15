@@ -793,22 +793,68 @@ body {
     border-radius: 8px;
     overflow: hidden;
     margin-top: 20px;
+    font-size: 14px;
 }
 
 .words-table th,
 .words-table td {
     padding: 12px 15px;
-    text-align: left;
     border-bottom: 1px solid #e0e0e0;
+    line-height: 1.5;
 }
 
 .words-table th {
     background-color: #007bff;
     color: white;
     font-weight: 600;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 0.5px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 10px;
+    white-space: nowrap;
+}
+
+.words-table th:nth-child(1) {
+    width: 20%;
+    text-align: left;
+}
+
+.words-table th:nth-child(2) {
+    width: 15%;
+}
+
+.words-table th:nth-child(3),
+.words-table th:nth-child(4) {
+    width: 10%;
+}
+
+.words-table th:nth-child(5),
+.words-table th:nth-child(6) {
+    width: 22.5%;
+    text-align: left;
+}
+
+.words-table td {
+    color: #333;
+    vertical-align: top;
+    padding: 12px 15px;
+}
+
+.words-table td:nth-child(1),
+.words-table td:nth-child(5),
+.words-table td:nth-child(6) {
+    text-align: left;
+}
+
+.words-table td:nth-child(2),
+.words-table td:nth-child(3),
+.words-table td:nth-child(4) {
+    text-align: center;
+}
+
+.words-table td:nth-child(5) {
+    font-size: 13px;
+    line-height: 1.4;
 }
 
 .words-table tbody tr:nth-child(even) {
@@ -823,10 +869,24 @@ body {
     border-bottom: none;
 }
 
-.words-table td {
-    font-size: 14px;
-    color: #333;
-    vertical-align: top;
+.words-table td br {
+    margin: 5px 0;
+}
+
+/* 优化小屏幕下的表格显示 */
+@media (max-width: 768px) {
+    .words-table {
+        font-size: 13px;
+    }
+    
+    .words-table th,
+    .words-table td {
+        padding: 8px 10px;
+    }
+    
+    .words-table th {
+        font-size: 11px;
+    }
 }
 
 /* 页脚 */

@@ -78,7 +78,7 @@
                 <!-- 正文 -->
                 <article class="content">
                     <h2>所有词汇</h2>
-                    <p>以下是本辞典收录的所有词汇，按字母顺序排列。</p>
+                    <p>以下是本辞典收录的所有词汇，按声韵调排列，有分类的一般集中在末尾。</p>
                     
                     <!-- 筛选控件 -->
                     <div class="filter-controls">
@@ -163,8 +163,7 @@
                 const response = await fetch('data.json');
                 allVocabularyData = await response.json();
                 
-                // 按词汇排序
-                allVocabularyData.sort((a, b) => a.word.localeCompare(b.word));
+                // 不排序，保持data.json中的原始顺序
                 
                 // 初始化筛选控件
                 initializeFilters();
@@ -269,6 +268,7 @@
                     <th>汉字<br>漢字</th>
                     <th>词性</th>
                     <th>分类</th>
+                    <th>定义</th>
                     <th>普通话</th>
                 </tr>
             `;
@@ -286,6 +286,7 @@
                     <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
                     <td>${item.speech || ''}</td>
                     <td>${item.category.some(c => c) ? item.category.filter(c => c).join('<br>') : ''}</td>
+                    <td>${item.definition || ''}</td>
                     <td>${item.translations.putonghua || ''}</td>
                 `;
                 

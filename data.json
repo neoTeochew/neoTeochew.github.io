@@ -53717,6 +53717,46 @@
     "note": ""
   },
   {
+    "word": "lǎu-lex",
+    "pronunciation": "lǎu-lex",
+    "hanzi": [
+      "老历"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "农历。",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "lǎu--qìr",
     "pronunciation": "lǎu--qìr",
     "hanzi": [
@@ -53810,6 +53850,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "lǎu-zī",
+    "pronunciation": "lǎu-zī",
+    "hanzi": [
+      "老字"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "繁体字。",
       "English": "",
       "francais": "",
       "thai": "",
@@ -149538,7 +149618,7 @@
   },
   {
     "word": "roma-zī",
-    "pronunciation": "roma-zī",
+    "pronunciation": "lô-má-zī",
     "hanzi": [
       "罗马字",
       "羅馬字"
@@ -149547,7 +149627,7 @@
     "category": [
       ""
     ],
-    "definition": "lô-má-zī",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
@@ -149579,9 +149659,9 @@
   },
   {
     "word": "Wi-Fi",
-    "pronunciation": "Wi-Fi",
+    "pronunciation": "uai-fai",
     "hanzi": [
-      "uai-fai"
+      ""
     ],
     "speech": "名词",
     "category": [
@@ -149619,14 +149699,15 @@
   },
   {
     "word": "hydrogenium",
-    "pronunciation": "hydrogenium",
+    "pronunciation": "hai-zuê-zir-nium",
     "hanzi": [
-      "H氢",
-      "氫"
+      "氢",
+      "氫",
+      "H"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "1号元素",
     "romazi": "1 hō nguân-sù",
@@ -149662,7 +149743,8 @@
     "word": "helium",
     "pronunciation": "helium",
     "hanzi": [
-      "He氦"
+      "氦",
+      "He"
     ],
     "speech": "名词",
     "category": [
@@ -159288,46 +159370,6 @@
     "note": ""
   },
   {
-    "word": "lǎu-lex",
-    "pronunciation": "lǎu-lex",
-    "hanzi": [
-      "老历"
-    ],
-    "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "农历。",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
     "word": "lǎu-kong",
     "pronunciation": "lǎu-kong",
     "hanzi": [
@@ -159342,46 +159384,6 @@
     "translations": {
       "putonghua": "曾祖父。",
       "English": "Great-grandmother.",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "lǎu-zī",
-    "pronunciation": "lǎu-zī",
-    "hanzi": [
-      "老字"
-    ],
-    "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "繁体字。",
-      "English": "",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -164585,7 +164587,7 @@
   },
   {
     "word": "Zhōngguó",
-    "pronunciation": "Zhōngguó",
+    "pronunciation": "Tong-kok",
     "hanzi": [
       "中国",
       "中國"
@@ -164595,7 +164597,7 @@
       "国",
       ""
     ],
-    "definition": "Tong-kok.",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
