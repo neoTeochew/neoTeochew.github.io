@@ -1,11 +1,11 @@
 [
   {
     "hanzi": [
-      ""
+      "一"
     ],
     "pronunciation": {
         "wendu": [
-            ""
+            "it"
         ],
         "baidu": [
             ""
@@ -14,23 +14,23 @@
             ""
         ],
         "xundu": [
-            ""
+            "tseg"
         ],
         "zhongguyin": ""
     },
-    "buh-shoou": "",
+    "buh-shoou": "一",
     "mandarin": {
-        "pinyin": "",
-        "bopomofo": "",
-        "gwoyeuromatzyh": "",
+        "pinyin": "yī",
+        "bopomofo": "ㄧ",
+        "gwoyeuromatzyh": "i",
         "tongzifangan": ""
     },
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "表示数量为单个",
+      "English": "one",
+      "francais": "un, une",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
