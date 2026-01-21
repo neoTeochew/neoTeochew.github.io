@@ -528,6 +528,115 @@ body {
     font-weight: 500;
 }
 
+.result-radical {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 重新设计发音部分的排版 */
+.main-pronunciation-section {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.main-pronunciation-item {
+    flex: 0 0 auto;
+    width: calc(33.333% - 8px);
+    min-width: 200px;
+    margin: 0;
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.5;
+    border: 1px solid #e0e0e0;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.main-pronunciation-item:hover {
+    border-color: #007bff;
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-pronunciation {
+    margin: 15px 0;
+    padding: 12px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #777;
+    border: 1px solid #e9ecef;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.secondary-pronunciation > * {
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.secondary-pronunciation > *:hover {
+    background-color: #f8f9fa;
+    border-color: #d0d0d0;
+    transform: translateY(-1px);
+}
+
+/* 定义和翻译区域优化 */
+.definitions-section {
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.definition-item {
+    margin: 12px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+}
+
+.definition-label {
+    display: inline-block;
+    width: 110px;
+    font-weight: 600;
+    color: #007bff;
+    vertical-align: top;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.definition-text {
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+    flex: 1;
+}
+
 .result-definition {
     font-size: 14px;
     color: #555;
@@ -673,6 +782,122 @@ body {
     padding: 40px;
     color: #999;
     font-size: 16px;
+}
+
+/* 主要发音样式 - 一行一个 */
+.main-pronunciation-section {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #007bff;
+}
+
+.main-pronunciation-item {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 次要发音样式 - 同一行，间隔等长 */
+.secondary-pronunciation {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* 定义和翻译区域样式 */
+.definitions-section {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.definition-item {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.definition-label {
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+    color: #007bff;
+    vertical-align: top;
+}
+
+.definition-text {
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
+}
+
+/* 例子区域样式 */
+.examples-section {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #28a745;
+}
+
+.example-item {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    border-left: 2px solid #dee2e6;
+}
+
+.example-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.example-teochew {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.example-romazi {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.example-translations {
+    margin-top: 10px;
+}
+
+.example-translation-item {
+    margin: 5px 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.example-translation-label {
+    display: inline-block;
+    width: 100px;
+    font-weight: 500;
+    color: #28a745;
+    vertical-align: top;
+}
+
+.example-translation-text {
+    display: inline-block;
+    color: #333;
+    vertical-align: top;
 }
 
 .content h2 {

@@ -3,20 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="msvalidate.01" content="16649F8BEDC82C4D6C2E282577DDA98C" />
-    <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 粤东闽方言, 辞典, 词典, 字典, 白话字, 罗马字, teochew">
-    <meta name="description" content="潮汕话辞典，兼收古今中外潮人所用词汇。统一拼写各自发音。多语言对照。">
-    <title>潮语辞典|潮语埠</title>
+    <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 汉字, 字典">
+    <meta name="description" content="潮汕话汉字字典，支持按汉字、读音、部首和定义查询。">
+    <title>字典|潮语埠</title>
     <link rel="icon" href="logo/logo.png">
     <link rel="stylesheet" href="styles.css">
-    <!-- Clarity tracking code for https://neoteochew.github.io/ -->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "v2pzvlraoh");
-    </script>
 </head>
 <body>
     <!-- 返回顶部按钮 -->
@@ -37,7 +28,7 @@
                 <div class="header-meta">
                     <div class="language-switcher">
                         <a href="index-te.html" class="lang-link">潮汕话</a>
-                        <a href="index.html" class="lang-link active">普通话</a>
+                        <a href="index.html" class="lang-link">普通话</a>
                         <a href="index-en.html" class="lang-link">English</a>
                         <a href="index-fr.html" class="lang-link">français</a>
                         <a href="index-ta.html" class="lang-link">ไทย</a>
@@ -46,7 +37,7 @@
                         <a href="index-id.html" class="lang-link">Bahasa Indonesia</a>
                     </div>
                     <div class="page-info">
-                        <span class="creation-date">创建日期: 2025-01-15</span>
+                        <span class="creation-date">创建日期: 2025-01-21</span>
                     </div>
                 </div>
             </div>
@@ -57,7 +48,7 @@
                 </button>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">辞典</a></li>
-                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link">字典</a></li>
+                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link active">汉字搜索</a></li>
                     <li class="nav-item"><a href="cources.html" class="nav-link">自学教程</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">知识</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">新闻</a></li>
@@ -86,13 +77,13 @@
 
                 <!-- 正文 -->
                 <article class="content">
-                    <h2>潮语辞典</h2>
+                    <h2>潮语字典</h2>
                     <div id="search-section" class="search-container">
                         <div class="search-input-wrapper">
                             <input 
                                 type="text" 
                                 id="search-input"
-                                placeholder="输入要搜索的词" 
+                                placeholder="输入要搜索的汉字、读音、部首或定义" 
                                 autocomplete="off"
                                 autofocus
                                 class="search-input"
@@ -103,28 +94,27 @@
                         <div class="search-options">
                             <div class="options-row">
                                 <div class="option-item">
-                                    <input type="checkbox" id="search-word" checked>
-                                    <label for="search-word">词汇</label>
+                                    <input type="checkbox" id="search-hanzi" checked>
+                                    <label for="search-hanzi">汉字</label>
                                 </div>
                                 <div class="option-item">
-                                    <input type="checkbox" id="search-hanzi" checked>
-                                    <label for="search-hanzi">汉字/漢字</label>
+                                    <input type="checkbox" id="search-pronunciation" checked>
+                                    <label for="search-pronunciation">读音</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="search-radical">
+                                    <label for="search-radical">部首</label>
                                 </div>
                                 <div class="option-item">
                                     <input type="checkbox" id="search-definition">
                                     <label for="search-definition">定义</label>
                                 </div>
-                                <div class="option-item">
-                                    <input type="checkbox" id="search-usage">
-                                    <label for="search-usage">用法</label>
-                                </div>
                             </div>
                         </div>
                         
                         <div class="vocab-count">
-                            目前收录了 <span id="vocab-count">正在计算……</span> 个词汇。
-                            <a href="all-words.html" class="view-all-words">查看所有词汇</a><br>
-                            特殊符号可在此处复制：á à â ǎ ā ó ò ô ǒ ō é è ê ě ē í ì î ǐ ī ú ù û ǔ ū ḿ m̀ m̂ m̌ m̄ ń ǹ n̂ ň n̄
+                            目前收录了 <span id="vocab-count">正在计算……</span> 个汉字。
+                            <a href="all-hanzi.html" class="view-all-words">查看所有汉字</a>
                         </div>
                         
                         <div id="search-results" class="search-results"></div>
@@ -148,6 +138,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="hanzi-search.js"></script>
 </body>
 </html>
