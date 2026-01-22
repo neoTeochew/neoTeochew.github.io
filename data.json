@@ -3,22 +3,24 @@
     "word": "pa-mô",
     "pronunciation": "pa-mô",
     "hanzi": [
-      "pa-mô"
+      "巴磨"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "鱼",
+      "外来语"
     ],
-    "definition": "",
-    "romazi": "",
+    "definition": "学名 Anabas testudineus",
+    "romazi": "hag-miâ Anabas testudineus",
     "translations": {
-      "putonghua": "过山鲫",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
+      "putonghua": "龟壳攀鲈、过山鲫、巴磨鱼、老虎鱼",
+      "English": "climbing perch",
+      "francais": "la Perche grimpeuse",
+      "thai": "ปลาหมอ",
+      "tiengviet": "cá rô đồng",
+      "melayu": "puyu",
+      "indonesia": "betok"
     },
     "example": [
       {
@@ -37,26 +39,26 @@
         }
       }
     ],
-    "note": ""
+    "note": "来自泰语 pla mo (ปลาหมอ)"
   },
   {
     "word": "pa-lang",
     "pronunciation": "pa-lang",
     "hanzi": [
-      "巴鳞"
+      "巴浪"
     ],
     "speech": "名词",
     "category": [
       ""
     ],
-    "definition": "",
-    "romazi": "",
+    "definition": "学名 Decapterus maruadsi",
+    "romazi": "hag-miâ Decapterus maruadsi",
     "translations": {
-      "putonghua": "",
+      "putonghua": "蓝圆鲹、巴浪鱼",
       "English": "",
       "francais": "",
       "thai": "",
-      "tiengviet": "",
+      "tiengviet": "cá nục sò",
       "melayu": "",
       "indonesia": ""
     },
@@ -92,8 +94,8 @@
     "definition": "把无用处理到有用",
     "romazi": "pá bô-ēng chú-lí kàu ǔ-ēng",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "修理",
+      "English": "repair, fix",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -123,22 +125,23 @@
     "word": "pa-sak",
     "pronunciation": "pa-sak",
     "hanzi": [
-      "pa-sak"
+      "巴刹"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "场所",
+      "外来语"
     ],
-    "definition": "pasar",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "菜市场",
-      "English": "",
-      "francais": "",
+      "English": "market",
+      "francais": "le marché",
       "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
+      "tiengviet": "thị trường",
+      "melayu": "pasar, pasaran",
+      "indonesia": "pasar, pekan"
     },
     "example": [
       {
@@ -170,11 +173,11 @@
     "category": [
       ""
     ],
-    "definition": "1.肚袂困；2.物件囥较㩼，表面乞挤到变大",
-    "romazi": "tóu bǒi qùn",
+    "definition": "1.肚袂困；2.物件囥较㩼，表面挤到变大",
+    "romazi": "1.tóu bǒi qùn; 2.muex-kyǎ kǹg qah tsōi, piáu-mīn tsyì kàu pyì tuā",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "1.不饿；2.鼓起来",
+      "English": "1.full",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -208,18 +211,19 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "哺乳纲"
     ],
-    "definition": "",
-    "romazi": "",
+    "definition": "学名 Panthera pardus",
+    "romazi": "hag-miâ Panthera pardus",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
+      "putonghua": "豹子",
+      "English": "leopard",
+      "francais": "le léopard",
+      "thai": "เสือดาว",
+      "tiengviet": "báo hoa mai",
+      "melayu": "harimau bintang",
+      "indonesia": "macan tutul"
     },
     "example": [
       {
@@ -281,46 +285,6 @@
     "note": ""
   },
   {
-    "word": "pan",
-    "pronunciation": "pan",
-    "hanzi": [
-      "班"
-    ],
-    "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
     "word": "pan-qip",
     "pronunciation": "pan-qip",
     "hanzi": [
@@ -334,8 +298,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "班级",
+      "English": "class",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -374,8 +338,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "版本",
+      "English": "version",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -414,8 +378,8 @@
     "definition": "曾经做过",
     "romazi": "chêng-keng tsò--kuè",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "曾经有过",
+      "English": "used to do",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -454,9 +418,9 @@
     "definition": "认识",
     "romazi": "zīn-sek",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "认识",
+      "English": "know",
+      "francais": "connaître",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -494,7 +458,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "1.对食物要求高；2.很懂得吃美食，吃商高",
       "English": "",
       "francais": "",
       "thai": "",
@@ -534,7 +498,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "识字，非文盲",
       "English": "",
       "francais": "",
       "thai": "",
@@ -565,7 +529,7 @@
     "word": "pad-nâng",
     "pronunciation": "pad-nâng",
     "hanzi": [
-      "別人"
+      "别人"
     ],
     "speech": "名词",
     "category": [
@@ -614,8 +578,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "其他东西",
+      "English": "anything else, others",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -654,8 +618,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "其他地方",
+      "English": "anywhere else",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -694,8 +658,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "其他时候，改天",
+      "English": "any other day",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -734,8 +698,48 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "大的木板子",
       "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "pang",
+    "pronunciation": "pang",
+    "hanzi": [
+      "帮"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "很多人，一帮人",
+      "English": "groups of people",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -774,8 +778,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "帮助",
+      "English": "help, assistance",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -808,6 +812,46 @@
       "榜样"
     ],
     "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "被模仿学习的对象，榜样",
+      "English": "example",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "pàng",
+    "pronunciation": "pàng",
+    "hanzi": [
+      "放"
+    ],
+    "speech": "动词",
     "category": [
       ""
     ],
@@ -91902,8 +91946,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "一向，通常",
+      "English": "as usual",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -151808,7 +151852,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "2号元素",
     "romazi": "2 hō nguân-sù",
@@ -151849,7 +151893,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "3号元素",
     "romazi": "3 hō nguân-sù",
@@ -151890,7 +151934,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "4号元素",
     "romazi": "4 hō nguân-sù",
@@ -151930,7 +151974,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "5号元素",
     "romazi": "5 hō nguân-sù",
@@ -151970,7 +152014,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "6号元素",
     "romazi": "6 hō nguân-sù",
@@ -152010,7 +152054,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "7号元素",
     "romazi": "7 hō nguân-sù",
@@ -152050,7 +152094,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "8号元素",
     "romazi": "8 hō nguân-sù",
@@ -152090,7 +152134,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "9号元素",
     "romazi": "9 hō nguân-sù",
@@ -152130,7 +152174,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "10号元素",
     "romazi": "10 hō nguân-sù",
@@ -152171,7 +152215,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "11号元素",
     "romazi": "11 hō nguân-sù",
@@ -152212,7 +152256,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "12号元素",
     "romazi": "12 hō nguân-sù",
@@ -152253,7 +152297,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "13号元素",
     "romazi": "13 hō nguân-sù",
@@ -152294,7 +152338,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "14号元素",
     "romazi": "14 hō nguân-sù",
@@ -152334,7 +152378,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "15号元素",
     "romazi": "15 hō nguân-sù",
@@ -152374,7 +152418,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "16号元素",
     "romazi": "16 hō nguân-sù",
@@ -152415,7 +152459,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "17号元素",
     "romazi": "17 hō nguân-sù",
@@ -152456,7 +152500,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "18号元素",
     "romazi": "18 hō nguân-sù",
@@ -152497,7 +152541,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "19号元素",
     "romazi": "19 hō nguân-sù",
@@ -152538,7 +152582,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "20号元素",
     "romazi": "20 hō nguân-sù",
@@ -152579,7 +152623,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "21号元素",
     "romazi": "21 hō nguân-sù",
@@ -152620,7 +152664,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "22号元素",
     "romazi": "22 hō nguân-sù",
@@ -152661,7 +152705,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "23号元素",
     "romazi": "23 hō nguân-sù",
@@ -152702,7 +152746,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "24号元素",
     "romazi": "24 hō nguân-sù",
@@ -152743,7 +152787,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "25号元素",
     "romazi": "25 hō nguân-sù",
@@ -152784,7 +152828,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "26号元素",
     "romazi": "26 hō nguân-sù",
@@ -152825,7 +152869,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "27号元素",
     "romazi": "27 hō nguân-sù",
@@ -152866,7 +152910,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "28号元素",
     "romazi": "28 hō nguân-sù",
@@ -152907,7 +152951,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "29号元素",
     "romazi": "29 hō nguân-sù",
@@ -152948,7 +152992,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "30号元素",
     "romazi": "30 hō nguân-sù",
@@ -152989,7 +153033,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "31号元素",
     "romazi": "31 hō nguân-sù",
@@ -153030,7 +153074,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "32号元素",
     "romazi": "32 hō nguân-sù",
@@ -153070,7 +153114,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "33号元素",
     "romazi": "33 hō nguân-sù",
@@ -153110,7 +153154,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "34号元素",
     "romazi": "34 hō nguân-sù",
@@ -153150,7 +153194,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "35号元素",
     "romazi": "35 hō nguân-sù",
@@ -153190,7 +153234,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "36号元素",
     "romazi": "36 hō nguân-sù",
@@ -153231,7 +153275,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "37号元素",
     "romazi": "37 hō nguân-sù",
@@ -153272,7 +153316,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "38号元素",
     "romazi": "38 hō nguân-sù",
@@ -153313,7 +153357,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "39号元素",
     "romazi": "39 hō nguân-sù",
@@ -153354,7 +153398,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "40号元素",
     "romazi": "40 hō nguân-sù",
@@ -153395,7 +153439,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "41号元素",
     "romazi": "41 hō nguân-sù",
@@ -153436,7 +153480,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "42号元素",
     "romazi": "42 hō nguân-sù",
@@ -153477,7 +153521,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "43号元素",
     "romazi": "43 hō nguân-sù",
@@ -153518,7 +153562,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "44号元素",
     "romazi": "44 hō nguân-sù",
@@ -153559,7 +153603,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "45号元素",
     "romazi": "45 hō nguân-sù",
@@ -153600,7 +153644,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "46号元素",
     "romazi": "46 hō nguân-sù",
@@ -153641,7 +153685,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "47号元素",
     "romazi": "47 hō nguân-sù",
@@ -153682,7 +153726,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "48号元素",
     "romazi": "48 hō nguân-sù",
@@ -153723,7 +153767,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "49号元素",
     "romazi": "49 hō nguân-sù",
@@ -153764,7 +153808,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "50号元素",
     "romazi": "50 hō nguân-sù",
@@ -153805,7 +153849,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "51号元素",
     "romazi": "51 hō nguân-sù",
@@ -153845,7 +153889,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "52号元素",
     "romazi": "52 hō nguân-sù",
@@ -153885,7 +153929,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "53号元素",
     "romazi": "53 hō nguân-sù",
@@ -153925,7 +153969,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "54号元素",
     "romazi": "54 hō nguân-sù",
@@ -153966,7 +154010,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "55号元素",
     "romazi": "55 hō nguân-sù",
@@ -154007,7 +154051,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "56号元素",
     "romazi": "56 hō nguân-sù",
@@ -154048,7 +154092,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "57号元素",
     "romazi": "57 hō nguân-sù",
@@ -154089,7 +154133,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "58号元素",
     "romazi": "58 hō nguân-sù",
@@ -154130,7 +154174,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "59号元素",
     "romazi": "59 hō nguân-sù",
@@ -154171,7 +154215,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "60号元素",
     "romazi": "60 hō nguân-sù",
@@ -154212,7 +154256,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "61号元素",
     "romazi": "61 hō nguân-sù",
@@ -154253,7 +154297,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "62号元素",
     "romazi": "62 hō nguân-sù",
@@ -154294,7 +154338,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "63号元素",
     "romazi": "63 hō nguân-sù",
@@ -154335,7 +154379,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "64号元素",
     "romazi": "64 hō nguân-sù",
@@ -154376,7 +154420,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "65号元素",
     "romazi": "65 hō nguân-sù",
@@ -154417,7 +154461,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "66号元素",
     "romazi": "66 hō nguân-sù",
@@ -154458,7 +154502,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "67号元素",
     "romazi": "67 hō nguân-sù",
@@ -154499,7 +154543,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "68号元素",
     "romazi": "68 hō nguân-sù",
@@ -154540,7 +154584,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "69号元素",
     "romazi": "69 hō nguân-sù",
@@ -154581,7 +154625,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "70号元素",
     "romazi": "70 hō nguân-sù",
@@ -154622,7 +154666,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "71号元素",
     "romazi": "71 hō nguân-sù",
@@ -154663,7 +154707,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "72号元素",
     "romazi": "72 hō nguân-sù",
@@ -154704,7 +154748,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "73号元素",
     "romazi": "73 hō nguân-sù",
@@ -154745,7 +154789,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "74号元素",
     "romazi": "74 hō nguân-sù",
@@ -154786,7 +154830,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "75号元素",
     "romazi": "75 hō nguân-sù",
@@ -154827,7 +154871,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "76号元素",
     "romazi": "76 hō nguân-sù",
@@ -154868,7 +154912,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "77号元素",
     "romazi": "77 hō nguân-sù",
@@ -154909,7 +154953,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "78号元素",
     "romazi": "78 hō nguân-sù",
@@ -154949,7 +154993,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "79号元素",
     "romazi": "79 hō nguân-sù",
@@ -154989,7 +155033,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "80号元素",
     "romazi": "80 hō nguân-sù",
@@ -155030,7 +155074,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "81号元素",
     "romazi": "81 hō nguân-sù",
@@ -155071,7 +155115,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "82号元素",
     "romazi": "82 hō nguân-sù",
@@ -155112,7 +155156,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "83号元素",
     "romazi": "83 hō nguân-sù",
@@ -155153,7 +155197,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "84号元素",
     "romazi": "84 hō nguân-sù",
@@ -155193,7 +155237,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "85号元素",
     "romazi": "85 hō nguân-sù",
@@ -155233,7 +155277,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "86号元素",
     "romazi": "86 hō nguân-sù",
@@ -155274,7 +155318,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "87号元素",
     "romazi": "87 hō nguân-sù",
@@ -155315,7 +155359,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "88号元素",
     "romazi": "88 hō nguân-sù",
@@ -155356,7 +155400,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "89号元素",
     "romazi": "89 hō nguân-sù",
@@ -155397,7 +155441,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "90号元素",
     "romazi": "90 hō nguân-sù",
@@ -155438,7 +155482,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "91号元素",
     "romazi": "91 hō nguân-sù",
@@ -155479,7 +155523,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "92号元素",
     "romazi": "92 hō nguân-sù",
@@ -155520,7 +155564,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "93号元素",
     "romazi": "93 hō nguân-sù",
@@ -155561,7 +155605,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "94号元素",
     "romazi": "94 hō nguân-sù",
@@ -155602,7 +155646,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "95号元素",
     "romazi": "95 hō nguân-sù",
@@ -155643,7 +155687,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "96号元素",
     "romazi": "96 hō nguân-sù",
@@ -155684,7 +155728,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "97号元素",
     "romazi": "97 hō nguân-sù",
@@ -155725,7 +155769,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "98号元素",
     "romazi": "98 hō nguân-sù",
@@ -155766,7 +155810,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "99号元素",
     "romazi": "99 hō nguân-sù",
@@ -155807,7 +155851,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "100号元素",
     "romazi": "100 hō nguân-sù",
@@ -155848,7 +155892,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "101号元素",
     "romazi": "101 hō nguân-sù",
@@ -155889,7 +155933,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "102号元素",
     "romazi": "102 hō nguân-sù",
@@ -155930,7 +155974,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "103号元素",
     "romazi": "103 hō nguân-sù",
@@ -155971,7 +156015,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "104号元素",
     "romazi": "104 hō nguân-sù",
@@ -156012,7 +156056,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "105号元素",
     "romazi": "105 hō nguân-sù",
@@ -156053,7 +156097,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "106号元素",
     "romazi": "106 hō nguân-sù",
@@ -156094,7 +156138,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "107号元素",
     "romazi": "107 hō nguân-sù",
@@ -156135,7 +156179,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "108号元素",
     "romazi": "108 hō nguân-sù",
@@ -156176,7 +156220,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "109号元素",
     "romazi": "109 hō nguân-sù",
@@ -156217,7 +156261,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "110号元素",
     "romazi": "110 hō nguân-sù",
@@ -156258,7 +156302,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "111号元素",
     "romazi": "111 hō nguân-sù",
@@ -156299,7 +156343,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "112号元素",
     "romazi": "112 hō nguân-sù",
@@ -156340,7 +156384,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "113号元素",
     "romazi": "113 hō nguân-sù",
@@ -156381,7 +156425,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "114号元素",
     "romazi": "114 hō nguân-sù",
@@ -156422,7 +156466,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "115号元素",
     "romazi": "115 hō nguân-sù",
@@ -156463,7 +156507,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "116号元素",
     "romazi": "116 hō nguân-sù",
@@ -156503,7 +156547,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "元素"
     ],
     "definition": "117号元素",
     "romazi": "117 hō nguân-sù",
