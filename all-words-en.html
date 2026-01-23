@@ -119,41 +119,8 @@
         </div>
     </footer>
 
+    <script src="common.js"></script>
     <script>
-        // Back to top button functionality
-        const backToTopButton = document.getElementById('backToTop');
-
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.add('visible');
-            } else {
-                backToTopButton.classList.remove('visible');
-            }
-        });
-
-        backToTopButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Responsive navigation menu interaction
-        const navToggle = document.querySelector('.nav-toggle');
-        const navList = document.querySelector('.nav-list');
-        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
-        navToggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            navList.classList.toggle('active');
-        });
-
-        dropdownToggles.forEach(toggle => {
-            toggle.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = toggle.closest('.dropdown');
-                dropdown.classList.toggle('active');
-            });
-        });
-
         // Global variables
         let allVocabularyData = [];
         
@@ -258,7 +225,7 @@
             
             // Create table
             const table = document.createElement('table');
-            table.className = 'words-table';
+            table.className = 'vocabulary-table';
             
             // Create table header
             const thead = document.createElement('thead');

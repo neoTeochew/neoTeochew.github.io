@@ -1,63 +1,3 @@
-// Back to top button functionality
-const backToTopButton = document.getElementById('backToTop');
-
-// Listen for scroll event
-window.addEventListener('scroll', () => {
-    // Show button when page scrolls more than 300px
-    if (window.pageYOffset > 300) {
-        backToTopButton.classList.add('visible');
-    } else {
-        backToTopButton.classList.remove('visible');
-    }
-});
-
-// Smooth scroll to top when button is clicked
-backToTopButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    
-    // Use browser's native smooth scrolling
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
-
-// Table of contents smooth scrolling
-document.querySelectorAll('.toc-link').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        
-        const targetId = link.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 100,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
-
-// Language switching functionality
-const langLinks = document.querySelectorAll('.lang-link');
-
-langLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        
-        // Remove active class from all links
-        langLinks.forEach(l => l.classList.remove('active'));
-        
-        // Add active class to current link
-        link.classList.add('active');
-        
-        // Here you can add actual language switching logic
-        const lang = link.textContent;
-        console.log(`Switching to ${lang}`);
-    });
-});
-
 // Search functionality implementation
 let vocabularyData = [];
 
@@ -278,26 +218,6 @@ if (searchInput) {
         }
     });
 }
-
-// Responsive navigation menu interaction
-const navToggle = document.querySelector('.nav-toggle');
-const navList = document.querySelector('.nav-list');
-const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
-// Click navigation button to expand/collapse menu
-navToggle.addEventListener('click', (e) => {
-    e.preventDefault();
-    navList.classList.toggle('active');
-});
-
-// Click dropdown toggle to expand/collapse submenu
-dropdownToggles.forEach(toggle => {
-    toggle.addEventListener('click', (e) => {
-        e.preventDefault();
-        const dropdown = toggle.closest('.dropdown');
-        dropdown.classList.toggle('active');
-    });
-});
 
 // Load data when page loads
 loadData();

@@ -27,14 +27,14 @@
                 </div>
                 <div class="header-meta">
                     <div class="language-switcher">
-                        <a href="#" class="lang-link">潮汕话</a>
+                        <a href="all-words-teo.html" class="lang-link">潮汕话</a>
                         <a href="all-words.html" class="lang-link active">普通话</a>
                         <a href="all-words-en.html" class="lang-link">English</a>
-                        <a href="#" class="lang-link">français</a>
-                        <a href="#" class="lang-link">ไทย</a>
-                        <a href="#" class="lang-link">Tiếng Việt</a>
-                        <a href="#" class="lang-link">Bahasa Melayu</a>
-                        <a href="#" class="lang-link">Bahasa Indonesia</a>
+                        <a href="all-words-fr.html" class="lang-link">français</a>
+                        <a href="all-words-th.html" class="lang-link">ไทย</a>
+                        <a href="all-words-vi.html" class="lang-link">Tiếng Việt</a>
+                        <a href="all-words-ms.html" class="lang-link">Bahasa Melayu</a>
+                        <a href="all-words-id.html" class="lang-link">Bahasa Indonesia</a>
                     </div>
                     <div class="page-info">
                         <span class="creation-date">创建日期: 2025-01-15</span>
@@ -48,7 +48,7 @@
                 </button>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">辞典</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link active">字典</a></li>
+                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link active">字典</a></li>
                     <li class="nav-item"><a href="cources.html" class="nav-link">自学教程</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">知识</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">新闻</a></li>
@@ -119,41 +119,8 @@
         </div>
     </footer>
 
+    <script src="common.js"></script>
     <script>
-        // 返回顶部按钮功能实现
-        const backToTopButton = document.getElementById('backToTop');
-
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.add('visible');
-            } else {
-                backToTopButton.classList.remove('visible');
-            }
-        });
-
-        backToTopButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // 响应式导航菜单交互
-        const navToggle = document.querySelector('.nav-toggle');
-        const navList = document.querySelector('.nav-list');
-        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
-        navToggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            navList.classList.toggle('active');
-        });
-
-        dropdownToggles.forEach(toggle => {
-            toggle.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = toggle.closest('.dropdown');
-                dropdown.classList.toggle('active');
-            });
-        });
-
         // 全局变量
         let allVocabularyData = [];
         
@@ -258,7 +225,7 @@
             
             // 创建表格
             const table = document.createElement('table');
-            table.className = 'words-table';
+            table.className = 'vocabulary-table';
             
             // 创建表头
             const thead = document.createElement('thead');
@@ -280,12 +247,19 @@
             data.forEach(item => {
                 const tr = document.createElement('tr');
                 
+                // 处理分类
+                let categoryHtml = '';
+                const categories = item.category.filter(c => c); // 过滤空分类
+                if (categories.length > 0) {
+                    categoryHtml = `<span class="result-category">${categories.join('</span><span class="result-category">')}</span>`;
+                }
+
                 // 构建表格行，包含category列
                 tr.innerHTML = `
                     <td>${item.word}<br>[${item.pronunciation || ''}]</td>
                     <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
                     <td>${item.speech || ''}</td>
-                    <td>${item.category.some(c => c) ? item.category.filter(c => c).join('<br>') : ''}</td>
+                    <td>${categoryHtml}</td>
                     <td>${item.definition || ''}<br>[${item.romazi || ''}]</td>
                     <td>${item.translations.putonghua || ''}</td>
                 `;

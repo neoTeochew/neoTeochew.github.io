@@ -27,14 +27,14 @@
                 </div>
                 <div class="header-meta">
                     <div class="language-switcher">
-                        <a href="index-te.html" class="lang-link">潮汕话</a>
-                        <a href="index.html" class="lang-link">普通话</a>
-                        <a href="index-en.html" class="lang-link">English</a>
-                        <a href="index-fr.html" class="lang-link">français</a>
-                        <a href="index-ta.html" class="lang-link">ไทย</a>
-                        <a href="index-vi.html" class="lang-link">Tiếng Việt</a>
-                        <a href="index-ma" class="lang-link">Bahasa Melayu</a>
-                        <a href="index-id.html" class="lang-link">Bahasa Indonesia</a>
+                        <a href="all-hanzi-teo.html" class="lang-link">潮汕话</a>
+                        <a href="all-hanzi.html" class="lang-link active">普通话</a>
+                        <a href="all-hanzi-en.html" class="lang-link">English</a>
+                        <a href="all-hanzi-fr.html" class="lang-link">français</a>
+                        <a href="all-hanzi-th.html" class="lang-link">ไทย</a>
+                        <a href="all-hanzi-vi.html" class="lang-link">Tiếng Việt</a>
+                        <a href="all-hanzi-ms.html" class="lang-link">Bahasa Melayu</a>
+                        <a href="all-hanzi-id.html" class="lang-link">Bahasa Indonesia</a>
                     </div>
                     <div class="page-info">
                         <span class="creation-date">创建日期: 2025-01-15</span>
@@ -48,8 +48,7 @@
                 </button>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="index.html" class="nav-link">辞典</a></li>
-                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link">汉字搜索</a></li>
-                    <li class="nav-item"><a href="all-hanzi.html" class="nav-link active">所有汉字</a></li>
+                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link">字典</a></li>
                     <li class="nav-item"><a href="cources.html" class="nav-link">自学教程</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">知识</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">新闻</a></li>
@@ -114,41 +113,8 @@
         </div>
     </footer>
 
+    <script src="common.js"></script>
     <script>
-        // 返回顶部按钮功能实现
-        const backToTopButton = document.getElementById('backToTop');
-
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.add('visible');
-            } else {
-                backToTopButton.classList.remove('visible');
-            }
-        });
-
-        backToTopButton.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // 响应式导航菜单交互
-        const navToggle = document.querySelector('.nav-toggle');
-        const navList = document.querySelector('.nav-list');
-        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
-        navToggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            navList.classList.toggle('active');
-        });
-
-        dropdownToggles.forEach(toggle => {
-            toggle.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = toggle.closest('.dropdown');
-                dropdown.classList.toggle('active');
-            });
-        });
-
         // 全局变量
         let allHanziData = [];
         
@@ -228,7 +194,7 @@
             
             // 创建表格
             const table = document.createElement('table');
-            table.className = 'words-table';
+            table.className = 'hanzi-table';
             
             // 创建表头
             const thead = document.createElement('thead');

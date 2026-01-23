@@ -1,63 +1,3 @@
-// 返回顶部按钮功能实现
-const backToTopButton = document.getElementById('backToTop');
-
-// 监听页面滚动事件
-window.addEventListener('scroll', () => {
-    // 当页面滚动超过300px时显示按钮
-    if (window.pageYOffset > 300) {
-        backToTopButton.classList.add('visible');
-    } else {
-        backToTopButton.classList.remove('visible');
-    }
-});
-
-// 点击按钮时平滑滚动到顶部
-backToTopButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    
-    // 使用浏览器原生的平滑滚动功能
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
-
-// 目录链接点击平滑滚动
-document.querySelectorAll('.toc-link').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        
-        const targetId = link.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 100,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
-
-// 语言切换功能
-const langLinks = document.querySelectorAll('.lang-link');
-
-langLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        
-        // 移除所有语言链接的active类
-        langLinks.forEach(l => l.classList.remove('active'));
-        
-        // 为当前点击的链接添加active类
-        link.classList.add('active');
-        
-        // 这里可以添加实际的语言切换逻辑
-        const lang = link.textContent;
-        console.log(`切换到${lang}`);
-    });
-});
-
 // 搜索功能实现
 let vocabularyData = [];
 
@@ -238,7 +178,7 @@ function displayResults(results) {
         let categoryHtml = '';
         const categories = item.category.filter(c => c); // 过滤空分类
         if (categories.length > 0) {
-            categoryHtml = `<span class="result-category">${categories.join('、')}</span>`;
+            categoryHtml = `<span class="result-category">${categories.join('</span><span class="result-category">')}</span>`;
         }
         
         // 构建结果HTML，只显示非空元素，并将汉字放在word同一行
@@ -278,26 +218,6 @@ if (searchInput) {
         }
     });
 }
-
-// 响应式导航菜单交互
-const navToggle = document.querySelector('.nav-toggle');
-const navList = document.querySelector('.nav-list');
-const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-
-// 点击导航按钮展开/收起导航菜单
-navToggle.addEventListener('click', (e) => {
-    e.preventDefault();
-    navList.classList.toggle('active');
-});
-
-// 点击下拉菜单切换按钮展开/收起子菜单
-dropdownToggles.forEach(toggle => {
-    toggle.addEventListener('click', (e) => {
-        e.preventDefault();
-        const dropdown = toggle.closest('.dropdown');
-        dropdown.classList.toggle('active');
-    });
-});
 
 // 页面加载时加载数据
 loadData();

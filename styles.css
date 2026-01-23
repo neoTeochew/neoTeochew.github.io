@@ -1010,7 +1010,9 @@ body {
     padding: 20px;
 }
 
-.words-table {
+/* 表格通用样式 */
+.vocabulary-table,
+.hanzi-table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
@@ -1021,14 +1023,17 @@ body {
     font-size: 14px;
 }
 
-.words-table th,
-.words-table td {
+.vocabulary-table th,
+.vocabulary-table td,
+.hanzi-table th,
+.hanzi-table td {
     padding: 12px 15px;
     border-bottom: 1px solid #e0e0e0;
     line-height: 1.5;
 }
 
-.words-table th {
+.vocabulary-table th,
+.hanzi-table th {
     background-color: #007bff;
     color: white;
     font-weight: 600;
@@ -1039,77 +1044,149 @@ body {
     white-space: nowrap;
 }
 
-.words-table th:nth-child(1) {
+/* 词汇表（6列）样式 */
+.vocabulary-table th:nth-child(1) {
     width: 20%;
     text-align: left;
 }
 
-.words-table th:nth-child(2) {
+.vocabulary-table th:nth-child(2) {
     width: 15%;
 }
 
-.words-table th:nth-child(3),
-.words-table th:nth-child(4) {
+.vocabulary-table th:nth-child(3),
+.vocabulary-table th:nth-child(4) {
     width: 10%;
 }
 
-.words-table th:nth-child(5),
-.words-table th:nth-child(6) {
+.vocabulary-table th:nth-child(5),
+.vocabulary-table th:nth-child(6) {
     width: 22.5%;
     text-align: left;
 }
 
-.words-table td {
+/* 汉字表（5列）样式 */
+.hanzi-table th:nth-child(1) {
+    width: 12%;
+    text-align: center;
+}
+
+.hanzi-table th:nth-child(2) {
+    width: 18%;
+    text-align: center;
+}
+
+.hanzi-table th:nth-child(3) {
+    width: 10%;
+    text-align: center;
+}
+
+.hanzi-table th:nth-child(4) {
+    width: 35%;
+    text-align: left;
+}
+
+.hanzi-table th:nth-child(5) {
+    width: 25%;
+    text-align: left;
+}
+
+/* 汉字表单元格样式 */
+.hanzi-table td:nth-child(1) {
+    width: 12%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hanzi-table td:nth-child(2) {
+    width: 18%;
+    text-align: center;
+}
+
+.hanzi-table td:nth-child(3) {
+    width: 10%;
+    text-align: center;
+}
+
+.hanzi-table td:nth-child(4) {
+    width: 35%;
+    text-align: left;
+}
+
+.hanzi-table td:nth-child(5) {
+    width: 25%;
+    text-align: left;
+}
+
+/* 单元格基础样式 */
+.vocabulary-table td,
+.hanzi-table td {
     color: #333;
     vertical-align: top;
     padding: 12px 15px;
 }
 
-.words-table td:nth-child(1),
-.words-table td:nth-child(5),
-.words-table td:nth-child(6) {
+/* 词汇表特定列样式 */
+.vocabulary-table td:nth-child(1),
+.vocabulary-table td:nth-child(5),
+.vocabulary-table td:nth-child(6) {
     text-align: left;
 }
 
-.words-table td:nth-child(2),
-.words-table td:nth-child(3),
-.words-table td:nth-child(4) {
+.vocabulary-table td:nth-child(2),
+.vocabulary-table td:nth-child(3),
+.vocabulary-table td:nth-child(4) {
     text-align: center;
 }
 
-.words-table td:nth-child(5) {
+.vocabulary-table td:nth-child(5) {
     font-size: 13px;
     line-height: 1.4;
 }
 
-.words-table tbody tr:nth-child(even) {
+/* 行样式 */
+.vocabulary-table tbody tr:nth-child(even),
+.hanzi-table tbody tr:nth-child(even) {
     background-color: #f8f9fa;
 }
 
-.words-table tbody tr:hover {
+.vocabulary-table tbody tr:hover,
+.hanzi-table tbody tr:hover {
     background-color: #e9ecef;
 }
 
-.words-table tbody tr:last-child td {
+.vocabulary-table tbody tr:last-child td,
+.hanzi-table tbody tr:last-child td {
     border-bottom: none;
 }
 
-.words-table td br {
+/* 处理表格内容中的换行 */
+.vocabulary-table td br,
+.hanzi-table td br {
     margin: 5px 0;
+}
+
+/* 分类列的上下间距 */
+.vocabulary-table .result-category{
+    margin-bottom: 1px;
 }
 
 /* 优化小屏幕下的表格显示 */
 @media (max-width: 768px) {
-    .words-table {
+    .vocabulary-table,
+    .hanzi-table {
         font-size: 13px;
     }
     
-    .words-table th,
-    .words-table td {
+    .vocabulary-table th,
+    .vocabulary-table td,
+    .hanzi-table th,
+    .hanzi-table td {
         padding: 8px 10px;
     }
     
-    .words-table th {
+    .vocabulary-table th,
+    .hanzi-table th {
         font-size: 11px;
     }
 }
