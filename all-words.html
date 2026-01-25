@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 粤东闽方言, 辞典, 词典, 字典, 白话字, 罗马字">
+    <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 粤东闽方言, 辞典, 词典, 字典, 白话字, 罗马字, teochew">
     <meta name="description" content="潮汕话辞典，兼收古今中外潮人所用词汇。统一拼写各自发音。多语言对照。">
     <title>所有词汇|潮语埠</title>
     <link rel="icon" href="logo/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "v6thau2da8");
+    </script>
 </head>
 <body>
     <!-- 返回顶部按钮 -->
@@ -31,7 +38,7 @@
                         <a href="all-words.html" class="lang-link active">普通话</a>
                         <a href="all-words-en.html" class="lang-link">English</a>
                         <a href="all-words-fr.html" class="lang-link">français</a>
-                        <a href="all-words-th.html" class="lang-link">ไทย</a>
+                        <a href="all-words-ta.html" class="lang-link">ไทย</a>
                         <a href="all-words-vi.html" class="lang-link">Tiếng Việt</a>
                         <a href="all-words-ms.html" class="lang-link">Bahasa Melayu</a>
                         <a href="all-words-id.html" class="lang-link">Bahasa Indonesia</a>
@@ -78,18 +85,18 @@
                 <!-- 正文 -->
                 <article class="content">
                     <h2>所有词汇</h2>
-                    <p>以下是本辞典收录的所有词汇，按声韵调排列，有分类的一般集中在末尾。</p>
+                    <p>以下是本辞典收录的所有词汇，按声韵调排列。分类词汇一般汇总在最后。</p>
                     
                     <!-- 筛选控件 -->
                     <div class="filter-controls">
                         <div class="filter-item">
-                            <label for="speech-filter">词性筛选：</label>
+                            <label for="speech-filter">词性：</label>
                             <select id="speech-filter">
                                 <option value="">全部</option>
                             </select>
                         </div>
                         <div class="filter-item">
-                            <label for="category-filter">分类筛选：</label>
+                            <label for="category-filter">分类：</label>
                             <select id="category-filter">
                                 <option value="">全部</option>
                             </select>
@@ -98,7 +105,7 @@
                     </div>
                     
                     <div id="words-container" class="words-container">
-                        <div class="loading">正在加载词汇...</div>
+                        <div class="loading">加载词汇中...</div>
                     </div>
                 </article>
             </div>
@@ -124,7 +131,7 @@
         // 全局变量
         let allVocabularyData = [];
         
-        // 加载所有词汇
+        // 加载所有词汇和词组
         async function loadAllWords() {
             try {
                 const response = await fetch('data.json');
@@ -244,8 +251,10 @@
             // 创建表体
             const tbody = document.createElement('tbody');
             
+            // 遍历数据，按原始顺序显示词汇和其对应的词组
             data.forEach(item => {
-                const tr = document.createElement('tr');
+                // 添加词汇行
+                const vocabTr = document.createElement('tr');
                 
                 // 处理分类
                 let categoryHtml = '';
@@ -254,8 +263,8 @@
                     categoryHtml = `<span class="result-category">${categories.join('</span><span class="result-category">')}</span>`;
                 }
 
-                // 构建表格行，包含category列
-                tr.innerHTML = `
+                // 构建词汇表格行
+                vocabTr.innerHTML = `
                     <td>${item.word}<br>[${item.pronunciation || ''}]</td>
                     <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
                     <td>${item.speech || ''}</td>
@@ -264,7 +273,28 @@
                     <td>${item.translations.putonghua || ''}</td>
                 `;
                 
-                tbody.appendChild(tr);
+                tbody.appendChild(vocabTr);
+                
+                // 检查该词汇是否有词组，如果有，就在该词汇后面显示
+                if (item.example) {
+                    for (const ex of item.example) {
+                        if (ex.label === '词组') {
+                            const phraseTr = document.createElement('tr');
+                            
+                            // 构建词组表格行
+                            phraseTr.innerHTML = `
+                                <td>${item.word}<br>[${item.pronunciation || ''}]</td>
+                                <td>${ex.teochew || ''}</td>
+                                <td>词组</td>
+                                <td></td>
+                                <td>${ex.romazi || ''}</td>
+                                <td>${ex.translations ? ex.translations.putonghua || '' : ''}</td>
+                            `;
+                            
+                            tbody.appendChild(phraseTr);
+                        }
+                    }
+                }
             });
             
             table.appendChild(tbody);

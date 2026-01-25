@@ -27,13 +27,13 @@
                 </div>
                 <div class="header-meta">
                     <div class="language-switcher">
-                        <a href="all-words-te.html" class="lang-link">潮汕话</a>
+                        <a href="all-words-teo.html" class="lang-link">潮汕话</a>
                         <a href="all-words.html" class="lang-link">普通话</a>
                         <a href="all-words-en.html" class="lang-link active">English</a>
                         <a href="all-words-fr.html" class="lang-link">français</a>
-                        <a href="all-words-ta.html" class="lang-link">ไทย</a>
+                        <a href="all-words-th.html" class="lang-link">ไทย</a>
                         <a href="all-words-vi.html" class="lang-link">Tiếng Việt</a>
-                        <a href="all-words-ma.html" class="lang-link">Bahasa Melayu</a>
+                        <a href="all-words-ms.html" class="lang-link">Bahasa Melayu</a>
                         <a href="all-words-id.html" class="lang-link">Bahasa Indonesia</a>
                     </div>
                     <div class="page-info">
@@ -244,20 +244,50 @@
             // Create table body
             const tbody = document.createElement('tbody');
             
+            // 遍历数据，按原始顺序显示词汇和其对应的词组
             data.forEach(item => {
-                const tr = document.createElement('tr');
+                // 添加词汇行
+                const vocabTr = document.createElement('tr');
                 
-                // Build table row, including category column
-                tr.innerHTML = `
+                // 处理分类
+                let categoryHtml = '';
+                const categories = item.category.filter(c => c); // 过滤空分类
+                if (categories.length > 0) {
+                    categoryHtml = categories.join('<br>');
+                }
+
+                // 构建词汇表格行
+                vocabTr.innerHTML = `
                     <td>${item.word}<br>[${item.pronunciation || ''}]</td>
                     <td>${item.hanzi.some(h => h) ? item.hanzi.filter(h => h).join('<br>') : ''}</td>
                     <td>${item.speech || ''}</td>
-                    <td>${item.category.some(c => c) ? item.category.filter(c => c).join('<br>') : ''}</td>
+                    <td>${categoryHtml}</td>
                     <td>${item.definition || ''}<br>[${item.romazi || ''}]</td>
-                    <td>${item.translations.english || ''}</td>
+                    <td>${item.translations.English || ''}</td>
                 `;
                 
-                tbody.appendChild(tr);
+                tbody.appendChild(vocabTr);
+                
+                // 检查该词汇是否有词组，如果有，就在该词汇后面显示
+                if (item.example) {
+                    for (const ex of item.example) {
+                        if (ex.label === '词组') {
+                            const phraseTr = document.createElement('tr');
+                            
+                            // 构建词组表格行
+                            phraseTr.innerHTML = `
+                                <td>${item.word}<br>[${item.pronunciation || ''}]</td>
+                                <td>${ex.teochew || ''}</td>
+                                <td>Phrase</td>
+                                <td></td>
+                                <td>${ex.romazi || ''}</td>
+                                <td>${ex.translations ? ex.translations.English || '' : ''}</td>
+                            `;
+                            
+                            tbody.appendChild(phraseTr);
+                        }
+                    }
+                }
             });
             
             table.appendChild(tbody);

@@ -7,11 +7,28 @@ async function loadData() {
         const response = await fetch('data.json');
         vocabularyData = await response.json();
         
-        // 更新词汇数量
-        document.getElementById('vocab-count').textContent = vocabularyData.length;
+        // 统计词汇和词组数量
+        const vocabCount = vocabularyData.length;
+        let phraseCount = 0;
+        
+        // 遍历所有条目，查找label为"词组"的example
+        for (const item of vocabularyData) {
+            if (item.example) {
+                for (const ex of item.example) {
+                    if (ex.label === '词组') {
+                        phraseCount++;
+                    }
+                }
+            }
+        }
+        
+        // 更新词汇和词组数量
+        document.getElementById('vocab-count1').textContent = `${vocabCount}`;
+        document.getElementById('vocab-count2').textContent = `${phraseCount}`;
     } catch (error) {
         console.error('加载数据失败:', error);
-        document.getElementById('vocab-count').textContent = '加载失败';
+        document.getElementById('vocab-count1').textContent = '加载失败';
+        document.getElementById('vocab-count2').textContent = '加载失败';
     }
 }
 

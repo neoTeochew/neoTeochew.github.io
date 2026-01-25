@@ -7,11 +7,28 @@ async function loadData() {
         const response = await fetch('data.json');
         vocabularyData = await response.json();
         
-        // Update vocabulary count
-        document.getElementById('vocab-count').textContent = vocabularyData.length;
+        // Count vocabulary and phrases
+        const vocabCount = vocabularyData.length;
+        let phraseCount = 0;
+        
+        // Iterate through all items to find phrases with label "词组"
+        for (const item of vocabularyData) {
+            if (item.example) {
+                for (const ex of item.example) {
+                    if (ex.label === '词组') {
+                        phraseCount++;
+                    }
+                }
+            }
+        }
+        
+        // Update vocabulary and phrase count
+        document.getElementById('vocab-count1').textContent = `${vocabCount}`;
+        document.getElementById('vocab-count2').textContent = `${phraseCount}`;
     } catch (error) {
         console.error('Failed to load data:', error);
-        document.getElementById('vocab-count').textContent = 'Failed to load';
+        document.getElementById('vocab-count1').textContent = 'Failed to load';
+        document.getElementById('vocab-count2').textContent = 'Failed to load';
     }
 }
 

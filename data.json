@@ -871,10 +871,40 @@
       {
         "id": 1,
         "label": "词组",
-        "teochew": "放屎/尿/屁",
-        "romazi": "pàng sái/ziē/phuì",
+        "teochew": "放屁",
+        "romazi": "pàng phuì",
         "translations": {
-          "putonghua": "拉屎/尿/屁",
+          "putonghua": "拉屁",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      },
+      {
+        "id": 2,
+        "label": "词组",
+        "teochew": "放屎",
+        "romazi": "pàng sái",
+        "translations": {
+          "putonghua": "拉屎",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      },
+      {
+        "id": 3,
+        "label": "词组",
+        "teochew": "放尿",
+        "romazi": "pàng ziē",
+        "translations": {
+          "putonghua": "拉尿",
           "English": "",
           "francais": "",
           "thai": "",
@@ -7840,7 +7870,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "table",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -7880,7 +7910,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "surface",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -7920,7 +7950,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "express",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -80351,7 +80381,7 @@
     "hanzi": [
       "起厝"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
@@ -138962,7 +138992,7 @@
     "hanzi": [
       "揞眯"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
@@ -139042,7 +139072,7 @@
     "hanzi": [
       "âr紧"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
@@ -139362,7 +139392,7 @@
     "hanzi": [
       "欱錢"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
@@ -140082,7 +140112,7 @@
     "hanzi": [
       "沃花"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
@@ -150701,7 +150731,7 @@
     "hanzi": [
       "画图画"
     ],
-    "speech": "动词词组",
+    "speech": "词组",
     "category": [
       ""
     ],
