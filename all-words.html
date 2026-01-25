@@ -168,6 +168,9 @@
                 });
             });
             
+            // 添加"词组"选项到词性集合
+            speechSet.add('词组');
+            
             // 填充词性筛选
             const speechFilter = document.getElementById('speech-filter');
             Array.from(speechSet).sort().forEach(speech => {
@@ -199,34 +202,27 @@
             const speechFilter = document.getElementById('speech-filter').value;
             const categoryFilter = document.getElementById('category-filter').value;
             
-            // 筛选数据
-            let filteredData = allVocabularyData.filter(item => {
-                // 词性筛选
-                if (speechFilter && item.speech !== speechFilter) {
-                    return false;
-                }
-                
-                // 分类筛选
-                if (categoryFilter && !item.category.includes(categoryFilter)) {
-                    return false;
-                }
-                
-                return true;
-            });
+            // 分类筛选仍然过滤原始数据
+            let filteredData = allVocabularyData;
+            if (categoryFilter) {
+                filteredData = allVocabularyData.filter(item => {
+                    return item.category.includes(categoryFilter);
+                });
+            }
             
-            // 渲染筛选结果
-            renderTable(filteredData);
+            // 渲染筛选结果，传递词性筛选参数
+            renderTable(filteredData, speechFilter);
         }
         
         // 重置筛选
         function resetFilters() {
             document.getElementById('speech-filter').value = '';
             document.getElementById('category-filter').value = '';
-            renderTable(allVocabularyData);
+            renderTable(allVocabularyData, '');
         }
         
         // 渲染表格
-        function renderTable(data) {
+        function renderTable(data, speechFilter = '') {
             const wordsContainer = document.getElementById('words-container');
             wordsContainer.innerHTML = '';
             
@@ -255,6 +251,7 @@
             data.forEach(item => {
                 // 添加词汇行
                 const vocabTr = document.createElement('tr');
+                vocabTr.setAttribute('data-speech', item.speech || '');
                 
                 // 处理分类
                 let categoryHtml = '';
@@ -280,14 +277,15 @@
                     for (const ex of item.example) {
                         if (ex.label === '词组') {
                             const phraseTr = document.createElement('tr');
+                            phraseTr.setAttribute('data-speech', '词组');
                             
                             // 构建词组表格行
                             phraseTr.innerHTML = `
-                                <td>${item.word}<br>[${item.pronunciation || ''}]</td>
+                                <td>${ex.romazi || ''}</td>
                                 <td>${ex.teochew || ''}</td>
                                 <td>词组</td>
                                 <td></td>
-                                <td>${ex.romazi || ''}</td>
+                                <td></td>
                                 <td>${ex.translations ? ex.translations.putonghua || '' : ''}</td>
                             `;
                             
@@ -299,6 +297,17 @@
             
             table.appendChild(tbody);
             wordsContainer.appendChild(table);
+            
+            // 应用词性筛选
+            if (speechFilter) {
+                const rows = table.querySelectorAll('tbody tr');
+                rows.forEach(row => {
+                    const speech = row.getAttribute('data-speech');
+                    if (speech !== speechFilter) {
+                        row.style.display = 'none';
+                    }
+                });
+            }
         }
 
         // 页面加载时加载所有词汇

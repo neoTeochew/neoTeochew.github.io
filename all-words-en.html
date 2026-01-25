@@ -161,6 +161,9 @@
                 });
             });
             
+            // Add "Phrase" option to part of speech set
+            speechSet.add('词组');
+            
             // Populate part of speech filter
             const speechFilter = document.getElementById('speech-filter');
             Array.from(speechSet).sort().forEach(speech => {
@@ -192,34 +195,27 @@
             const speechFilter = document.getElementById('speech-filter').value;
             const categoryFilter = document.getElementById('category-filter').value;
             
-            // Filter data
-            let filteredData = allVocabularyData.filter(item => {
-                // Part of speech filter
-                if (speechFilter && item.speech !== speechFilter) {
-                    return false;
-                }
-                
-                // Category filter
-                if (categoryFilter && !item.category.includes(categoryFilter)) {
-                    return false;
-                }
-                
-                return true;
-            });
+            // Category filter still filters original data
+            let filteredData = allVocabularyData;
+            if (categoryFilter) {
+                filteredData = allVocabularyData.filter(item => {
+                    return item.category.includes(categoryFilter);
+                });
+            }
             
-            // Render filtered results
-            renderTable(filteredData);
+            // Render filtered results, passing speech filter parameter
+            renderTable(filteredData, speechFilter);
         }
         
         // Reset filters
         function resetFilters() {
             document.getElementById('speech-filter').value = '';
             document.getElementById('category-filter').value = '';
-            renderTable(allVocabularyData);
+            renderTable(allVocabularyData, '');
         }
         
         // Render table
-        function renderTable(data) {
+        function renderTable(data, speechFilter = '') {
             const wordsContainer = document.getElementById('words-container');
             wordsContainer.innerHTML = '';
             
@@ -248,6 +244,7 @@
             data.forEach(item => {
                 // 添加词汇行
                 const vocabTr = document.createElement('tr');
+                vocabTr.setAttribute('data-speech', item.speech || '');
                 
                 // 处理分类
                 let categoryHtml = '';
@@ -273,14 +270,15 @@
                     for (const ex of item.example) {
                         if (ex.label === '词组') {
                             const phraseTr = document.createElement('tr');
+                            phraseTr.setAttribute('data-speech', '词组');
                             
                             // 构建词组表格行
                             phraseTr.innerHTML = `
-                                <td>${item.word}<br>[${item.pronunciation || ''}]</td>
-                                <td>${ex.teochew || ''}</td>
-                                <td>Phrase</td>
-                                <td></td>
                                 <td>${ex.romazi || ''}</td>
+                                <td>${ex.teochew || ''}</td>
+                                <td>词组</td>
+                                <td></td>
+                                <td></td>
                                 <td>${ex.translations ? ex.translations.English || '' : ''}</td>
                             `;
                             
@@ -292,6 +290,17 @@
             
             table.appendChild(tbody);
             wordsContainer.appendChild(table);
+            
+            // Apply part of speech filter
+            if (speechFilter) {
+                const rows = table.querySelectorAll('tbody tr');
+                rows.forEach(row => {
+                    const speech = row.getAttribute('data-speech');
+                    if (speech !== speechFilter) {
+                        row.style.display = 'none';
+                    }
+                });
+            }
         }
 
         // Load all words when page loads
