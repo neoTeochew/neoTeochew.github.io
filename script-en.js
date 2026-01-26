@@ -23,12 +23,20 @@ async function loadData() {
         }
         
         // Update vocabulary and phrase count
-        document.getElementById('vocab-count1').textContent = `${vocabCount}`;
-        document.getElementById('vocab-count2').textContent = `${phraseCount}`;
+        const vocabCount1 = document.getElementById('vocab-count1');
+        const vocabCount2 = document.getElementById('vocab-count2');
+        if (vocabCount1 && vocabCount2) {
+            vocabCount1.textContent = `${vocabCount}`;
+            vocabCount2.textContent = `${phraseCount}`;
+        }
     } catch (error) {
         console.error('Failed to load data:', error);
-        document.getElementById('vocab-count1').textContent = 'Failed to load';
-        document.getElementById('vocab-count2').textContent = 'Failed to load';
+        const vocabCount1 = document.getElementById('vocab-count1');
+        const vocabCount2 = document.getElementById('vocab-count2');
+        if (vocabCount1 && vocabCount2) {
+            vocabCount1.textContent = 'Failed to load';
+            vocabCount2.textContent = 'Failed to load';
+        }
     }
 }
 
@@ -237,4 +245,6 @@ if (searchInput) {
 }
 
 // Load data when page loads
-loadData();
+if (document.getElementById('vocab-count1')) {
+    loadData();
+}

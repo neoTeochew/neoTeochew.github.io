@@ -23,12 +23,20 @@ async function loadData() {
         }
         
         // 更新词汇和词组数量
-        document.getElementById('vocab-count1').textContent = `${vocabCount}`;
-        document.getElementById('vocab-count2').textContent = `${phraseCount}`;
+        const vocabCount1 = document.getElementById('vocab-count1');
+        const vocabCount2 = document.getElementById('vocab-count2');
+        if (vocabCount1 && vocabCount2) {
+            vocabCount1.textContent = `${vocabCount}`;
+            vocabCount2.textContent = `${phraseCount}`;
+        }
     } catch (error) {
         console.error('加载数据失败:', error);
-        document.getElementById('vocab-count1').textContent = '加载失败';
-        document.getElementById('vocab-count2').textContent = '加载失败';
+        const vocabCount1 = document.getElementById('vocab-count1');
+        const vocabCount2 = document.getElementById('vocab-count2');
+        if (vocabCount1 && vocabCount2) {
+            vocabCount1.textContent = '加载失败';
+            vocabCount2.textContent = '加载失败';
+        }
     }
 }
 
@@ -237,4 +245,6 @@ if (searchInput) {
 }
 
 // 页面加载时加载数据
-loadData();
+if (document.getElementById('vocab-count1')) {
+    loadData();
+}
