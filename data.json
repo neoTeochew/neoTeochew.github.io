@@ -2929,6 +2929,46 @@
     "note": ""
   },
   {
+    "word": "poih-kak",
+    "pronunciation": "poih-kak",
+    "hanzi": [
+      "八角"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "poix",
     "pronunciation": "poix",
     "hanzi": [
@@ -31466,7 +31506,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "硬",
       "English": "",
       "francais": "",
       "thai": "",
@@ -45998,6 +46038,46 @@
     "definition": "",
     "romazi": "",
     "translations": {
+      "putonghua": "天气预报",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "句子",
+        "teochew": "记得睇天气。",
+        "romazi": "Kì-tit thóy thian-qì.",
+        "translations": {
+          "putonghua": "记得看天气预报。",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "thian-châi",
+    "pronunciation": "thian-châi",
+    "hanzi": [
+      "天才"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
       "putonghua": "",
       "English": "",
       "francais": "",
@@ -47829,7 +47909,7 @@
     "word": "nap",
     "pronunciation": "nap",
     "hanzi": [
-      "nap"
+      "䪏"
     ],
     "speech": "形容词",
     "category": [
@@ -47838,8 +47918,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "软",
+      "English": "soft",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -47993,14 +48073,15 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "哺乳纲"
     ],
-    "definition": "",
-    "romazi": "",
+    "definition": "学名 Homo，人属",
+    "romazi": "Hag-miâ Homo, nâng-sog",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "人、人类",
+      "English": "people, humankind",
+      "francais": "la personne",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -61768,6 +61849,46 @@
       "结果"
     ],
     "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "kat-hun",
+    "pronunciation": "kat-hun",
+    "hanzi": [
+      "结婚"
+    ],
+    "speech": "单词",
     "category": [
       ""
     ],
@@ -81507,7 +81628,7 @@
     "word": "qiau",
     "pronunciation": "qiau",
     "hanzi": [
-      "qiau"
+      "枵"
     ],
     "speech": "形容词",
     "category": [
@@ -86638,8 +86759,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "bank",
+      "francais": "la banque",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -97228,6 +97349,46 @@
     "note": ""
   },
   {
+    "word": "tsuí-lêng-thâu",
+    "pronunciation": "tsuí-lêng-thâu",
+    "hanzi": [
+      "水龙头"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "tsuí-koi",
     "pronunciation": "tsuí-koi",
     "hanzi": [
@@ -98611,9 +98772,24 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "炒面",
+        "romazi": "chá mī",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      },
+      {
+        "id": 2,
+        "label": "词组",
+        "teochew": "炒粿条",
+        "romazi": "chá kué-tiâu",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -98631,7 +98807,7 @@
     "word": "chá-zîr",
     "pronunciation": "chá-zîr",
     "hanzi": [
-      "炒zîr"
+      "炒荋"
     ],
     "speech": "动词",
     "category": [
@@ -112956,6 +113132,46 @@
       "细"
     ],
     "speech": "形容词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "小",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "sòi-qún",
+    "pronunciation": "sòi-qún",
+    "hanzi": [
+      "细菌"
+    ],
+    "speech": "名词",
     "category": [
       ""
     ],
@@ -127627,6 +127843,46 @@
     "speech": "名词",
     "category": [
       ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "hô-pau-tir-qa",
+    "pronunciation": "hô-pau-tir-qa",
+    "hanzi": [
+      "荷包猪脚"
+    ],
+    "speech": "名词",
+    "category": [
+      "食物"
     ],
     "definition": "",
     "romazi": "",
