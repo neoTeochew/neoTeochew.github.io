@@ -228,28 +228,6 @@ function displayResults(results) {
     });
 }
 
-// 绑定搜索按钮点击事件
-const searchBtn = document.getElementById('search-btn');
-if (searchBtn) {
-    searchBtn.addEventListener('click', searchVocabulary);
-}
-
-// 绑定随机按钮点击事件
-const randomBtn = document.getElementById('random-btn');
-if (randomBtn) {
-    randomBtn.addEventListener('click', showRandomEntry);
-}
-
-// 绑定搜索输入框回车事件
-const searchInput = document.getElementById('search-input');
-if (searchInput) {
-    searchInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            searchVocabulary();
-        }
-    });
-}
-
 // 显示随机条目
 function showRandomEntry() {
     const resultsContainer = document.getElementById('search-results');
@@ -264,7 +242,32 @@ function showRandomEntry() {
     }
 }
 
-// 页面加载时加载数据
+// 页面加载时加载数据和绑定事件
 if (document.getElementById('vocab-count1')) {
     loadData();
+    
+    // 绑定所有事件
+    document.addEventListener('DOMContentLoaded', function() {
+        // 绑定搜索按钮点击事件
+        const searchBtn = document.getElementById('search-btn');
+        if (searchBtn) {
+            searchBtn.addEventListener('click', searchVocabulary);
+        }
+        
+        // 绑定随机按钮点击事件
+        const randomBtn = document.getElementById('random-btn');
+        if (randomBtn) {
+            randomBtn.addEventListener('click', showRandomEntry);
+        }
+        
+        // 绑定搜索输入框回车事件
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    searchVocabulary();
+                }
+            });
+        }
+    });
 }
