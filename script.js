@@ -234,6 +234,12 @@ if (searchBtn) {
     searchBtn.addEventListener('click', searchVocabulary);
 }
 
+// 绑定随机按钮点击事件
+const randomBtn = document.getElementById('random-btn');
+if (randomBtn) {
+    randomBtn.addEventListener('click', showRandomEntry);
+}
+
 // 绑定搜索输入框回车事件
 const searchInput = document.getElementById('search-input');
 if (searchInput) {
@@ -242,6 +248,20 @@ if (searchInput) {
             searchVocabulary();
         }
     });
+}
+
+// 显示随机条目
+function showRandomEntry() {
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+    
+    if (vocabularyData.length > 0) {
+        const randomIndex = Math.floor(Math.random() * vocabularyData.length);
+        const randomEntry = vocabularyData[randomIndex];
+        displayResults([randomEntry]);
+    } else {
+        resultsContainer.innerHTML = '<div class="no-results">数据加载中，请稍后再试</div>';
+    }
 }
 
 // 页面加载时加载数据
