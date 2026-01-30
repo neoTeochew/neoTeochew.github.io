@@ -228,23 +228,46 @@ function displayResults(results) {
     });
 }
 
-// Bind search button click event
-const searchBtn = document.getElementById('search-btn');
-if (searchBtn) {
-    searchBtn.addEventListener('click', searchVocabulary);
+// Show random entry
+function showRandomEntry() {
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+    
+    if (vocabularyData.length > 0) {
+        const randomIndex = Math.floor(Math.random() * vocabularyData.length);
+        const randomEntry = vocabularyData[randomIndex];
+        displayResults([randomEntry]);
+    } else {
+        resultsContainer.innerHTML = '<div class="no-results">Loading data, please try again later</div>';
+    }
 }
 
-// Bind search input enter key event
-const searchInput = document.getElementById('search-input');
-if (searchInput) {
-    searchInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            searchVocabulary();
-        }
-    });
-}
-
-// Load data when page loads
+// Load data when page loads and bind events
 if (document.getElementById('vocab-count1')) {
     loadData();
+    
+    // Bind all events
+    document.addEventListener('DOMContentLoaded', function() {
+        // Bind search button click event
+        const searchBtn = document.getElementById('search-btn');
+        if (searchBtn) {
+            searchBtn.addEventListener('click', searchVocabulary);
+        }
+        
+        // Bind random button click event
+        const randomBtn = document.getElementById('random-btn');
+        if (randomBtn) {
+            randomBtn.addEventListener('click', showRandomEntry);
+        }
+        
+        // Bind search input enter key event
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    searchVocabulary();
+                }
+            });
+        }
+    });
 }

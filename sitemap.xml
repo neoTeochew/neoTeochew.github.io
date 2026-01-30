@@ -2,38 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://neoteochew.github.io/</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/index-en.html</loc>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
 <url>
   <loc>https://neoteochew.github.io/all-words.html</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/all-words-en.html</loc>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/all-hanzi.html</loc>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://neoteochew.github.io/cources.html</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://neoteochew.github.io/introductions.html</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://neoteochew.github.io/romazi.html</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://neoteochew.github.io/logs.html</loc>
-  <lastmod>2026-01-14</lastmod>
+  <lastmod>2026-01-30</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/hanzi-search.html</loc>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/knowledge.html</loc>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://neoteochew.github.io/knowledge/taxonomy.html</loc>
+  <lastmod>2026-01-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
 </url>
 </urlset>
