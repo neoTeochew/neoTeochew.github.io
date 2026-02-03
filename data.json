@@ -2936,7 +2936,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "调料",
+      "植物"
     ],
     "definition": "",
     "romazi": "",
@@ -4342,7 +4343,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "泡在水里太久导致皮肤发白水肿",
       "English": "",
       "francais": "",
       "thai": "",
@@ -8872,7 +8873,7 @@
       {
         "id": 1,
         "label": "句子",
-        "teochew": "知预，勿分人物着。",
+        "teochew": "知预，嫑分人物着。",
         "romazi": "Tsai-ǐr, mài pun--nâng muex--tiex.",
         "translations": {
           "putonghua": "小心，不要和别人碰撞到。",
@@ -10693,7 +10694,7 @@
       {
         "id": 1,
         "label": "句子",
-        "teochew": "勿相打。",
+        "teochew": "嫑相打。",
         "romazi": "Mài sie phah.",
         "translations": {
           "putonghua": "不要打架。",
@@ -20032,7 +20033,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "最后",
-      "English": "",
+      "English": "finally, eventually",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20066,13 +20067,14 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "节肢动物门"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "蝴蝶",
-      "English": "",
+      "English": "butterfly",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20112,7 +20114,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "medium",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20186,13 +20188,13 @@
     ],
     "speech": "副词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "还没有",
+      "English": "have not done",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20202,11 +20204,11 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "句子",
+        "teochew": "伊还未毕业。",
+        "romazi": "I hwa buē pid-ngiab.",
         "translations": {
-          "putonghua": "",
+          "putonghua": "他还没毕业。",
           "English": "",
           "francais": "",
           "thai": "",
@@ -20222,7 +20224,8 @@
     "word": "buē-lâi",
     "pronunciation": "buē-lâi",
     "hanzi": [
-      "未来"
+      "未来",
+      "未來"
     ],
     "speech": "名词",
     "category": [
@@ -20231,9 +20234,9 @@
     "definition": "时间，以后的",
     "romazi": "sî-kan, yí-ǎw kāi",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "未来",
+      "English": "future",
+      "francais": "le futur",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -20262,7 +20265,8 @@
     "word": "buē-lâi-sīr",
     "pronunciation": "buē-lâi-sīr",
     "hanzi": [
-      "未来事"
+      "未来事",
+      "未來事"
     ],
     "speech": "名词",
     "category": [
@@ -20271,8 +20275,8 @@
     "definition": "事，将来的",
     "romazi": "sīr, tsiang-lâi kāi",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "将来的事情",
+      "English": "comming things",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20306,7 +20310,7 @@
     ],
     "speech": "副词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
@@ -20362,12 +20366,12 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "句子",
+        "teochew": "伊咯毋捌漏人，了哩hiâu-hiâu无人好信伊的话。",
+        "romazi": "I lo m̄-pat láu nâng, liáu li hiâu-hiâu bô nâng hàw sìn i kâi uē.",
         "translations": {
-          "putonghua": "",
-          "English": "",
+          "putonghua": "他出来不撒谎，但却没人愿意相信他的话，奇怪得很。",
+          "English": "He never tells lies. But it is pretty strange that no one would like to believe his words.",
           "francais": "",
           "thai": "",
           "tiengviet": "",
@@ -20386,13 +20390,13 @@
     ],
     "speech": "形容词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "不对",
-      "English": "",
+      "English": "wrong, error",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20472,7 +20476,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "忘记",
-      "English": "",
+      "English": "forget",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20512,7 +20516,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "丢失，找不见了",
-      "English": "",
+      "English": "lose",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20522,12 +20526,12 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "句子",
+        "teochew": "孥囝的泥zír怪易毋见。",
+        "romazi": "Nôu-kyá kâi nî-zír kuè kōi m̄-kyì.",
         "translations": {
-          "putonghua": "",
-          "English": "",
+          "putonghua": "小孩的橡皮很容易就弄丢。",
+          "English": "Children are very easy to lose their eraser / rubber.",
           "francais": "",
           "thai": "",
           "tiengviet": "",
@@ -20551,8 +20555,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "不止",
+      "English": "not only",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20591,8 +20595,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "不小心",
+      "English": "not carefully",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20631,7 +20635,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "不小心",
       "English": "",
       "francais": "",
       "thai": "",
@@ -20802,12 +20806,12 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "句子",
+        "teochew": "有撮人无当孥囝个人，迩毋好遐毋好。",
+        "romazi": "Ǔ choh nâng bô tǹg nôu-kyá kâi nâng, tsiá m̄-hàw hiá m̄-hàw.",
         "translations": {
-          "putonghua": "",
-          "English": "",
+          "putonghua": "有些人不把小孩当人，小孩干啥都不被允许。",
+          "English": "Some people don't treat children as human beings. They prohibit every things of kids. ",
           "francais": "",
           "thai": "",
           "tiengviet": "",
@@ -20831,7 +20835,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "赶不上、来不及",
       "English": "",
       "francais": "",
       "thai": "",
@@ -20872,7 +20876,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "没空，忙碌",
-      "English": "",
+      "English": "busy",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -20906,7 +20910,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "外来语",
+      "身份"
     ],
     "definition": "",
     "romazi": "",
@@ -20916,8 +20921,8 @@
       "francais": "",
       "thai": "",
       "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
+      "melayu": "mata",
+      "indonesia": "mata"
     },
     "example": [
       {
@@ -20977,7 +20982,7 @@
         }
       }
     ],
-    "note": ""
+    "note": "这里的má和“嫲”其实是同个字，这里保留历史惯用写法。"
   },
   {
     "word": "Má-tsóu",
@@ -21018,7 +21023,7 @@
         }
       }
     ],
-    "note": ""
+    "note": "这里的má和“嫲”其实是同个字，这里保留历史惯用写法。"
   },
   {
     "word": "má-siǎng",
@@ -21035,7 +21040,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "immediately",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21070,13 +21075,14 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "节肢动物门"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "蚂蚁",
+      "English": "ant",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21110,14 +21116,14 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "时间"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "明天",
-      "English": "",
-      "francais": "",
+      "English": "tomorrow",
+      "francais": "demain",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -21150,13 +21156,13 @@
     ],
     "speech": "称呼",
     "category": [
-      ""
+      "亲戚"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "mum, mom, mummy, mama",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21195,8 +21201,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "拔",
+      "English": "pull up",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21206,11 +21212,11 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "挽齿",
+        "romazi": "mán qí",
         "translations": {
-          "putonghua": "",
+          "putonghua": "拔牙",
           "English": "",
           "francais": "",
           "thai": "",
@@ -21263,86 +21269,6 @@
     "note": ""
   },
   {
-    "word": "mán-qí",
-    "pronunciation": "mán-qí",
-    "hanzi": [
-      "挽齿"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "mán-cháu",
-    "pronunciation": "mán-cháu",
-    "hanzi": [
-      "挽草"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
     "word": "mān",
     "pronunciation": "mān",
     "hanzi": [
@@ -21356,7 +21282,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "slow, slowly",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21390,13 +21316,14 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "节肢动物门"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "蚊子",
-      "English": "",
+      "English": "mosquito",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21555,7 +21482,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "玩东西",
+      "putonghua": "玩弄",
       "English": "",
       "francais": "",
       "thai": "",
@@ -21566,11 +21493,11 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "mak沙",
+        "romazi": "mak sua",
         "translations": {
-          "putonghua": "",
+          "putonghua": "玩沙子",
           "English": "",
           "francais": "",
           "thai": "",
@@ -21578,39 +21505,14 @@
           "melayu": "",
           "indonesia": ""
         }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "mak-tsuí",
-    "pronunciation": "mak-tsuí",
-    "hanzi": [
-      "mak水"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
+      },
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "mak水",
+        "romazi": "mak tsuí",
         "translations": {
-          "putonghua": "",
+          "putonghua": "玩水",
           "English": "",
           "francais": "",
           "thai": "",
@@ -21636,7 +21538,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "net",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21676,7 +21578,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "dream",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21710,13 +21612,15 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "水果",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "波罗蜜",
-      "English": "Jackfruit.",
+      "English": "jackfruit",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21756,7 +21660,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "dream",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21790,13 +21694,15 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "水果",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "山竹",
-      "English": "Mangoostine.",
+      "English": "mangoostine",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21830,13 +21736,13 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "器官"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "眼睛",
+      "English": "eye",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -21916,7 +21822,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "眼镜",
-      "English": "",
+      "English": "glasses, spectacles",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22036,7 +21942,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "眼泪",
-      "English": "",
+      "English": "tear",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22115,7 +22021,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眼珠子",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22155,7 +22061,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眼珠子",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22195,7 +22101,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眼泪",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22235,7 +22141,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眼睫毛",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22315,7 +22221,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眼屎",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22396,7 +22302,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "困",
-      "English": "",
+      "English": "sleepy",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22510,12 +22416,12 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "器官"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "女性生殖器",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22550,13 +22456,13 @@
     ],
     "speech": "副词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "不要",
-      "English": "",
+      "English": "do not do",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22630,13 +22536,13 @@
     ],
     "speech": "副词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "不可以",
+      "English": "can not do",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22675,8 +22581,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "不好处理",
+      "English": "difficult to deal with it",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22715,7 +22621,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "不好玩",
       "English": "",
       "francais": "",
       "thai": "",
@@ -22756,7 +22662,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "不好意思",
-      "English": "",
+      "English": "sorry",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22795,8 +22701,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "头发、体毛",
+      "English": "hair",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22876,7 +22782,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "摩托车",
-      "English": "",
+      "English": "motorbycicle",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22916,7 +22822,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "eveil",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -22996,7 +22902,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "model",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23155,8 +23061,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "抚摸",
+      "English": "touch",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23236,7 +23142,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "大雾",
-      "English": "Mist.",
+      "English": "mist",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23396,7 +23302,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "somebody",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23436,7 +23342,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "murder",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23475,7 +23381,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "抓一把",
       "English": "",
       "francais": "",
       "thai": "",
@@ -23516,7 +23422,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "快",
-      "English": "",
+      "English": "fast, quickly, hurry up",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23555,9 +23461,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "晚上",
+      "English": "evening",
+      "francais": "le soir",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -23596,8 +23502,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "夜晚",
-      "English": "",
-      "francais": "",
+      "English": "night",
+      "francais": "la nuit",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -23636,7 +23542,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "next year",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23676,7 +23582,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "傍晚",
-      "English": "",
+      "English": "evening",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23715,7 +23621,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "1.辱骂；2.批判反对",
       "English": "",
       "francais": "",
       "thai": "",
@@ -23796,7 +23702,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "command",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23836,7 +23742,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "明白",
-      "English": "",
+      "English": "understand",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23915,8 +23821,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "闭眼",
+      "English": "close the eyes",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -23955,7 +23861,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "眯着眼",
       "English": "",
       "francais": "",
       "thai": "",
@@ -23995,9 +23901,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "什么",
+      "English": "waht",
+      "francais": "quel, quelle",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -24035,9 +23941,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "什么",
+      "English": "what",
+      "francais": "quoi",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -24075,7 +23981,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "腐烂",
       "English": "",
       "francais": "",
       "thai": "",
@@ -24106,7 +24012,9 @@
     "word": "mî",
     "pronunciation": "mî",
     "hanzi": [
-      "绵、棉"
+      "绵",
+      "棉",
+      "綿"
     ],
     "speech": "名词",
     "category": [
@@ -24195,7 +24103,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "棉大衣",
       "English": "",
       "francais": "",
       "thai": "",
@@ -24230,13 +24138,13 @@
     ],
     "speech": "副词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "不是",
-      "English": "",
+      "English": "be not",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24267,17 +24175,18 @@
     "pronunciation": "mī",
     "hanzi": [
       "面",
-      "麵/麪"
+      "麵",
+      "麪"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "面条",
+      "English": "noodles",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24308,18 +24217,19 @@
     "pronunciation": "mī-pau",
     "hanzi": [
       "面包",
-      "麵麭/麪麭"
+      "麵麭",
+      "麪麭"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "面包",
-      "English": "",
-      "francais": "",
+      "English": "bread",
+      "francais": "le pain",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -24352,7 +24262,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -24437,9 +24347,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "床",
+      "English": "bed",
+      "francais": "le lit",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -24472,13 +24382,13 @@
     ],
     "speech": "动词",
     "category": [
-      ""
+      "否定"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "don't have to do",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24518,7 +24428,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "ethnic group",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24558,7 +24468,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "脸",
-      "English": "",
+      "English": "face",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24598,7 +24508,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "毛巾",
-      "English": "",
+      "English": "towel",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24797,9 +24707,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "名字",
+      "English": "name",
+      "francais": "le nom",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -24878,7 +24788,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "noun",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24917,8 +24827,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "1.生命；2.命运",
+      "English": "1.life; 2.fate",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -24998,7 +24908,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "免费",
-      "English": "Free of charge.",
+      "English": "free of charge",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25038,7 +24948,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "不用",
-      "English": "Need not.",
+      "English": "need not",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25079,8 +24989,8 @@
     "romazi": "pán, tsax kín chù lǎi kah chù guā tiâu thong-tǎu kāi",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "door",
+      "francais": "la porte",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -25118,7 +25028,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "方法、秘诀",
       "English": "",
       "francais": "",
       "thai": "",
@@ -25158,9 +25068,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "早上",
+      "English": "morning",
+      "francais": "le matin",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -25240,7 +25150,7 @@
     "romazi": "tàr ka-kī choh m̄ hiáu kāi, hi-mō pad-nâng lâi kà hiáu",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "ask",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25281,8 +25191,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "question",
+      "francais": "la question",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -25475,7 +25385,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "鸟纲"
     ],
     "definition": "",
     "romazi": "",
@@ -25521,8 +25432,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "every",
+      "francais": "chaque",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -25560,7 +25471,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "粥",
       "English": "",
       "francais": "",
       "thai": "",
@@ -25601,7 +25512,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "做，搞，办，弄",
-      "English": "",
+      "English": "do, deal",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25641,7 +25552,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "弄坏",
-      "English": "",
+      "English": "break",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25681,7 +25592,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "physics",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25761,7 +25672,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "零食",
-      "English": "",
+      "English": "snack",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -25802,7 +25713,7 @@
     "translations": {
       "putonghua": "",
       "English": "",
-      "francais": "",
+      "francais": "joli",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -25840,7 +25751,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "不怕、不用担心",
       "English": "",
       "francais": "",
       "thai": "",
@@ -25871,7 +25782,7 @@
     "word": "muì-siáu-lí",
     "pronunciation": "muì-siáu-lí",
     "hanzi": [
-      "muì-siàu-lí"
+      "muì小理"
     ],
     "speech": "形容词",
     "category": [
@@ -25880,7 +25791,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "厚脸皮、不知羞耻",
       "English": "",
       "francais": "",
       "thai": "",
@@ -25961,7 +25872,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "干燥",
-      "English": "",
+      "English": "dry",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -26001,7 +25912,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "what/how about",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -26031,18 +25942,18 @@
     "word": "ta-pou",
     "pronunciation": "ta-pou",
     "hanzi": [
-      "丈夫"
+      "大夫"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "男",
+      "English": "male, man",
+      "francais": "l'homme",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -26121,7 +26032,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "make up, dress up",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -26201,7 +26112,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "bother",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -26240,7 +26151,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "贴上去",
       "English": "",
       "francais": "",
       "thai": "",
@@ -26280,8 +26191,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "靠得很近、紧挨着",
+      "English": "next to",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -42863,8 +42774,49 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "老板",
+      "English": "boss",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "thâu-khêng",
+    "pronunciation": "thâu-hêng",
+    "hanzi": [
+      "头型",
+      "頭型"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "发型",
+      "English": "hair style",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -70500,52 +70452,12 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "行棋",
+        "romazi": "kyâ kî",
         "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "kyâ-kî",
-    "pronunciation": "kyâ-kî",
-    "hanzi": [
-      "行棋"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
+          "putonghua": "下棋",
+          "English": "play chess",
           "francais": "",
           "thai": "",
           "tiengviet": "",
@@ -70863,6 +70775,47 @@
       {
         "id": 1,
         "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "kiâm-phiàn",
+    "pronunciation": "kiâm-phiàn",
+    "hanzi": [
+      "咸片",
+      "鹹片"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "黄片",
+      "English": "porn",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "句子",
         "teochew": "",
         "romazi": "",
         "translations": {
@@ -85899,7 +85852,8 @@
     "word": "ngě-lan",
     "pronunciation": "ngě-lan",
     "hanzi": [
-      "硬鳞"
+      "硬鳞",
+      "硬鱗"
     ],
     "speech": "名词",
     "category": [
@@ -91630,7 +91584,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "积累",
       "English": "",
       "francais": "",
       "thai": "",
@@ -105446,10 +105400,10 @@
     "category": [
       ""
     ],
-    "definition": "二奶",
+    "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "二奶",
       "English": "",
       "francais": "",
       "thai": "",
@@ -105730,7 +105684,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "potential",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -105890,7 +105844,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "重要",
-      "English": "",
+      "English": "important",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -105930,8 +105884,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "factory",
+      "francais": "l'usine",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -105970,8 +105924,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "sing",
+      "francais": "chanter",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -106004,7 +105958,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物",
+      "哺乳纲"
     ],
     "definition": "",
     "romazi": "",
@@ -106370,7 +106325,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "smile, laugh",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -106410,8 +106365,8 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
+      "English": "sing",
+      "francais": "chanter",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -106489,7 +106444,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "稀、浓度低",
       "English": "",
       "francais": "",
       "thai": "",
@@ -106529,7 +106484,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "照明",
       "English": "",
       "francais": "",
       "thai": "",
@@ -106569,7 +106524,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "照亮",
       "English": "",
       "francais": "",
       "thai": "",
@@ -106609,7 +106564,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "枪，冷兵器或热兵器",
+      "putonghua": "1.长枪；2.机枪",
       "English": "",
       "francais": "",
       "thai": "",
@@ -106770,7 +106725,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "wall",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -106810,7 +106765,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "elephant",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -106883,6 +106838,46 @@
       "象鼻蚶"
     ],
     "speech": "动词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "chyě-kî",
+    "pronunciation": "chyě-kî",
+    "hanzi": [
+      "象棋"
+    ],
+    "speech": "名词",
     "category": [
       ""
     ],
@@ -125905,10 +125900,10 @@
     "note": ""
   },
   {
-    "word": "zîr-chang-bó-ngiôu",
-    "pronunciation": "zîr-chang-bó-ngiôu",
+    "word": "zîr-chang-bó-ngiâu",
+    "pronunciation": "zîr-chang-bó-ngiâu",
     "hanzi": [
-      "zîr葱bó-ngiôu"
+      "荋葱bó-ngiâu"
     ],
     "speech": "名词",
     "category": [
@@ -125997,7 +125992,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "盘围起来",
       "English": "",
       "francais": "",
       "thai": "",
@@ -126037,7 +126032,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "同意、和谐",
       "English": "",
       "francais": "",
       "thai": "",
@@ -126077,7 +126072,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "合乎口味",
       "English": "",
       "francais": "",
       "thai": "",
@@ -149546,7 +149541,7 @@
       {
         "id": 1,
         "label": "句子",
-        "teochew": "勿物我。",
+        "teochew": "嫑物我。",
         "romazi": "Mài muex--uá.",
         "translations": {
           "putonghua": "别搞我，别碰我。",
