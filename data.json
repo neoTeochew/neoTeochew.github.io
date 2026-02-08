@@ -38331,7 +38331,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "喝斥",
       "English": "",
       "francais": "",
       "thai": "",
@@ -79608,6 +79608,48 @@
     "note": ""
   },
   {
+    "word": "qeh-tsiáu",
+    "pronunciation": "qeh-tsiáu",
+    "hanzi": [
+      "客鸟",
+      "客鳥"
+    ],
+    "speech": "名词",
+    "category": [
+      "动物",
+      "鸟纲"
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "喜鹊",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "qeh-zîn",
     "pronunciation": "qeh-zîn",
     "hanzi": [
@@ -79615,7 +79657,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "关系"
     ],
     "definition": "",
     "romazi": "",
@@ -104238,12 +104280,12 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "毛毛虫",
       "English": "",
       "francais": "",
       "thai": "",
@@ -124431,7 +124473,47 @@
     "romazi": "",
     "translations": {
       "putonghua": "太阳",
-      "English": "",
+      "English": "sun",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "zid-thex",
+    "pronunciation": "zid-thex",
+    "hanzi": [
+      "日宅"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "房子建成之日，通常要吃席",
+      "English": "the day when the new house finishes building",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -129075,6 +129157,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "hǒu--lâi",
+    "pronunciation": "hǒu--lâi",
+    "hanzi": [
+      "雨来"
+    ],
+    "speech": "语气词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "你在胡说八道，讲的没有道理",
       "English": "",
       "francais": "",
       "thai": "",
