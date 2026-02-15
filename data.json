@@ -48818,10 +48818,10 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物"
     ],
-    "definition": "",
-    "romazi": "",
+    "definition": "学名 Nelumbo nucifera",
+    "romazi": "hag-miâ Nelumbo nucifera",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -48858,13 +48858,15 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "水果",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "荔枝",
+      "English": "lychee",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -48903,8 +48905,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "孩子",
+      "English": "child, kid",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -48944,7 +48946,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "小孩",
-      "English": "",
+      "English": "child, kid",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -82014,6 +82016,46 @@
     "note": ""
   },
   {
+    "word": "qyē",
+    "pronunciation": "qyē",
+    "hanzi": [
+      "qyē"
+    ],
+    "speech": "动词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "吃药治病",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "qyē-chuì",
     "pronunciation": "qyē-chuì",
     "hanzi": [
@@ -113638,6 +113680,46 @@
     "note": ""
   },
   {
+    "word": "Soy lâi soy ǔ, mān lâi tuì-m̌-tsǔ.",
+    "pronunciation": "soy lâi soy ǔ, mān lâi tuì-m̌-tsǔ",
+    "hanzi": [
+      "先来先有，慢来对毋住"
+    ],
+    "speech": "台词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "soy-huê",
     "pronunciation": "soy-huê",
     "hanzi": [
@@ -113650,7 +113732,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "之前",
       "English": "",
       "francais": "",
       "thai": "",
@@ -122388,13 +122470,15 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "水果",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "芒果",
-      "English": "",
+      "English": "mango",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -122433,8 +122517,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "运气差",
+      "English": "disfortune",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -122513,7 +122597,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "差的人品",
       "English": "",
       "francais": "",
       "thai": "",

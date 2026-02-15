@@ -281,11 +281,13 @@
   },
   {
     "hanzi": [
-      "厂"
+      "厂",
+      "厰",
+      "廠"
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "chiáng"
       ],
       "baidu": [
         ""
@@ -302,7 +304,7 @@
     "putonghua": {
       "pinyin": "",
       "bopomofo": "",
-      "gwoyeuromatzyh": "",
+      "gwoyeuromatzyh": "chaang",
       "general": ""
     },
     "definition": "",
@@ -341,7 +343,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "chit"
       ],
       "baidu": [
         ""
@@ -397,7 +399,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "pok"
       ],
       "baidu": [
         ""
@@ -417,8 +419,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "算命",
+    "romazi": "sǹg-myā",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -427,7 +429,7 @@
       "tiengviet": "",
       "melayu": "",
       "indonesia": ""
-    },
+    }, 
     "example": [
       {
         "id": 1,
@@ -449,11 +451,12 @@
   },
   {
     "hanzi": [
-      "卜"
+      "卜",
+      "蔔"
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "pog"
       ],
       "baidu": [
         ""
@@ -468,13 +471,13 @@
     },
     "radical": "",
     "putonghua": {
-      "pinyin": "",
+      "pinyin": "bó",
       "bopomofo": "",
-      "gwoyeuromatzyh": "",
+      "gwoyeuromatzyh": "bor",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "菜头",
+    "romazi": "chài-thâu",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -509,7 +512,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "zîn"
       ],
       "baidu": [
         ""
@@ -518,7 +521,7 @@
         ""
       ],
       "xundu": [
-        ""
+        "nâng"
       ],
       "guangyun": ""
     },
@@ -529,8 +532,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "人",
+    "romazi": "nâng",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -565,7 +568,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "zib"
       ],
       "baidu": [
         ""
@@ -621,10 +624,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "kiú"
       ],
       "baidu": [
-        ""
+        "káu"
       ],
       "mistaken": [
         ""
@@ -789,7 +792,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "zî"
       ],
       "baidu": [
         ""
@@ -809,8 +812,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "囝",
+    "romazi": "kyá",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -845,7 +848,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "liáu"
       ],
       "baidu": [
         ""
@@ -901,7 +904,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "lag"
       ],
       "baidu": [
         ""
@@ -1013,7 +1016,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "to"
       ],
       "baidu": [
         ""
@@ -1125,10 +1128,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "sam"
       ],
       "baidu": [
-        ""
+        "sar"
       ],
       "mistaken": [
         ""
@@ -1517,9 +1520,9 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "sǔr"
       ],
-      "baidu": [
+      "baidu": [ 
         ""
       ],
       "mistaken": [
@@ -1573,7 +1576,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "kang"
       ],
       "baidu": [
         ""
@@ -1593,8 +1596,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "工课",
+    "romazi": "qang-què",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -1629,7 +1632,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "thóu"
       ],
       "baidu": [
         ""
@@ -1649,8 +1652,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "涂",
+    "romazi": "thôu",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -1741,7 +1744,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "chùn"
       ],
       "baidu": [
         ""
@@ -1797,10 +1800,12 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "hiǎ"
       ],
       "baidu": [
-        ""
+        "kě",
+        "ě",
+        "hě"
       ],
       "mistaken": [
         ""
@@ -1817,8 +1822,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "下畔",
+    "romazi": "ě-pôy",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -1853,10 +1858,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "tǎi"
       ],
       "baidu": [
-        ""
+        "tua"
       ],
       "mistaken": [
         ""
@@ -1909,10 +1914,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "tsiǎng"
       ],
       "baidu": [
-        ""
+        "tyě"
       ],
       "mistaken": [
         ""
@@ -1965,7 +1970,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "úr"
       ],
       "baidu": [
         ""
@@ -1985,8 +1990,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "佮",
+    "romazi": "kah",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2021,7 +2026,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "buān"
       ],
       "baidu": [
         ""
@@ -2077,10 +2082,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "siǎng"
       ],
       "baidu": [
-        ""
+        "tsyě"
       ],
       "mistaken": [
         ""
@@ -2097,8 +2102,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "顶畔",
+    "romazi": "téng-pôy",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2133,7 +2138,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "siáu"
       ],
       "baidu": [
         ""
@@ -2153,8 +2158,64 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "后生",
+    "romazi": "hǎu-ser",
+    "translations": {
+      "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "hanzi": [
+      "小"
+    ],
+    "pronunciation": {
+      "wendu": [
+        "siàu"
+      ],
+      "baidu": [
+        "siè"
+      ],
+      "mistaken": [
+        ""
+      ],
+      "xundu": [
+        ""
+      ],
+      "guangyun": ""
+    },
+    "radical": "",
+    "putonghua": {
+      "pinyin": "",
+      "bopomofo": "",
+      "gwoyeuromatzyh": "",
+      "general": ""
+    },
+    "definition": "细",
+    "romazi": "sòi",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2189,7 +2250,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "qáu"
       ],
       "baidu": [
         ""
@@ -2209,8 +2270,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "嘴",
+    "romazi": "chuì",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2301,10 +2362,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "san"
       ],
       "baidu": [
-        ""
+        "swa"
       ],
       "mistaken": [
         ""
@@ -2360,7 +2421,7 @@
         ""
       ],
       "baidu": [
-        ""
+        "choy"
       ],
       "mistaken": [
         ""
@@ -2413,10 +2474,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "qirt"
       ],
       "baidu": [
-        ""
+        "qirh"
       ],
       "mistaken": [
         ""
@@ -2525,7 +2586,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "eg"
       ],
       "baidu": [
         ""
@@ -2581,10 +2642,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "kǒ"
       ],
       "baidu": [
-        ""
+        "kâi"
       ],
       "mistaken": [
         ""
@@ -2601,8 +2662,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "块",
+    "romazi": "kò",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2657,8 +2718,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "sî",
+    "romazi": "匙",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -2749,7 +2810,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "huâm"
       ],
       "baidu": [
         ""
@@ -2805,7 +2866,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "kib"
       ],
       "baidu": [
         ""
@@ -2861,7 +2922,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "sek"
       ],
       "baidu": [
         ""
@@ -2917,7 +2978,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "uân"
       ],
       "baidu": [
         ""
@@ -2937,8 +2998,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "圆",
+    "romazi": "yî",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -3029,10 +3090,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "kuáng"
       ],
       "baidu": [
-        ""
+        "kńg"
       ],
       "mistaken": [
         ""
@@ -3049,8 +3110,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "阔",
+    "romazi": "quah",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -3085,7 +3146,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "buâng"
       ],
       "baidu": [
         ""
@@ -3105,8 +3166,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "死",
+    "romazi": "sí",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -3197,7 +3258,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "ngǐ"
       ],
       "baidu": [
         ""
@@ -3309,7 +3370,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "si"
       ],
       "baidu": [
         ""
@@ -3329,8 +3390,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "尸体",
+    "romazi": "si-thí",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -3533,7 +3594,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "tsúr"
       ],
       "baidu": [
         ""
@@ -3701,10 +3762,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "ní"
       ],
       "baidu": [
-        ""
+        "nńg"
       ],
       "mistaken": [
         ""
@@ -3721,8 +3782,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "查亩",
+    "romazi": "tsa-bóu",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -3757,10 +3818,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "hui"
       ],
       "baidu": [
-        ""
+        "pue"
       ],
       "mistaken": [
         ""
@@ -3869,7 +3930,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "sib"
       ],
       "baidu": [
         ""
@@ -3925,7 +3986,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "che"
       ],
       "baidu": [
         ""
@@ -3981,10 +4042,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "má"
       ],
       "baidu": [
-        ""
+        "bé"
       ],
       "mistaken": [
         ""
@@ -4093,7 +4154,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "hong"
       ],
       "baidu": [
         ""
@@ -4149,10 +4210,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "uâng"
       ],
       "baidu": [
-        ""
+        "hêng"
       ],
       "mistaken": [
         ""
@@ -4208,7 +4269,7 @@
         ""
       ],
       "baidu": [
-        ""
+        "tsér"
       ],
       "mistaken": [
         ""
@@ -4261,10 +4322,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "qai"
       ],
       "baidu": [
-        ""
+        "qui"
       ],
       "mistaken": [
         ""
@@ -4317,10 +4378,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "hu"
       ],
       "baidu": [
-        ""
+        "pou"
       ],
       "mistaken": [
         ""
@@ -4373,10 +4434,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "thian"
       ],
       "baidu": [
-        ""
+        "thyi"
       ],
       "mistaken": [
         ""
@@ -4429,10 +4490,10 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "bû"
       ],
       "baidu": [
-        ""
+        "bô"
       ],
       "mistaken": [
         ""
@@ -4485,7 +4546,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "nguân"
       ],
       "baidu": [
         ""
@@ -4505,8 +4566,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "一个银",
+    "romazi": "tseg kâi ngûrn",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -4541,7 +4602,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "tsuan"
       ],
       "baidu": [
         ""
@@ -4877,7 +4938,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "bag"
       ],
       "baidu": [
         ""
@@ -5048,7 +5109,7 @@
         ""
       ],
       "baidu": [
-        ""
+        "thya"
       ],
       "mistaken": [
         ""
@@ -5101,7 +5162,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "put"
       ],
       "baidu": [
         ""
@@ -5121,8 +5182,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "毋",
+    "romazi": "m̌",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -5213,7 +5274,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "qián"
       ],
       "baidu": [
         ""
@@ -5233,8 +5294,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "狗",
+    "romazi": "káu",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -5269,7 +5330,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "qu"
       ],
       "baidu": [
         ""
@@ -5493,7 +5554,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "iú"
       ],
       "baidu": [
         ""
@@ -5549,7 +5610,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "pit"
       ],
       "baidu": [
         ""
@@ -5605,7 +5666,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "chia"
       ],
       "baidu": [
         ""
@@ -5717,7 +5778,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "gê"
       ],
       "baidu": [
         ""
@@ -5737,8 +5798,8 @@
       "gwoyeuromatzyh": "",
       "general": ""
     },
-    "definition": "",
-    "romazi": "",
+    "definition": "齿",
+    "romazi": "qí",
     "translations": {
       "putonghua": "",
       "English": "",
@@ -5829,7 +5890,7 @@
     ],
     "pronunciation": {
       "wendu": [
-        ""
+        "pí"
       ],
       "baidu": [
         ""
