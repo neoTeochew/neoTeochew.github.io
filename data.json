@@ -2044,8 +2044,8 @@
     "note": ""
   },
   {
-    "word": "pǎu-lag",
-    "pronunciation": "pǎu-lag",
+    "word": "pǎu-lad",
+    "pronunciation": "pǎu-lad",
     "hanzi": [
       "暴力"
     ],
@@ -6950,8 +6950,8 @@
     "note": ""
   },
   {
-    "word": "ping-pông",
-    "pronunciation": "ping-pông",
+    "word": "pin-pông",
+    "pronunciation": "pin-pông",
     "hanzi": [
       "乒乓"
     ],
@@ -6990,8 +6990,8 @@
     "note": ""
   },
   {
-    "word": "ping-pông-kiû",
-    "pronunciation": "ping-pông-kiû",
+    "word": "pin-pông-kiû",
+    "pronunciation": "pin-pông-kiû",
     "hanzi": [
       "乒乓球"
     ],
@@ -10408,7 +10408,8 @@
     "word": "puê-syê",
     "pronunciation": "puê-syê",
     "hanzi": [
-      "赔偿"
+      "赔偿",
+      "賠償"
     ],
     "speech": "动词",
     "category": [
@@ -10448,7 +10449,8 @@
     "word": "puê-iáng",
     "pronunciation": "puê-iáng",
     "hanzi": [
-      "培养"
+      "培养",
+      "培養"
     ],
     "speech": "动词",
     "category": [
@@ -10525,10 +10527,10 @@
     "note": ""
   },
   {
-    "word": "puē",
-    "pronunciation": "puē",
+    "word": "puē-sie",
+    "pronunciation": "puē-sie",
     "hanzi": [
-      "焙"
+      "焙烧"
     ],
     "speech": "动词",
     "category": [
@@ -10548,9 +10550,9 @@
     "example": [
       {
         "id": 1,
-        "label": "词组",
-        "teochew": "焙烧",
-        "romazi": "puē sie",
+        "label": "",
+        "teochew": "",
+        "romazi": "",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -10849,7 +10851,7 @@
     "word": "phah-phog",
     "pronunciation": "phah-phog",
     "hanzi": [
-      "拍phog"
+      "拍卟"
     ],
     "speech": "动词",
     "category": [
@@ -10859,7 +10861,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "鼓掌",
-      "English": "applause",
+      "English": "applause, clap",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -10883,7 +10885,7 @@
         }
       }
     ],
-    "note": ""
+    "note": "生造字"
   },
   {
     "word": "phah-phuà",
@@ -10929,7 +10931,7 @@
     "word": "phah-ka-thì",
     "pronunciation": "phah-ka-thì",
     "hanzi": [
-      "拍ka-thì"
+      "拍咳涕"
     ],
     "speech": "动词",
     "category": [
@@ -10978,87 +10980,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "phah-kwa-si",
-    "pronunciation": "phah-kwa-si",
-    "hanzi": [
-      "拍官司"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "phah-tsam",
-    "pronunciation": "phah-tsam",
-    "hanzi": [
-      "拍针"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "打针",
+      "putonghua": "打工",
       "English": "",
       "francais": "",
       "thai": "",
@@ -11089,7 +11011,7 @@
     "word": "phah-oh",
     "pronunciation": "phah-oh",
     "hanzi": [
-      "拍oh"
+      "拍呃"
     ],
     "speech": "动词",
     "category": [
@@ -11458,7 +11380,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "油麦菜？",
       "English": "",
       "francais": "",
       "thai": "",
@@ -11853,7 +11775,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "孬人",
     "romazi": "mó nâng",
@@ -11899,6 +11821,46 @@
     "romazi": "kiè nâng qìr tsò sīr",
     "translations": {
       "putonghua": "派遣",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "pháu",
+    "pronunciation": "pháu",
+    "hanzi": [
+      "跑"
+    ],
+    "speech": "动词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "跑步",
       "English": "",
       "francais": "",
       "thai": "",
@@ -12089,7 +12051,8 @@
     "word": "phòng-phiě",
     "pronunciation": "phòng-phiě",
     "hanzi": [
-      "碰phiě"
+      "碰鳔",
+      "碰鰾"
     ],
     "speech": "名词",
     "category": [
@@ -12184,7 +12147,8 @@
     "word": "phok-tiāu",
     "pronunciation": "phok-tiāu",
     "hanzi": [
-      "phok掉"
+      "扑掉",
+      "撲掉"
     ],
     "speech": "动词",
     "category": [
@@ -12344,7 +12308,8 @@
     "word": "phōy-huap",
     "pronunciation": "phōy-huap",
     "hanzi": [
-      "办法"
+      "办法",
+      "辦法"
     ],
     "speech": "名词",
     "category": [
@@ -12664,7 +12629,7 @@
     "word": "pher-phah",
     "pronunciation": "pher-phah",
     "hanzi": [
-      "pher拍"
+      "拼拍"
     ],
     "speech": "动词",
     "category": [
@@ -12701,8 +12666,8 @@
     "note": ""
   },
   {
-    "word": "phen",
-    "pronunciation": "phen",
+    "word": "pheng",
+    "pronunciation": "pheng",
     "hanzi": [
       "拼"
     ],
@@ -12741,8 +12706,8 @@
     "note": ""
   },
   {
-    "word": "phen-im",
-    "pronunciation": "phen-im",
+    "word": "pheng-im",
+    "pronunciation": "pheng-im",
     "hanzi": [
       "拼音"
     ],
@@ -12824,7 +12789,8 @@
     "word": "phêng-lǔn",
     "pronunciation": "phêng-lǔn",
     "hanzi": [
-      "评论"
+      "评论",
+      "評論"
     ],
     "speech": "动词",
     "category": [
@@ -13024,7 +12990,7 @@
     "word": "phì-syè",
     "pronunciation": "phì-syè",
     "hanzi": [
-      "譬相"
+      "鄙相"
     ],
     "speech": "动词",
     "category": [
@@ -13784,10 +13750,10 @@
     "note": ""
   },
   {
-    "word": "phyâ-pôy",
-    "pronunciation": "phyâ-pôy",
+    "word": "phyâ",
+    "pronunciation": "phyâ",
     "hanzi": [
-      "旁畔"
+      "旁"
     ],
     "speech": "名词",
     "category": [
@@ -14116,47 +14082,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "嫖娼",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "phiâu",
-    "pronunciation": "phiâu",
-    "hanzi": [
-      "嫖"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "浪费掉",
+      "putonghua": "1.嫖娼；2.浪费掉",
       "English": "",
       "francais": "",
       "thai": "",
@@ -14267,7 +14193,7 @@
     "word": "phiù",
     "pronunciation": "phiù",
     "hanzi": [
-      "phiù"
+      "漂"
     ],
     "speech": "动词",
     "category": [
@@ -14307,7 +14233,7 @@
     "word": "phiù-liān",
     "pronunciation": "phiù-liān",
     "hanzi": [
-      "phiù链"
+      "漂链"
     ],
     "speech": "动词",
     "category": [
@@ -14347,7 +14273,7 @@
     "word": "phiù-qa",
     "pronunciation": "phiù-qa",
     "hanzi": [
-      "phiù脚"
+      "漂脚"
     ],
     "speech": "动词",
     "category": [
@@ -14387,7 +14313,7 @@
     "word": "phiù-chiú",
     "pronunciation": "phiù-chiú",
     "hanzi": [
-      "phiù手"
+      "漂手"
     ],
     "speech": "动词",
     "category": [
@@ -14427,7 +14353,7 @@
     "word": "phiù-chuì",
     "pronunciation": "phiù-chuì",
     "hanzi": [
-      "phiù嘴"
+      "漂嘴"
     ],
     "speech": "动词",
     "category": [
@@ -14467,7 +14393,7 @@
     "word": "phú",
     "pronunciation": "phú",
     "hanzi": [
-      "phú"
+      "肏"
     ],
     "speech": "动词",
     "category": [
@@ -14507,7 +14433,7 @@
     "word": "phú-mē",
     "pronunciation": "phú-mē",
     "hanzi": [
-      "phú骂"
+      "肏骂"
     ],
     "speech": "动词",
     "category": [
@@ -14958,7 +14884,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "该死的",
       "English": "",
       "francais": "",
       "thai": "",
@@ -14998,7 +14924,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "擦伤",
       "English": "",
       "francais": "",
       "thai": "",
@@ -15353,7 +15279,7 @@
     ],
     "speech": "名词",
     "category": [
-      "饮品"
+      "饮料"
     ],
     "definition": "",
     "romazi": "",
@@ -15649,51 +15575,11 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "配咸",
+        "romazi": "phuè kiâm",
         "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "phuè-kiâm",
-    "pronunciation": "phuè-kiâm",
-    "hanzi": [
-      "配咸"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "吃饭是伴着配菜吃",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
+          "putonghua": "吃饭是伴着配菜吃",
           "English": "",
           "francais": "",
           "thai": "",
@@ -15838,7 +15724,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "棉被",
       "English": "",
       "francais": "",
       "thai": "",
@@ -16009,9 +15895,9 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "呸涎",
+        "romazi": "phuì nuǎ",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -16039,46 +15925,6 @@
     "romazi": "qì-thí, ka-chng pàng chut--lâi kāi",
     "translations": {
       "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "phuì-nuǎ",
-    "pronunciation": "phuì-nuǎ",
-    "hanzi": [
-      "呸涎"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "吐口水、吐痰",
       "English": "",
       "francais": "",
       "thai": "",
@@ -16349,7 +16195,8 @@
     "word": "bà-gê",
     "pronunciation": "bà-gê",
     "hanzi": [
-      "龅牙"
+      "龅牙",
+      "齙牙"
     ],
     "speech": "名词",
     "category": [
@@ -16426,7 +16273,7 @@
     "note": ""
   },
   {
-    "word": "bā-kyá",
+    "word": "buaya",
     "pronunciation": "bā-kyá",
     "hanzi": [
       "峇囝"
@@ -16443,7 +16290,7 @@
       "francais": "",
       "thai": "",
       "tiengviet": "",
-      "melayu": "",
+      "melayu": "buaya",
       "indonesia": ""
     },
     "example": [
@@ -16466,7 +16313,7 @@
     "note": ""
   },
   {
-    "word": "bah-kut-tê",
+    "word": "Bah Kut Teh",
     "pronunciation": "bah-kut-tê",
     "hanzi": [
       "肉骨茶"
@@ -16479,7 +16326,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "肉骨茶",
-      "English": "Bah Kut Teh.",
+      "English": "Bah Kut Teh",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -16596,7 +16443,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "工具"
     ],
     "definition": "",
     "romazi": "",
@@ -16913,7 +16760,7 @@
     "word": "bái",
     "pronunciation": "bái",
     "hanzi": [
-      "bái"
+      "䆀"
     ],
     "speech": "形容词",
     "category": [
@@ -16947,7 +16794,7 @@
         }
       }
     ],
-    "note": ""
+    "note": "参考对岸用字"
   },
   {
     "word": "bâi",
@@ -17273,7 +17120,8 @@
     "word": "bô-lêng-uî",
     "pronunciation": "bô-lêng-uî",
     "hanzi": [
-      "无能为"
+      "无能为",
+      "無能爲"
     ],
     "speech": "动词",
     "category": [
@@ -17430,10 +17278,11 @@
     "note": ""
   },
   {
-    "word": "bô-kuè",
-    "pronunciation": "bô-kuè",
+    "word": "bô--kuè",
+    "pronunciation": "bô--kuè",
     "hanzi": [
-      "无怪"
+      "无怪",
+      "無怪"
     ],
     "speech": "副词",
     "category": [
@@ -17555,7 +17404,7 @@
     "hanzi": [
       "无彩"
     ],
-    "speech": "动词",
+    "speech": "形容词",
     "category": [
       ""
     ],
@@ -17673,7 +17522,7 @@
     "word": "bô-ziex",
     "pronunciation": "bô-ziex",
     "hanzi": [
-      "无若"
+      "无偌"
     ],
     "speech": "副词",
     "category": [
@@ -18074,7 +17923,8 @@
     "word": "bǒi",
     "pronunciation": "bǒi",
     "hanzi": [
-      "袂"
+      "袂",
+      "𠀾"
     ],
     "speech": "动词",
     "category": [
@@ -18391,8 +18241,8 @@
     "note": ""
   },
   {
-    "word": "bǒi-sī",
-    "pronunciation": "bǒi-sī",
+    "word": "bǒi-sǐ",
+    "pronunciation": "bǒi-sǐ",
     "hanzi": [
       "袂是"
     ],
@@ -18403,7 +18253,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "难道是",
+      "putonghua": "难道",
       "English": "",
       "francais": "",
       "thai": "",
@@ -18796,7 +18646,8 @@
     "word": "bex-phiàn",
     "pronunciation": "bex-phiàn",
     "hanzi": [
-      "麦片"
+      "麦片",
+      "麥片"
     ],
     "speech": "名词",
     "category": [
@@ -19115,10 +18966,10 @@
     "note": ""
   },
   {
-    "word": "bī-tseng-iâm",
-    "pronunciation": "bī-tseng-iâm",
+    "word": "bī-tseng",
+    "pronunciation": "bī-tseng",
     "hanzi": [
-      "味精盐"
+      "味精"
     ],
     "speech": "名词",
     "category": [
@@ -19127,7 +18978,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "谷氨酸钠",
       "English": "",
       "francais": "",
       "thai": "",
@@ -19478,7 +19329,8 @@
     "word": "bû-luā",
     "pronunciation": "bû-luā",
     "hanzi": [
-      "诬赖"
+      "诬赖",
+      "誣賴"
     ],
     "speech": "动词",
     "category": [
@@ -19658,9 +19510,9 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "炆饭",
+        "romazi": "bun-pūn",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -19681,46 +19533,6 @@
       "蚊"
     ],
     "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "bun-pūn",
-    "pronunciation": "bun-pūn",
-    "hanzi": [
-      "炆饭"
-    ],
-    "speech": "动词",
     "category": [
       ""
     ],
@@ -20118,7 +19930,8 @@
     "word": "buān-lag",
     "pronunciation": "buān-lag",
     "hanzi": [
-      "万六"
+      "万六",
+      "萬六"
     ],
     "speech": "名词",
     "category": [
@@ -20360,7 +20173,8 @@
     "word": "buê-thí",
     "pronunciation": "buê-thí",
     "hanzi": [
-      "媒体"
+      "媒体",
+      "媒體"
     ],
     "speech": "名词",
     "category": [
@@ -20762,7 +20576,8 @@
     "word": "m̄-kyì",
     "pronunciation": "m̄-kyì",
     "hanzi": [
-      "毋见"
+      "毋见",
+      "毋見"
     ],
     "speech": "动词",
     "category": [
@@ -20799,8 +20614,8 @@
     "note": ""
   },
   {
-    "word": "m̄-qén",
-    "pronunciation": "m̄-qén",
+    "word": "m̄-qéng",
+    "pronunciation": "m̄-qéng",
     "hanzi": [
       "毋肯"
     ],
@@ -21122,7 +20937,9 @@
     "word": "m̄-ôy",
     "pronunciation": "m̄-ôy",
     "hanzi": [
-      "毋闲"
+      "毋闲",
+      "毋閒",
+      "毋閑"
     ],
     "speech": "形容词",
     "category": [
@@ -21159,7 +20976,7 @@
     "note": ""
   },
   {
-    "word": "má-tǎ",
+    "word": "mata",
     "pronunciation": "má-tǎ",
     "hanzi": [
       "má-tǎ"
@@ -21821,6 +21638,47 @@
     "note": ""
   },
   {
+    "word": "mǎng-log",
+    "pronunciation": "mǎng-log",
+    "hanzi": [
+      "网络",
+      "网絡"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "network",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "māng",
     "pronunciation": "māng",
     "hanzi": [
@@ -21861,10 +21719,10 @@
     "note": ""
   },
   {
-    "word": "māng-ka",
+    "word": "mangka",
     "pronunciation": "māng-ka",
     "hanzi": [
-      "māng-ka"
+      "芒加"
     ],
     "speech": "名词",
     "category": [
@@ -21906,7 +21764,8 @@
     "word": "māng-syě",
     "pronunciation": "māng-syě",
     "hanzi": [
-      "梦想"
+      "梦想",
+      "夢想"
     ],
     "speech": "名词",
     "category": [
@@ -21943,10 +21802,10 @@
     "note": ""
   },
   {
-    "word": "māng-hek",
-    "pronunciation": "māng-hek",
+    "word": "manggis",
+    "pronunciation": "mang-hig",
     "hanzi": [
-      "māng-hek"
+      "芒吉"
     ],
     "speech": "名词",
     "category": [
@@ -21962,7 +21821,7 @@
       "francais": "",
       "thai": "",
       "tiengviet": "",
-      "melayu": "",
+      "melayu": "manggis",
       "indonesia": ""
     },
     "example": [
@@ -22305,46 +22164,6 @@
     "note": ""
   },
   {
-    "word": "mag-tsu",
-    "pronunciation": "mag-tsu",
-    "hanzi": [
-      "目珠"
-    ],
-    "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "眼珠子",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
     "word": "mag-tsuí",
     "pronunciation": "mag-tsuí",
     "hanzi": [
@@ -22545,8 +22364,8 @@
     "note": ""
   },
   {
-    "word": "mag-siap",
-    "pronunciation": "mag-siap",
+    "word": "mag--siap",
+    "pronunciation": "mag--siap",
     "hanzi": [
       "目涩"
     ],
@@ -22708,7 +22527,8 @@
     "word": "mài",
     "pronunciation": "mài",
     "hanzi": [
-      "嫑"
+      "嫑",
+      "勿"
     ],
     "speech": "副词",
     "category": [
@@ -23033,7 +22853,7 @@
     "speech": "名词",
     "category": [
       "交通工具",
-      "外来词"
+      "外来语"
     ],
     "definition": "",
     "romazi": "",
@@ -23109,7 +22929,7 @@
     "word": "mô-sui",
     "pronunciation": "mô-sui",
     "hanzi": [
-      "毛sui"
+      "毛繐"
     ],
     "speech": "名词",
     "category": [
@@ -23629,7 +23449,7 @@
     "word": "me",
     "pronunciation": "me",
     "hanzi": [
-      "me"
+      "掹"
     ],
     "speech": "动词",
     "category": [
@@ -24321,6 +24141,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "mî-ki",
+    "pronunciation": "mî-ki",
+    "hanzi": [
+      "棉枝"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "棉签",
       "English": "",
       "francais": "",
       "thai": "",
@@ -25457,9 +25317,9 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "问先生",
+        "romazi": "mūn sin-ser",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -25490,46 +25350,6 @@
       "putonghua": "",
       "English": "question",
       "francais": "la question",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "mūn-sin-ser",
-    "pronunciation": "mūn-sin-ser",
-    "hanzi": [
-      "问先生"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "看医生",
-      "English": "",
-      "francais": "",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -26439,7 +26259,8 @@
     "word": "tá-ziáu",
     "pronunciation": "tá-ziáu",
     "hanzi": [
-      "打扰"
+      "打扰",
+      "打擾"
     ],
     "speech": "动词",
     "category": [
@@ -26619,9 +26440,9 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "踏脚车",
+        "romazi": "tax qa-chia",
         "translations": {
           "putonghua": "",
           "English": "",
@@ -26649,46 +26470,6 @@
     "romazi": "",
     "translations": {
       "putonghua": "啰嗦",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "tax-qa-chia",
-    "pronunciation": "tax-qa-chia",
-    "hanzi": [
-      "踏脚车"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
       "English": "",
       "francais": "",
       "thai": "",
@@ -26894,7 +26675,7 @@
     "word": "tàr-thit-thô",
     "pronunciation": "tàr-thit-thô",
     "hanzi": [
-      "呾thit-thô"
+      "呾𨑨迌"
     ],
     "speech": "动词",
     "category": [
@@ -26974,7 +26755,10 @@
     "word": "tàr-sí-bǒi-pyì",
     "pronunciation": "tàr-sí-bǒi-pyì",
     "hanzi": [
-      "呾死𠀾变"
+      "呾死袂变",
+      "呾死袂變",
+      "呾死𠀾变",
+      "呾死𠁞變"
     ],
     "speech": "形容词",
     "category": [
@@ -26983,7 +26767,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "死性不改",
       "English": "",
       "francais": "",
       "thai": "",
@@ -27023,7 +26807,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "开玩笑",
       "English": "",
       "francais": "",
       "thai": "",
@@ -27411,6 +27195,46 @@
     "note": ""
   },
   {
+    "word": "tap-thâu",
+    "pronunciation": "tap-thâu",
+    "hanzi": [
+      "答头"
+    ],
+    "speech": "动词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "点头",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "tap-èng",
     "pronunciation": "tap-èng",
     "hanzi": [
@@ -27464,46 +27288,6 @@
     "romazi": "",
     "translations": {
       "putonghua": "湿",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "tan",
-    "pronunciation": "tan",
-    "hanzi": [
-      "丹"
-    ],
-    "speech": "名词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "",
       "English": "",
       "francais": "",
       "thai": "",
@@ -27891,46 +27675,6 @@
     "note": ""
   },
   {
-    "word": "tak-thâu",
-    "pronunciation": "tak-thâu",
-    "hanzi": [
-      "tak头"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "点头",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
     "word": "tak-nn̄g",
     "pronunciation": "tak-nn̄g",
     "hanzi": [
@@ -27978,7 +27722,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -28014,7 +27759,8 @@
     "word": "tang-si",
     "pronunciation": "tang-si",
     "hanzi": [
-      "东司"
+      "东司",
+      "東司"
     ],
     "speech": "名词",
     "category": [
@@ -28094,11 +27840,12 @@
     "word": "tâng",
     "pronunciation": "tâng",
     "hanzi": [
-      "铜"
+      "铜",
+      "銅"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "金属"
     ],
     "definition": "",
     "romazi": "",
@@ -28214,7 +27961,8 @@
     "word": "tâng-luī",
     "pronunciation": "tâng-luī",
     "hanzi": [
-      "同类"
+      "同类",
+      "同類"
     ],
     "speech": "名词",
     "category": [
@@ -28294,7 +28042,8 @@
     "word": "tâng-hag",
     "pronunciation": "tâng-hag",
     "hanzi": [
-      "同学"
+      "同学",
+      "同學"
     ],
     "speech": "名词",
     "category": [
@@ -28334,7 +28083,8 @@
     "word": "tâng-hye",
     "pronunciation": "tâng-hye",
     "hanzi": [
-      "同乡"
+      "同乡",
+      "同鄉"
     ],
     "speech": "名词",
     "category": [
@@ -28615,7 +28365,8 @@
     "word": "tài-quán",
     "pronunciation": "tài-quán",
     "hanzi": [
-      "贷款"
+      "贷款",
+      "貸款"
     ],
     "speech": "动词",
     "category": [
@@ -28699,7 +28450,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "",
     "romazi": "",
@@ -28739,7 +28490,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "关系"
     ],
     "definition": "",
     "romazi": "",
@@ -28775,7 +28526,8 @@
     "word": "tǎi-hag",
     "pronunciation": "tǎi-hag",
     "hanzi": [
-      "大学"
+      "大学",
+      "大學"
     ],
     "speech": "名词",
     "category": [
@@ -28916,11 +28668,11 @@
     "example": [
       {
         "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
+        "label": "词组",
+        "teochew": "斗塑料",
+        "romazi": "tàu sok-liāu",
         "translations": {
-          "putonghua": "",
+          "putonghua": "进厂打工",
           "English": "",
           "francais": "",
           "thai": "",
@@ -28946,46 +28698,6 @@
     "romazi": "",
     "translations": {
       "putonghua": "互相",
-      "English": "",
-      "francais": "",
-      "thai": "",
-      "tiengviet": "",
-      "melayu": "",
-      "indonesia": ""
-    },
-    "example": [
-      {
-        "id": 1,
-        "label": "",
-        "teochew": "",
-        "romazi": "",
-        "translations": {
-          "putonghua": "",
-          "English": "",
-          "francais": "",
-          "thai": "",
-          "tiengviet": "",
-          "melayu": "",
-          "indonesia": ""
-        }
-      }
-    ],
-    "note": ""
-  },
-  {
-    "word": "tàu-sok-liāu",
-    "pronunciation": "tàu-sok-liāu",
-    "hanzi": [
-      "斗塑料"
-    ],
-    "speech": "动词",
-    "category": [
-      ""
-    ],
-    "definition": "",
-    "romazi": "",
-    "translations": {
-      "putonghua": "进厂打工",
       "English": "",
       "francais": "",
       "thai": "",
@@ -29256,7 +28968,8 @@
     "word": "tǎu-hâng",
     "pronunciation": "tǎu-hâng",
     "hanzi": [
-      "导航"
+      "导航",
+      "導航"
     ],
     "speech": "动词",
     "category": [
@@ -29346,6 +29059,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "花生糖",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "tāu-nǐ",
+    "pronunciation": "tāu-nǐ",
+    "hanzi": [
+      "豆奶"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "豆浆",
       "English": "",
       "francais": "",
       "thai": "",
@@ -29666,6 +29419,86 @@
     "romazi": "",
     "translations": {
       "putonghua": "花生仁",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "tāu-hū",
+    "pronunciation": "tāu-hū",
+    "hanzi": [
+      "豆腐"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "豆腐",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "tāu-hū-tsye",
+    "pronunciation": "tāu-hū-tsye",
+    "hanzi": [
+      "豆腐浆"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "豆浆",
       "English": "",
       "francais": "",
       "thai": "",
@@ -30016,7 +29849,7 @@
     "word": "tó-ńg",
     "pronunciation": "tó-ńg",
     "hanzi": [
-      "倒䘼"
+      "短䘼"
     ],
     "speech": "名词",
     "category": [
@@ -30056,7 +29889,7 @@
     "word": "tó-âu-oix",
     "pronunciation": "tó-âu-oix",
     "hanzi": [
-      "tó喉oix"
+      "倒喉狭"
     ],
     "speech": "动词",
     "category": [
@@ -30305,7 +30138,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "越过栏杆头朝下摔",
       "English": "",
       "francais": "",
       "thai": "",
@@ -31053,16 +30886,16 @@
     "note": ""
   },
   {
-    "word": "tòng-kat",
+    "word": "tongket",
     "pronunciation": "tòng-kat",
     "hanzi": [
-      "栋结"
+      "洞葛"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "外来语"
     ],
-    "definition": "tongket",
+    "definition": "",
     "romazi": "",
     "translations": {
       "putonghua": "拐杖",
@@ -31070,7 +30903,7 @@
       "francais": "",
       "thai": "",
       "tiengviet": "",
-      "melayu": "",
+      "melayu": "tongket",
       "indonesia": ""
     },
     "example": [
@@ -31296,7 +31129,8 @@
     "word": "tǒng-muex",
     "pronunciation": "tǒng-muex",
     "hanzi": [
-      "动物"
+      "动物",
+      "動物"
     ],
     "speech": "名词",
     "category": [
@@ -31336,7 +31170,8 @@
     "word": "tǒng-muex-phiàn",
     "pronunciation": "tǒng-muex-phiàn",
     "hanzi": [
-      "动物片"
+      "动物片",
+      "動物片"
     ],
     "speech": "名词",
     "category": [
@@ -31536,7 +31371,8 @@
     "word": "tǒng-sîr",
     "pronunciation": "tǒng-sîr",
     "hanzi": [
-      "动词"
+      "动词",
+      "動詞"
     ],
     "speech": "名词",
     "category": [
@@ -32093,8 +31929,8 @@
     "note": ""
   },
   {
-    "word": "tóu-qūn",
-    "pronunciation": "tóu-qūn",
+    "word": "tóu--qùn",
+    "pronunciation": "tóu--qùn",
     "hanzi": [
       "肚困"
     ],
@@ -32226,7 +32062,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "篮球单挑",
       "English": "",
       "francais": "",
       "thai": "",
@@ -32302,7 +32138,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "场所"
     ],
     "definition": "",
     "romazi": "",
@@ -32457,8 +32293,8 @@
     "note": ""
   },
   {
-    "word": "tôu-tsuan",
-    "pronunciation": "tôu-tsuan",
+    "word": "tǒu-tsuan",
+    "pronunciation": "tǒu-tsuan",
     "hanzi": [
       "杜专"
     ],
@@ -32860,7 +32696,7 @@
     "word": "tèr-siáu",
     "pronunciation": "tèr-siáu",
     "hanzi": [
-      "诈siáu"
+      "诈痟"
     ],
     "speech": "动词",
     "category": [
@@ -34584,12 +34420,13 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "落花生",
       "English": "",
       "francais": "",
       "thai": "",
@@ -34977,8 +34814,8 @@
     "note": ""
   },
   {
-    "word": "tim-sie",
-    "pronunciation": "tim-sie",
+    "word": "tim sie",
+    "pronunciation": "tim sie",
     "hanzi": [
       "㶩烧"
     ],
@@ -35497,10 +35334,10 @@
     "note": ""
   },
   {
-    "word": "tyá-liú",
-    "pronunciation": "tyá-liú",
+    "word": "tyá-liu",
+    "pronunciation": "tyá-liu",
     "hanzi": [
-      "鼎㧕"
+      "鼎铆"
     ],
     "speech": "名词",
     "category": [
@@ -36149,9 +35986,9 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "Jam.",
-      "francais": "",
+      "putonghua": "果酱",
+      "English": "jam",
+      "francais": "la confiture",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
@@ -36697,8 +36534,8 @@
     "note": ""
   },
   {
-    "word": "tiǎn-mô",
-    "pronunciation": "tiǎn-mô",
+    "word": "tiǎn mô",
+    "pronunciation": "tiǎn mô",
     "hanzi": [
       "电毛"
     ],
@@ -36789,7 +36626,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "大型电池，摩托车和汽车使用",
       "English": "",
       "francais": "",
       "thai": "",
@@ -36820,7 +36657,8 @@
     "word": "tiǎn-thôu",
     "pronunciation": "tiǎn-thôu",
     "hanzi": [
-      "电涂"
+      "电涂",
+      "電塗"
     ],
     "speech": "名词",
     "category": [
@@ -36829,7 +36667,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "小型电池",
       "English": "",
       "francais": "",
       "thai": "",
@@ -36940,7 +36778,8 @@
     "word": "tiǎn-tsír",
     "pronunciation": "tiǎn-tsír",
     "hanzi": [
-      "电子"
+      "电子",
+      "電子"
     ],
     "speech": "名词",
     "category": [
@@ -36949,7 +36788,7 @@
     "definition": "圆形的电涂",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "纽扣电池",
       "English": "",
       "francais": "",
       "thai": "",
@@ -36989,8 +36828,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "1.电视机；2.电视剧",
+      "English": "1.TV, television; 2.channel, drama",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -37344,7 +37183,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -37620,7 +37460,8 @@
     "word": "tiê-kiax",
     "pronunciation": "tiê-kiax",
     "hanzi": [
-      "潮剧"
+      "潮剧",
+      "潮劇"
     ],
     "speech": "名词",
     "category": [
@@ -37909,7 +37750,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "装疯卖傻",
       "English": "",
       "francais": "",
       "thai": "",
@@ -38429,7 +38270,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "合适",
       "English": "",
       "francais": "",
       "thai": "",
@@ -39064,7 +38905,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物"
     ],
     "definition": "",
     "romazi": "",
@@ -39097,8 +38938,8 @@
     "note": ""
   },
   {
-    "word": "tuā-nāng",
-    "pronunciation": "tuā-nāng",
+    "word": "tuā--nâng",
+    "pronunciation": "tuā--nâng",
     "hanzi": [
       "大人"
     ],
@@ -39377,8 +39218,8 @@
     "note": ""
   },
   {
-    "word": "tuā--ǎu--zid",
-    "pronunciation": "tuā--ǎu--zid",
+    "word": "tuā--ǎu-zid",
+    "pronunciation": "tuā--ǎu-zid",
     "hanzi": [
       "大后日"
     ],
@@ -39464,7 +39305,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "",
     "romazi": "",
@@ -39624,7 +39465,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "",
     "romazi": "",
@@ -39660,7 +39501,7 @@
     "word": "twǎ-kuè-sái",
     "pronunciation": "twǎ-kuè-sái",
     "hanzi": [
-      "惰怪屎"
+      "惰过屎"
     ],
     "speech": "形容词",
     "category": [
@@ -40069,7 +39910,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "针对",
       "English": "",
       "francais": "",
       "thai": "",
@@ -40424,7 +40265,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -40464,12 +40305,12 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "动物"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "公猪",
       "English": "",
       "francais": "",
       "thai": "",
@@ -40504,7 +40345,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -40544,7 +40385,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -40584,7 +40425,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -40624,7 +40465,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -41144,7 +40985,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "身份"
     ],
     "definition": "",
     "romazi": "",
@@ -41184,7 +41025,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -41337,10 +41178,11 @@
     "note": ""
   },
   {
-    "word": "tňg-chuì",
-    "pronunciation": "tňg-chuì",
+    "word": "tňg chuì",
+    "pronunciation": "tňg chuì",
     "hanzi": [
-      "tňg嘴"
+      "荡嘴",
+      "盪嘴"
     ],
     "speech": "动词",
     "category": [
@@ -41349,7 +41191,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "漱口",
       "English": "",
       "francais": "",
       "thai": "",
@@ -41937,8 +41779,8 @@
     "note": ""
   },
   {
-    "word": "thàn-tsyî",
-    "pronunciation": "thàn-tsyî",
+    "word": "thàn tsyî",
+    "pronunciation": "thàn tsyî",
     "hanzi": [
       "趁钱"
     ],
@@ -42309,7 +42151,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "上学学习",
       "English": "",
       "francais": "",
       "thai": "",
@@ -42629,7 +42471,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "盗窃",
       "English": "",
       "francais": "",
       "thai": "",
@@ -42786,10 +42628,10 @@
     "category": [
       ""
     ],
-    "definition": "混合",
+    "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "兑水稀释",
       "English": "",
       "francais": "",
       "thai": "",
@@ -42830,7 +42672,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "transparent",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -42909,8 +42751,8 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "刮风",
+      "English": "blow a wind",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -43018,10 +42860,10 @@
     "note": ""
   },
   {
-    "word": "thâu-phuê",
-    "pronunciation": "thâu-phuê",
+    "word": "thâu-phou",
+    "pronunciation": "thâu-phou",
     "hanzi": [
-      "头皮"
+      "头麸"
     ],
     "speech": "名词",
     "category": [
@@ -43030,7 +42872,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "头皮屑",
       "English": "",
       "francais": "",
       "thai": "",
@@ -43058,10 +42900,10 @@
     "note": ""
   },
   {
-    "word": "thâu-phou",
-    "pronunciation": "thâu-phou",
+    "word": "thâu-phuê",
+    "pronunciation": "thâu-phuê",
     "hanzi": [
-      "头麸"
+      "头皮"
     ],
     "speech": "名词",
     "category": [
@@ -43070,7 +42912,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "头皮屑",
       "English": "",
       "francais": "",
       "thai": "",
@@ -43142,7 +42984,7 @@
     "word": "thâu-mô-tsang-zîr",
     "pronunciation": "thâu-mô-tsang-zîr",
     "hanzi": [
-      "头毛鬃zîr"
+      "头毛鬃荋"
     ],
     "speech": "形容词",
     "category": [
@@ -43541,8 +43383,8 @@
     "note": ""
   },
   {
-    "word": "thó-huè",
-    "pronunciation": "thó-huè",
+    "word": "thó huè",
+    "pronunciation": "thó huè",
     "hanzi": [
       "讨货"
     ],
@@ -43953,7 +43795,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "浑身、全身",
       "English": "",
       "francais": "",
       "thai": "",
@@ -43994,7 +43836,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "语言学家",
-      "English": "Linguist.",
+      "English": "linguist",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -44233,7 +44075,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "企图",
       "English": "",
       "francais": "",
       "thai": "",
@@ -44473,7 +44315,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "乱说",
       "English": "",
       "francais": "",
       "thai": "",
@@ -44515,6 +44357,47 @@
     "romazi": "",
     "translations": {
       "putonghua": "土地，泥土",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "thôu-hê",
+    "pronunciation": "thôu-hê",
+    "hanzi": [
+      "涂虾",
+      "塗蝦"
+    ],
+    "speech": "名词",
+    "category": [
+      "食物"
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
       "English": "",
       "francais": "",
       "thai": "",
@@ -44623,8 +44506,8 @@
     "note": ""
   },
   {
-    "word": "thōu-tsuí",
-    "pronunciation": "thōu-tsuí",
+    "word": "thōu tsuí",
+    "pronunciation": "thōu tsuí",
     "hanzi": [
       "thōu水"
     ],
@@ -45186,7 +45069,7 @@
     "word": "thì-phuê-teg",
     "pronunciation": "thì-phuê-teg",
     "hanzi": [
-      "thì皮teg"
+      "剃皮teg"
     ],
     "speech": "名词",
     "category": [
@@ -46709,7 +46592,8 @@
     "word": "thiàu",
     "pronunciation": "thiàu",
     "hanzi": [
-      "跳、超"
+      "跳",
+      "超"
     ],
     "speech": "动词",
     "category": [
@@ -47946,8 +47830,8 @@
     "note": ""
   },
   {
-    "word": "thǹg-pex-pex",
-    "pronunciation": "thǹg-pex-pex",
+    "word": "thǹg pex-pex",
+    "pronunciation": "thǹg pex-pex",
     "hanzi": [
       "thǹg白白"
     ],
@@ -48159,6 +48043,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "nah-sap tsiax nah-sap tuā",
+    "pronunciation": "nah-sap tsiax nah-sap tuā",
+    "hanzi": [
+      "垃圾食垃圾大"
+    ],
+    "speech": "台词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "不必太讲究",
       "English": "",
       "francais": "",
       "thai": "",
@@ -49591,8 +49515,8 @@
     "note": ""
   },
   {
-    "word": "nê-sar",
-    "pronunciation": "nê-sar",
+    "word": "nê sar",
+    "pronunciation": "nê sar",
     "hanzi": [
       "nê衫"
     ],
@@ -49758,7 +49682,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -50071,8 +49995,8 @@
     "note": ""
   },
   {
-    "word": "ní-mô",
-    "pronunciation": "ní-mô",
+    "word": "ní mô",
+    "pronunciation": "ní mô",
     "hanzi": [
       "染毛"
     ],
@@ -50151,8 +50075,8 @@
     "note": ""
   },
   {
-    "word": "nih-mag",
-    "pronunciation": "nih-mag",
+    "word": "nih mag",
+    "pronunciation": "nih mag",
     "hanzi": [
       "𥍉目"
     ],
@@ -50238,13 +50162,13 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "工具"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
-      "English": "",
+      "putonghua": "橡皮擦",
+      "English": "rubber, eraser",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -50398,7 +50322,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "服装"
     ],
     "definition": "",
     "romazi": "",
@@ -51155,8 +51079,8 @@
     "note": ""
   },
   {
-    "word": "niàu-bâi",
-    "pronunciation": "niàu-bâi",
+    "word": "niàu bâi",
+    "pronunciation": "niàu bâi",
     "hanzi": [
       "皱眉"
     ],
@@ -51922,7 +51846,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "外来语"
     ],
     "definition": "",
     "romazi": "",
@@ -52763,12 +52687,12 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "器官"
     ],
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "男性生殖器",
       "English": "",
       "francais": "",
       "thai": "",
@@ -52843,7 +52767,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "器官"
     ],
     "definition": "",
     "romazi": "",
@@ -53363,7 +53287,8 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "植物",
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -53768,7 +53693,7 @@
     "definition": "",
     "romazi": "",
     "translations": {
-      "putonghua": "",
+      "putonghua": "混一块、洗牌",
       "English": "",
       "francais": "",
       "thai": "",
@@ -54917,14 +54842,14 @@
     "note": ""
   },
   {
-    "word": "lo-tî",
+    "word": "loti",
     "pronunciation": "lo-tî",
     "hanzi": [
       "罗滴"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "食物"
     ],
     "definition": "",
     "romazi": "",
@@ -54957,14 +54882,14 @@
     "note": ""
   },
   {
-    "word": "lo-lî",
+    "word": "lorry",
     "pronunciation": "lo-lî",
     "hanzi": [
       "罗里"
     ],
     "speech": "名词",
     "category": [
-      ""
+      "交通工具"
     ],
     "definition": "lorry",
     "romazi": "",
@@ -55210,7 +55135,7 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
-      "English": "",
+      "English": "logic",
       "francais": "",
       "thai": "",
       "tiengviet": "",
@@ -75938,6 +75863,46 @@
     "note": ""
   },
   {
+    "word": "kir-kak",
+    "pronunciation": "kir-kak",
+    "hanzi": [
+      "kir-kak"
+    ],
+    "speech": "形容词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "",
+      "English": "整齐、合理",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "kír",
     "pronunciation": "kír",
     "hanzi": [
@@ -81322,7 +81287,7 @@
     ],
     "speech": "名词",
     "category": [
-      ""
+      "神话"
     ],
     "definition": "",
     "romazi": "",
@@ -112542,7 +112507,8 @@
     "word": "sái-kau",
     "pronunciation": "sái-kau",
     "hanzi": [
-      "屎沟"
+      "屎沟",
+      "屎溝"
     ],
     "speech": "名词",
     "category": [
@@ -116114,6 +116080,46 @@
     "romazi": "",
     "translations": {
       "putonghua": "",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "sí-hué",
+    "pronunciation": "sí-hué",
+    "hanzi": [
+      "死火"
+    ],
+    "speech": "动词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "抛锚",
       "English": "",
       "francais": "",
       "thai": "",
@@ -126327,6 +126333,47 @@
     "note": ""
   },
   {
+    "word": "zú chyâ zú lǎu-iâ",
+    "pronunciation": "zú chyâ zú lǎu-iâ",
+    "hanzi": [
+      "愈成愈老爷",
+      "愈成愈老爺"
+    ],
+    "speech": "台词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "越改越乱",
+      "English": "",
+      "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
     "word": "zû",
     "pronunciation": "zû",
     "hanzi": [
@@ -134700,7 +134747,7 @@
     ],
     "speech": "名词",
     "category": [
-      "外来词",
+      "外来语",
       "关系"
     ],
     "definition": "",
@@ -138325,6 +138372,46 @@
       "putonghua": "",
       "English": "",
       "francais": "",
+      "thai": "",
+      "tiengviet": "",
+      "melayu": "",
+      "indonesia": ""
+    },
+    "example": [
+      {
+        "id": 1,
+        "label": "",
+        "teochew": "",
+        "romazi": "",
+        "translations": {
+          "putonghua": "",
+          "English": "",
+          "francais": "",
+          "thai": "",
+          "tiengviet": "",
+          "melayu": "",
+          "indonesia": ""
+        }
+      }
+    ],
+    "note": ""
+  },
+  {
+    "word": "huè-sya",
+    "pronunciation": "huè-sya",
+    "hanzi": [
+      "岁声"
+    ],
+    "speech": "名词",
+    "category": [
+      ""
+    ],
+    "definition": "",
+    "romazi": "",
+    "translations": {
+      "putonghua": "年龄",
+      "English": "age",
+      "francais": "l'age",
       "thai": "",
       "tiengviet": "",
       "melayu": "",
