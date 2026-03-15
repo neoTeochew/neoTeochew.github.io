@@ -130,6 +130,38 @@ body {
     font-weight: bold;
 }
 
+/* 繁体简体转换按钮样式 */
+.zh-switcher {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+.zh-btn {
+    background-color: white;
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.zh-btn:hover {
+    background-color: #f0f7ff;
+    color: #007bff;
+}
+
+/* 后面再补充 */
+/* .zh-btn.active {
+    background-color: #007bff;
+    color: white;
+} */
+
 .page-info {
     display: flex;
     font-size: 12px;
@@ -433,6 +465,73 @@ body {
     color: #007bff;
 }
 
+/* 筛选容器样式 */
+.filter-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e5e9;
+}
+
+.filter-input-wrapper {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-select {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    min-width: 150px;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.filter-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.filter-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
 /* 词汇数量信息 */
 .vocab-count {
     font-size: 14px;
@@ -444,7 +543,7 @@ body {
     margin-bottom: 30px;
 }
 
-.vocab-count span {
+.vocab-count .count {
     font-weight: 500;
     color: #007bff;
 }
@@ -467,71 +566,208 @@ body {
 }
 
 .result-item {
-    background-color: #f8f9fa;
-    border: 1px solid #e1e5e9;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    transition: box-shadow 0.3s, transform 0.2s;
+    margin-bottom: 20px;
 }
 
-.result-item:hover {
+/* 卡片式布局样式 */
+.result-card {
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.2s;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.result-card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
-.result-header {
+.card-top {
     display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e1e5e9;
-    gap: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #e6ebf1;
+    gap: 15px;
+    background-color: #f8f9fa;
 }
 
-.result-word {
-    font-size: 24px;
+.card-top-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.top-row1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.result-vocab {
+    font-size: 22px;
     font-weight: bold;
     color: #007bff;
 }
 
-.result-hanzi {
-    font-size: 18px;
-    color: #333;
-    margin: 0;
-}
-
 .result-pronunciation {
-    font-size: 16px;
+    font-size: 15px;
     color: #666;
     font-style: italic;
-    margin-left: auto;
 }
 
-.result-meta {
+.top-row2 {
     display: flex;
+    align-items: center;
     gap: 15px;
-    margin-bottom: 12px;
+}
+
+.result-hanzi {
+    font-size: 17px;
+    color: #333;
 }
 
 .result-speech {
     display: inline-block;
-    padding: 4px 12px;
+    padding: 3px 10px;
     background-color: #007bff;
     color: white;
     border-radius: 12px;
     font-size: 12px;
     font-weight: 500;
+    margin-right: 6px;
 }
 
-.result-category {
+.top-row3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.result-label {
     display: inline-block;
-    padding: 4px 12px;
+    padding: 3px 10px;
     background-color: #28a745;
     color: white;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
+}
+
+.card-top-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-image {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.card-bottom {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bottom-top {
+    border-bottom: 1px solid #e6ebf1;
+    padding-bottom: 12px;
+}
+
+.result-definition {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.bottom-middle-top {
+    border-bottom: 1px solid #e6ebf1;
+    padding-bottom: 12px;
+}
+
+.phrases-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.result-phrase {
+    flex: 0 0 auto;
+    max-width: calc(50% - 5px);
+    min-width: 200px;
+    margin-bottom: 0;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #007bff;
+}
+
+.phrase-romazi {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.phrase-teochew {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.phrase-putonghua {
+    font-size: 13px;
+    color: #666;
+}
+
+.bottom-middle-bottom {
+    border-bottom: 1px solid #e6ebf1;
+    padding-bottom: 12px;
+}
+
+.result-example {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #28a745;
+}
+
+.example-romazi {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.example-teochew {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.example-putonghua {
+    font-size: 13px;
+    color: #666;
+}
+
+.bottom-bottom {
+    padding-top: 8px;
+}
+
+.result-note {
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
 }
 
 .result-radical {
