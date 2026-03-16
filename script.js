@@ -67,7 +67,7 @@ function searchVocabulary() {
     } else if (currentLang === 'vi') {
         searchProp = 'tiengViet';
     } else if (currentLang === 'km') {
-        searchProp = 'phasaKhmer';
+        searchProp = 'pheasaKhmer';
     } else if (currentLang === 'lo') {
         searchProp = 'phasaLao';
     }
@@ -414,7 +414,7 @@ function displayResults(results) {
     } else if (currentLang === 'vi') {
         displayProp = 'tiengViet';
     } else if (currentLang === 'km') {
-        displayProp = 'phasaKhmer';
+        displayProp = 'pheasaKhmer';
     } else if (currentLang === 'lo') {
         displayProp = 'phasaLao';
     }
