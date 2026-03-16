@@ -15,9 +15,9 @@
     "definitions": {
       "romazi": "hag-miâ Anabas testudineus",
       "teochew": "学名 Anabas testudineus",
-      "teochew_tr": "",
+      "teochew_tr": "學名 Anabas testudineus",
       "putonghua": "龟壳攀鲈、过山鲫、巴磨鱼、老虎鱼",
-      "putonghua_tr": "",
+      "putonghua_tr": "龜殼攀鱸、過山鯽、巴磨魚、老虎魚",
       "English": "climbing perch",
       "francais": "la Perche grimpeuse",
       "phasaThai": "ปลาหมอ",
@@ -5308,8 +5308,8 @@
     }
   },
   {
-    "item": "pox-phuê lâu uê tsír chìng muê",
-    "pronunciation": "pox-phuê lâu uê tsír chìng muê",
+    "item": "pox-phuê lâu uê tsúr chìng muê",
+    "pronunciation": "pox-phuê lâu uê tsúr chìng muê",
     "hanzi": [
       "薄皮流uê煮凊糜"
     ],
@@ -8282,8 +8282,8 @@
     }
   },
   {
-    "item": "pex-tir-neg",
-    "pronunciation": "pex-tir-neg",
+    "item": "pex-tur-neg",
+    "pronunciation": "pex-tur-neg",
     "hanzi": [
       "白猪肉"
     ],
@@ -9141,7 +9141,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "qáu-gír, huang-ngân. Tǒ Tiê-swa tsǔ-sī tiê-swa-uē.",
+      "romazi": "qáu-gúr, huang-ngân. Tǒ Tiê-swa tsǔ-sī tiê-swa-uē.",
       "teochew": "口语、方言。在潮汕，就是潮汕话。",
       "teochew_tr": "",
       "putonghua": "口语",
@@ -16989,7 +16989,7 @@
     "examples": [
       {
         "id": 1,
-        "romazi": "Tsai-ǐr, mài pun--nâng muex--tiex.",
+        "romazi": "Tsai-ǔr, mài pun--nâng muex--tiex.",
         "teochew": "知预，嫑分人物着。",
         "teochew_tr": "",
         "putonghua": "小心，不要和别人碰撞到。",
@@ -17005,7 +17005,7 @@
       },
       {
         "id": 2,
-        "romazi": "Kâi âng-pau pun lír.",
+        "romazi": "Kâi âng-pau pun lúr.",
         "teochew": "个红包分你。",
         "teochew_tr": "",
         "putonghua": "这个红包送给你。",
@@ -17189,8 +17189,8 @@
     }
   },
   {
-    "item": "pún-sīr",
-    "pronunciation": "pún-sīr",
+    "item": "pún-sūr",
+    "pronunciation": "pún-sūr",
     "hanzi": [
       "本事"
     ],
@@ -18085,7 +18085,7 @@
       },
       {
         "id": 2,
-        "romazi": "puax lox--qìr",
+        "romazi": "puax lox--qùr",
         "teochew": "跋落去",
         "teochew_tr": "",
         "putonghua": "摔倒",
@@ -22045,7 +22045,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "qirh iâng-kuang tsiè tieh。",
+      "romazi": "qurh iâng-kuang tsiè tieh。",
       "teochew": "乞阳光照着。",
       "teochew_tr": "",
       "putonghua": "晒太阳",
@@ -22351,7 +22351,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "kiè nâng qìr tsò sīr",
+      "romazi": "kiè nâng qùr tsò sūr",
       "teochew": "叫人去做事",
       "teochew_tr": "",
       "putonghua": "派遣",
@@ -31681,8 +31681,8 @@
     }
   },
   {
-    "item": "bag-zír",
-    "pronunciation": "bag-zír",
+    "item": "bag-zúr",
+    "pronunciation": "bag-zúr",
     "hanzi": [
       "木耳"
     ],
@@ -32828,8 +32828,8 @@
     }
   },
   {
-    "item": "bô--qìr",
-    "pronunciation": "bô--qìr",
+    "item": "bô--qùr",
+    "pronunciation": "bô--qùr",
     "hanzi": [
       "无去"
     ],
@@ -33743,8 +33743,8 @@
     }
   },
   {
-    "item": "bô-ǐr",
-    "pronunciation": "bô-ǐr",
+    "item": "bô-ǔr",
+    "pronunciation": "bô-ǔr",
     "hanzi": [
       "无预"
     ],
@@ -38577,8 +38577,8 @@
     }
   },
   {
-    "item": "buē-lâi-sīr",
-    "pronunciation": "buē-lâi-sīr",
+    "item": "buē-lâi-sūr",
+    "pronunciation": "buē-lâi-sūr",
     "hanzi": [
       "未来事",
       "未來事"
@@ -38587,7 +38587,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "sīr, tsiang-lâi kāi",
+      "romazi": "sūr, tsiang-lâi kāi",
       "teochew": "事，将来的",
       "teochew_tr": "",
       "putonghua": "将来的事情",
@@ -39083,8 +39083,8 @@
     "examples": [
       {
         "id": 1,
-        "romazi": "Nôu-kyá kâi nî-zír kuè kōi m̄-kyì.",
-        "teochew": "孥囝的泥zír怪易毋见。",
+        "romazi": "Nôu-kyá kâi nî-zúr kuè kōi m̄-kyì.",
+        "teochew": "孥囝的泥zúr怪易毋见。",
         "teochew_tr": "",
         "putonghua": "小孩的橡皮很容易就弄丢。",
         "putonghua_tr": "",
@@ -39267,8 +39267,8 @@
     }
   },
   {
-    "item": "m̄-tsai-ǐr",
-    "pronunciation": "m̄-tsai-ǐr",
+    "item": "m̄-tsai-ǔr",
+    "pronunciation": "m̄-tsai-ǔr",
     "hanzi": [
       "毋知预"
     ],
@@ -39343,8 +39343,8 @@
     }
   },
   {
-    "item": "m̄-tsiǔ-tsir",
-    "pronunciation": "m̄-tsiǔ-tsir",
+    "item": "m̄-tsiǔ-tsur",
+    "pronunciation": "m̄-tsiǔ-tsur",
     "hanzi": [
       "毋就书"
     ],
@@ -43125,8 +43125,8 @@
     }
   },
   {
-    "item": "mó-ì-sìr",
-    "pronunciation": "mó-ì-sìr",
+    "item": "mó-ì-sùr",
+    "pronunciation": "mó-ì-sùr",
     "hanzi": [
       "孬意思"
     ],
@@ -44268,8 +44268,8 @@
     }
   },
   {
-    "item": "mog-sir",
-    "pronunciation": "mog-sir",
+    "item": "mog-sur",
+    "pronunciation": "mog-sur",
     "hanzi": [
       "牧师"
     ],
@@ -58333,8 +58333,8 @@
     }
   },
   {
-    "item": "tóng-sīr-tsiáng",
-    "pronunciation": "tóng-sīr-tsiáng",
+    "item": "tóng-sūr-tsiáng",
+    "pronunciation": "tóng-sūr-tsiáng",
     "hanzi": [
       "董事长"
     ],
@@ -61157,8 +61157,8 @@
     }
   },
   {
-    "item": "tôu-sir",
-    "pronunciation": "tôu-sir",
+    "item": "tôu-sur",
+    "pronunciation": "tôu-sur",
     "hanzi": [
       "厨师"
     ],
@@ -62830,7 +62830,7 @@
     }
   },
   {
-    "item": "tèng-tsir-ki",
+    "item": "tèng-tsur-ki",
     "pronunciation": "tèng-tsir-ki",
     "hanzi": [
       "钉书机"
@@ -65884,7 +65884,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "yî-hêng pán, qǹg ǔ siàu-kǐr kāi",
+      "romazi": "yî-hêng pán, qǹg ǔ siàu-kǔr kāi",
       "teochew": "圆形板，囥有数据的",
       "teochew_tr": "",
       "putonghua": "",
@@ -69828,8 +69828,8 @@
     }
   },
   {
-    "item": "tiǎn-tsír",
-    "pronunciation": "tiǎn-tsír",
+    "item": "tiǎn-tsúr",
+    "pronunciation": "tiǎn-tsúr",
     "hanzi": [
       "电子",
       "電子"
@@ -75995,8 +75995,8 @@
     }
   },
   {
-    "item": "tir",
-    "pronunciation": "tir",
+    "item": "tur",
+    "pronunciation": "tur",
     "hanzi": [
       "猪"
     ],
@@ -76071,8 +76071,8 @@
     }
   },
   {
-    "item": "tir-tǒu",
-    "pronunciation": "tir-tǒu",
+    "item": "tur-tǒu",
+    "pronunciation": "tur-tǒu",
     "hanzi": [
       "猪肚"
     ],
@@ -76147,8 +76147,8 @@
     }
   },
   {
-    "item": "tir-tn̂g",
-    "pronunciation": "tir-tn̂g",
+    "item": "tur-tn̂g",
+    "pronunciation": "tur-tn̂g",
     "hanzi": [
       "猪肠"
     ],
@@ -76223,8 +76223,8 @@
     }
   },
   {
-    "item": "tir-thâu-puî",
-    "pronunciation": "tir-thâu-puî",
+    "item": "tur-thâu-puî",
+    "pronunciation": "tur-thâu-puî",
     "hanzi": [
       "猪头肥"
     ],
@@ -76299,8 +76299,8 @@
     }
   },
   {
-    "item": "tir-thâu-tir-náu",
-    "pronunciation": "tir-thâu-tir-náu",
+    "item": "tur-thâu-tur-náu",
+    "pronunciation": "tur-thâu-tur-náu",
     "hanzi": [
       "猪头猪脑"
     ],
@@ -76375,8 +76375,8 @@
     }
   },
   {
-    "item": "tir-thâu-tsàng",
-    "pronunciation": "tir-thâu-tsàng",
+    "item": "tur-thâu-tsàng",
+    "pronunciation": "tur-thâu-tsàng",
     "hanzi": [
       "猪头粽"
     ],
@@ -76451,8 +76451,8 @@
     }
   },
   {
-    "item": "tir-lâ-kué",
-    "pronunciation": "tir-lâ-kué",
+    "item": "tur-lâ-kué",
+    "pronunciation": "tur-lâ-kué",
     "hanzi": [
       "猪朥粿"
     ],
@@ -76529,8 +76529,8 @@
     }
   },
   {
-    "item": "tir-ko",
-    "pronunciation": "tir-ko",
+    "item": "tur-ko",
+    "pronunciation": "tur-ko",
     "hanzi": [
       "猪豭"
     ],
@@ -76607,8 +76607,8 @@
     }
   },
   {
-    "item": "tir-kut",
-    "pronunciation": "tir-kut",
+    "item": "tur-kut",
+    "pronunciation": "tur-kut",
     "hanzi": [
       "猪骨"
     ],
@@ -76685,8 +76685,8 @@
     }
   },
   {
-    "item": "tir-qa-pūn",
-    "pronunciation": "tir-qa-pūn",
+    "item": "tur-qa-pūn",
+    "pronunciation": "tur-qa-pūn",
     "hanzi": [
       "猪脚饭"
     ],
@@ -76763,8 +76763,8 @@
     }
   },
   {
-    "item": "tir-hún",
-    "pronunciation": "tir-hún",
+    "item": "tur-hún",
+    "pronunciation": "tur-hún",
     "hanzi": [
       "猪粉"
     ],
@@ -76841,8 +76841,8 @@
     }
   },
   {
-    "item": "tir-hueh",
-    "pronunciation": "tir-hueh",
+    "item": "tur-hueh",
+    "pronunciation": "tur-hueh",
     "hanzi": [
       "猪血"
     ],
@@ -77147,8 +77147,8 @@
     }
   },
   {
-    "item": "tīr",
-    "pronunciation": "tīr",
+    "item": "tūr",
+    "pronunciation": "tūr",
     "hanzi": [
       "箸"
     ],
@@ -80040,8 +80040,8 @@
     }
   },
   {
-    "item": "thag-tsir",
-    "pronunciation": "thag-tsir",
+    "item": "thag-tsur",
+    "pronunciation": "thag-tsur",
     "hanzi": [
       "读书"
     ],
@@ -80496,8 +80496,8 @@
     }
   },
   {
-    "item": "thài-tsír",
-    "pronunciation": "thài-tsír",
+    "item": "thài-tsúr",
+    "pronunciation": "thài-tsúr",
     "hanzi": [
       "太子"
     ],
@@ -83236,8 +83236,8 @@
     }
   },
   {
-    "item": "thong-sīr",
-    "pronunciation": "thong-sīr",
+    "item": "thong-sūr",
+    "pronunciation": "thong-sūr",
     "hanzi": [
       "通事"
     ],
@@ -90389,10 +90389,10 @@
     }
   },
   {
-    "item": "thìr",
-    "pronunciation": "thìr",
+    "item": "thùr",
+    "pronunciation": "thùr",
     "hanzi": [
-      "thìr"
+      "thùr"
     ],
     "speech": "行为",
     "label": [],
@@ -90465,10 +90465,10 @@
     }
   },
   {
-    "item": "thirx",
-    "pronunciation": "thirx",
+    "item": "thurx",
+    "pronunciation": "thurx",
     "hanzi": [
-      "thirx"
+      "thurx"
     ],
     "speech": "描述",
     "label": [],
@@ -90541,10 +90541,10 @@
     }
   },
   {
-    "item": "thirx-náu",
-    "pronunciation": "thirx-náu",
+    "item": "thurx-náu",
+    "pronunciation": "thurx-náu",
     "hanzi": [
-      "thirx脑"
+      "thurx脑"
     ],
     "speech": "描述",
     "label": [],
@@ -95268,10 +95268,10 @@
     }
   },
   {
-    "item": "nî-zír",
-    "pronunciation": "nî-zír",
+    "item": "nî-zúr",
+    "pronunciation": "nî-zúr",
     "hanzi": [
-      "泥zír"
+      "泥zúr"
     ],
     "speech": "指称",
     "label": [
@@ -98476,8 +98476,8 @@
     }
   },
   {
-    "item": "la-sià-zír",
-    "pronunciation": "la-sià-zír",
+    "item": "la-sià-zúr",
+    "pronunciation": "la-sià-zúr",
     "hanzi": [
       "拉舍尔"
     ],
@@ -98791,7 +98791,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "Tir-iû。",
+      "romazi": "Tur-iû。",
       "teochew": "猪油。",
       "teochew_tr": "",
       "putonghua": "猪油",
@@ -98868,7 +98868,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "thuân-thóng muex-tsiax pyá, ēng tir-lâ kah thn̂g tsò kāi",
+      "romazi": "thuân-thóng muex-tsiax pyá, ēng tur-lâ kah thn̂g tsò kāi",
       "teochew": "传统物食饼，用猪朥佮糖做的",
       "teochew_tr": "",
       "putonghua": "",
@@ -101307,7 +101307,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "«lái-qìr» kâi sok-siá, ǎu tsih tong-tsak.",
+      "romazi": "«lái-qùr» kâi sok-siá, ǎu tsih tong-tsak.",
       "teochew": "“来去”的缩写，后接动作",
       "teochew_tr": "",
       "putonghua": "去",
@@ -101374,8 +101374,8 @@
     }
   },
   {
-    "item": "lái-qìr",
-    "pronunciation": "lái-qìr",
+    "item": "lái-qùr",
+    "pronunciation": "lái-qùr",
     "hanzi": [
       "来去"
     ],
@@ -102286,8 +102286,8 @@
     }
   },
   {
-    "item": "láu-sir",
-    "pronunciation": "láu-sir",
+    "item": "láu-sur",
+    "pronunciation": "láu-sur",
     "hanzi": [
       "老师",
       "老師"
@@ -103351,8 +103351,8 @@
     }
   },
   {
-    "item": "Lǎu-tir",
-    "pronunciation": "Lǎu-tir",
+    "item": "Lǎu-tur",
+    "pronunciation": "Lǎu-tur",
     "hanzi": [
       "老猪"
     ],
@@ -103659,8 +103659,8 @@
     }
   },
   {
-    "item": "lǎu--qìr",
-    "pronunciation": "lǎu--qìr",
+    "item": "lǎu--qùr",
+    "pronunciation": "lǎu--qùr",
     "hanzi": [
       "老去"
     ],
@@ -103668,7 +103668,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "sí--qìr, uí-uán tàr-huap",
+      "romazi": "sí--qùr, uí-uán tàr-huap",
       "teochew": "死去，委婉呾法",
       "teochew_tr": "",
       "putonghua": "",
@@ -107162,8 +107162,8 @@
     }
   },
   {
-    "item": "lex-sír",
-    "pronunciation": "lex-sír",
+    "item": "lex-súr",
+    "pronunciation": "lex-súr",
     "hanzi": [
       "历史"
     ],
@@ -109068,8 +109068,8 @@
     }
   },
   {
-    "item": "lī-tsír",
-    "pronunciation": "lī-tsír",
+    "item": "lī-tsúr",
+    "pronunciation": "lī-tsúr",
     "hanzi": [
       "例子"
     ],
@@ -109220,8 +109220,8 @@
     }
   },
   {
-    "item": "lîm-kǐrn",
-    "pronunciation": "lîm-kǐrn",
+    "item": "lîm-kǔrn",
+    "pronunciation": "lîm-kǔrn",
     "hanzi": [
       "临近"
     ],
@@ -112873,10 +112873,10 @@
     }
   },
   {
-    "item": "lir",
-    "pronunciation": "lir",
+    "item": "lur",
+    "pronunciation": "lur",
     "hanzi": [
-      "lir"
+      "lur"
     ],
     "speech": "行为",
     "label": [],
@@ -112949,8 +112949,8 @@
     }
   },
   {
-    "item": "lír",
-    "pronunciation": "lír",
+    "item": "lúr",
+    "pronunciation": "lúr",
     "hanzi": [
       "你"
     ],
@@ -113025,8 +113025,8 @@
     }
   },
   {
-    "item": "--lír",
-    "pronunciation": "lìr",
+    "item": "--lúr",
+    "pronunciation": "lùr",
     "hanzi": [
       "你"
     ],
@@ -113101,10 +113101,10 @@
     }
   },
   {
-    "item": "lìr",
-    "pronunciation": "lìr",
+    "item": "lùr",
+    "pronunciation": "lùr",
     "hanzi": [
-      "lìr"
+      "lùr"
     ],
     "speech": "行为",
     "label": [],
@@ -118669,8 +118669,8 @@
     }
   },
   {
-    "item": "kang-tsir",
-    "pronunciation": "kang-tsir",
+    "item": "kang-tsur",
+    "pronunciation": "kang-tsur",
     "hanzi": [
       "工资"
     ],
@@ -122016,8 +122016,8 @@
     }
   },
   {
-    "item": "ko-zír-hu",
-    "pronunciation": "ko-zír-hu",
+    "item": "ko-zúr-hu",
+    "pronunciation": "ko-zúr-hu",
     "hanzi": [
       "高尔夫,golf"
     ],
@@ -127262,8 +127262,8 @@
     }
   },
   {
-    "item": "ke-tsir",
-    "pronunciation": "ke-tsir",
+    "item": "ke-tsur",
+    "pronunciation": "ke-tsur",
     "hanzi": [
       "家资"
     ],
@@ -129390,8 +129390,8 @@
     }
   },
   {
-    "item": "keng-sim-sīr",
-    "pronunciation": "keng-sim-sīr",
+    "item": "keng-sim-sūr",
+    "pronunciation": "keng-sim-sūr",
     "hanzi": [
       "经心事"
     ],
@@ -136168,8 +136168,8 @@
     }
   },
   {
-    "item": "kiǎn-tsír",
-    "pronunciation": "kiǎn-tsír",
+    "item": "kiǎn-tsúr",
+    "pronunciation": "kiǎn-tsúr",
     "hanzi": [
       "毽子"
     ],
@@ -138374,8 +138374,8 @@
     }
   },
   {
-    "item": "kū-sīr",
-    "pronunciation": "kū-sīr",
+    "item": "kū-sūr",
+    "pronunciation": "kū-sūr",
     "hanzi": [
       "故事"
     ],
@@ -139616,7 +139616,7 @@
     "phrase": [
       {
         "id": 1,
-        "romazi": "kuah tir-neg",
+        "romazi": "kuah tur-neg",
         "teochew": "割猪肉",
         "teochew_tr": "",
         "putonghua": "本意是“割猪肉”，习惯上指“买猪肉”",
@@ -141499,7 +141499,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "Tsiah qa siǔ-sye, lo kyâ m̄ tsǐr-ziân.",
+      "romazi": "Tsiah qa siǔ-sye, lo kyâ m̄ tsǔr-ziân.",
       "teochew": "只脚受伤，咯行毋自然。",
       "teochew_tr": "",
       "putonghua": "瘸着脚走路。跛行",
@@ -142554,8 +142554,8 @@
     }
   },
   {
-    "item": "kuè-lǐr",
-    "pronunciation": "kuè-lǐr",
+    "item": "kuè-lǔr",
+    "pronunciation": "kuè-lǔr",
     "hanzi": [
       "过滤"
     ],
@@ -143086,8 +143086,8 @@
     }
   },
   {
-    "item": "kui-kír",
-    "pronunciation": "kui-kír",
+    "item": "kui-kúr",
+    "pronunciation": "kui-kúr",
     "hanzi": [
       "规矩"
     ],
@@ -143922,8 +143922,8 @@
     }
   },
   {
-    "item": "kir-mîn",
-    "pronunciation": "kir-mîn",
+    "item": "kur-mîn",
+    "pronunciation": "kur-mîn",
     "hanzi": [
       "居民"
     ],
@@ -143998,10 +143998,10 @@
     }
   },
   {
-    "item": "kir-kak",
-    "pronunciation": "kir-kak",
+    "item": "kur-kak",
+    "pronunciation": "kur-kak",
     "hanzi": [
-      "kir-kak"
+      "kur-kak"
     ],
     "speech": "描述",
     "label": [],
@@ -144074,8 +144074,8 @@
     }
   },
   {
-    "item": "kír",
-    "pronunciation": "kír",
+    "item": "kúr",
+    "pronunciation": "kúr",
     "hanzi": [
       "举"
     ],
@@ -144150,8 +144150,8 @@
     }
   },
   {
-    "item": "kír-chiú",
-    "pronunciation": "kír-chiú",
+    "item": "kúr-chiú",
+    "pronunciation": "kúr-chiú",
     "hanzi": [
       "举手"
     ],
@@ -144226,8 +144226,8 @@
     }
   },
   {
-    "item": "kìr",
-    "pronunciation": "kìr",
+    "item": "kùr",
+    "pronunciation": "kùr",
     "hanzi": [
       "锯"
     ],
@@ -144302,8 +144302,8 @@
     }
   },
   {
-    "item": "kìr-hyî",
-    "pronunciation": "kìr-hyî",
+    "item": "kùr-hyî",
+    "pronunciation": "kùr-hyî",
     "hanzi": [
       "锯弦"
     ],
@@ -144378,10 +144378,10 @@
     }
   },
   {
-    "item": "kirh",
-    "pronunciation": "kirh",
+    "item": "kurh",
+    "pronunciation": "kurh",
     "hanzi": [
-      "kirh"
+      "kurh"
     ],
     "speech": "拟声词",
     "label": [],
@@ -144530,10 +144530,10 @@
     }
   },
   {
-    "item": "kǐr",
-    "pronunciation": "kǐr",
+    "item": "kǔr",
+    "pronunciation": "kǔr",
     "hanzi": [
-      "kǐr"
+      "kǔr"
     ],
     "speech": "行为",
     "label": [],
@@ -144606,8 +144606,8 @@
     }
   },
   {
-    "item": "kǐr-lî",
-    "pronunciation": "kǐr-lî",
+    "item": "kǔr-lî",
+    "pronunciation": "kǔr-lî",
     "hanzi": [
       "距离"
     ],
@@ -144682,8 +144682,8 @@
     }
   },
   {
-    "item": "kǐr-sueh",
-    "pronunciation": "kǐr-sueh",
+    "item": "kǔr-sueh",
+    "pronunciation": "kǔr-sueh",
     "hanzi": [
       "据说"
     ],
@@ -144758,8 +144758,8 @@
     }
   },
   {
-    "item": "kirn",
-    "pronunciation": "kirn",
+    "item": "kurn",
+    "pronunciation": "kurn",
     "hanzi": [
       "筋"
     ],
@@ -145064,8 +145064,8 @@
     }
   },
   {
-    "item": "kǐrn",
-    "pronunciation": "kǐrn",
+    "item": "kǔrn",
+    "pronunciation": "kǔrn",
     "hanzi": [
       "近"
     ],
@@ -145140,8 +145140,8 @@
     }
   },
   {
-    "item": "kǐrn",
-    "pronunciation": "kǐrn",
+    "item": "kǔrn",
+    "pronunciation": "kǔrn",
     "hanzi": [
       "胗"
     ],
@@ -145216,8 +145216,8 @@
     }
   },
   {
-    "item": "kǐrn-sǐ",
-    "pronunciation": "kǐrn-sǐ",
+    "item": "kǔrn-sǐ",
+    "pronunciation": "kǔrn-sǐ",
     "hanzi": [
       "近视"
     ],
@@ -145292,10 +145292,10 @@
     }
   },
   {
-    "item": "kird",
-    "pronunciation": "kird",
+    "item": "kurd",
+    "pronunciation": "kurd",
     "hanzi": [
-      "kird"
+      "kurd"
     ],
     "speech": "描述",
     "label": [],
@@ -149032,8 +149032,8 @@
     }
   },
   {
-    "item": "qáu-lǐr",
-    "pronunciation": "qáu-lǐr",
+    "item": "qáu-lǔr",
+    "pronunciation": "qáu-lǔr",
     "hanzi": [
       "考虑"
     ],
@@ -155656,8 +155656,8 @@
     }
   },
   {
-    "item": "qiam-hir",
-    "pronunciation": "qiam-hir",
+    "item": "qiam-hur",
+    "pronunciation": "qiam-hur",
     "hanzi": [
       "谦虚"
     ],
@@ -160065,8 +160065,8 @@
     }
   },
   {
-    "item": "qìr",
-    "pronunciation": "qìr",
+    "item": "qùr",
+    "pronunciation": "qùr",
     "hanzi": [
       "去"
     ],
@@ -160141,8 +160141,8 @@
     }
   },
   {
-    "item": "qirh",
-    "pronunciation": "qirh",
+    "item": "qurh",
+    "pronunciation": "qurh",
     "hanzi": [
       "乞"
     ],
@@ -160217,8 +160217,8 @@
     }
   },
   {
-    "item": "qirt",
-    "pronunciation": "qirt",
+    "item": "qurt",
+    "pronunciation": "qurt",
     "hanzi": [
       "乞"
     ],
@@ -160293,8 +160293,8 @@
     }
   },
   {
-    "item": "qirt-tsiax",
-    "pronunciation": "qirt-tsiax",
+    "item": "qurt-tsiax",
+    "pronunciation": "qurt-tsiax",
     "hanzi": [
       "乞食"
     ],
@@ -162573,8 +162573,8 @@
     }
   },
   {
-    "item": "gír-qì",
-    "pronunciation": "gír-qì",
+    "item": "gúr-qì",
+    "pronunciation": "gúr-qì",
     "hanzi": [
       "语气"
     ],
@@ -165310,8 +165310,8 @@
     }
   },
   {
-    "item": "ngiáu-chír",
-    "pronunciation": "ngiáu-chír",
+    "item": "ngiáu-chúr",
+    "pronunciation": "ngiáu-chúr",
     "hanzi": [
       "尧鼠"
     ],
@@ -166298,8 +166298,8 @@
     }
   },
   {
-    "item": "ngirk-lad",
-    "pronunciation": "ngirk-lad",
+    "item": "ngurk-lad",
+    "pronunciation": "ngurk-lad",
     "hanzi": [
       "吃力"
     ],
@@ -169266,8 +169266,8 @@
     }
   },
   {
-    "item": "tsai-ǐr",
-    "pronunciation": "tsai-ǐr",
+    "item": "tsai-ǔr",
+    "pronunciation": "tsai-ǔr",
     "hanzi": [
       "知预"
     ],
@@ -186986,8 +186986,8 @@
     }
   },
   {
-    "item": "tsir",
-    "pronunciation": "tsir",
+    "item": "tsur",
+    "pronunciation": "tsur",
     "hanzi": [
       "书"
     ],
@@ -187062,8 +187062,8 @@
     }
   },
   {
-    "item": "tsir",
-    "pronunciation": "tsir",
+    "item": "tsur",
+    "pronunciation": "tsur",
     "hanzi": [
       "滋"
     ],
@@ -187138,8 +187138,8 @@
     }
   },
   {
-    "item": "tsir-pún",
-    "pronunciation": "tsir-pún",
+    "item": "tsur-pún",
+    "pronunciation": "tsur-pún",
     "hanzi": [
       "资本"
     ],
@@ -187214,8 +187214,8 @@
     }
   },
   {
-    "item": "tsir-niê",
-    "pronunciation": "tsir-niê",
+    "item": "tsur-niê",
+    "pronunciation": "tsur-niê",
     "hanzi": [
       "姿娘"
     ],
@@ -187290,8 +187290,8 @@
     }
   },
   {
-    "item": "tsir-tse",
-    "pronunciation": "tsir-tse",
+    "item": "tsur-tse",
+    "pronunciation": "tsur-tse",
     "hanzi": [
       "书斋"
     ],
@@ -187366,8 +187366,8 @@
     }
   },
   {
-    "item": "tsir-cheh",
-    "pronunciation": "tsir-cheh",
+    "item": "tsur-cheh",
+    "pronunciation": "tsur-cheh",
     "hanzi": [
       "书册"
     ],
@@ -187442,8 +187442,8 @@
     }
   },
   {
-    "item": "tsir-cheh-ko",
-    "pronunciation": "tsir-cheh-ko",
+    "item": "tsur-cheh-ko",
+    "pronunciation": "tsur-cheh-ko",
     "hanzi": [
       "书册糕"
     ],
@@ -187518,8 +187518,8 @@
     }
   },
   {
-    "item": "tsir-sì",
-    "pronunciation": "tsir-sì",
+    "item": "tsur-sì",
+    "pronunciation": "tsur-sì",
     "hanzi": [
       "姿势"
     ],
@@ -187594,8 +187594,8 @@
     }
   },
   {
-    "item": "tsir-sûn",
-    "pronunciation": "tsir-sûn",
+    "item": "tsur-sûn",
+    "pronunciation": "tsur-sûn",
     "hanzi": [
       "咨询"
     ],
@@ -187670,8 +187670,8 @@
     }
   },
   {
-    "item": "tsír",
-    "pronunciation": "tsír",
+    "item": "tsúr",
+    "pronunciation": "tsúr",
     "hanzi": [
       "煮"
     ],
@@ -187746,8 +187746,8 @@
     }
   },
   {
-    "item": "tsír-tsiax",
-    "pronunciation": "tsír-tsiax",
+    "item": "tsúr-tsiax",
+    "pronunciation": "tsúr-tsiax",
     "hanzi": [
       "煮食"
     ],
@@ -187822,8 +187822,8 @@
     }
   },
   {
-    "item": "tsír-sòi",
-    "pronunciation": "tsír-sòi",
+    "item": "tsúr-sòi",
+    "pronunciation": "tsúr-sòi",
     "hanzi": [
       "仔细"
     ],
@@ -187898,8 +187898,8 @@
     }
   },
   {
-    "item": "tsìr",
-    "pronunciation": "tsìr",
+    "item": "tsùr",
+    "pronunciation": "tsùr",
     "hanzi": [
       "渍"
     ],
@@ -188050,8 +188050,8 @@
     }
   },
   {
-    "item": "tsǐr-lâi-hué",
-    "pronunciation": "tsǐr-lâi-hué",
+    "item": "tsǔr-lâi-hué",
+    "pronunciation": "tsǔr-lâi-hué",
     "hanzi": [
       "自来火"
     ],
@@ -188126,8 +188126,8 @@
     }
   },
   {
-    "item": "tsǐr-sin",
-    "pronunciation": "tsǐr-sin",
+    "item": "tsǔr-sin",
+    "pronunciation": "tsǔr-sin",
     "hanzi": [
       "自身"
     ],
@@ -188202,8 +188202,8 @@
     }
   },
   {
-    "item": "tsǐr-sìn",
-    "pronunciation": "tsǐr-sìn",
+    "item": "tsǔr-sìn",
+    "pronunciation": "tsǔr-sìn",
     "hanzi": [
       "自信"
     ],
@@ -188278,8 +188278,8 @@
     }
   },
   {
-    "item": "tsǐr-iû",
-    "pronunciation": "tsǐr-iû",
+    "item": "tsǔr-iû",
+    "pronunciation": "tsǔr-iû",
     "hanzi": [
       "自由"
     ],
@@ -206317,10 +206317,10 @@
     }
   },
   {
-    "item": "chiū-nî-zír",
-    "pronunciation": "chiū-nî-zír",
+    "item": "chiū-nî-zúr",
+    "pronunciation": "chiū-nî-zúr",
     "hanzi": [
-      "树泥zír"
+      "树泥zúr"
     ],
     "speech": "指称",
     "label": [],
@@ -209435,10 +209435,10 @@
     }
   },
   {
-    "item": "chir",
-    "pronunciation": "chir",
+    "item": "chur",
+    "pronunciation": "chur",
     "hanzi": [
-      "chir"
+      "chur"
     ],
     "speech": "行为",
     "label": [],
@@ -209511,8 +209511,8 @@
     }
   },
   {
-    "item": "chír-kuí",
-    "pronunciation": "chír-kuí",
+    "item": "chúr-kuí",
+    "pronunciation": "chúr-kuí",
     "hanzi": [
       "鼠鬼"
     ],
@@ -209587,8 +209587,8 @@
     }
   },
   {
-    "item": "chír-qak-kué",
-    "pronunciation": "chír-qak-kué",
+    "item": "chúr-qak-kué",
+    "pronunciation": "chúr-qak-kué",
     "hanzi": [
       "鼠曲粿"
     ],
@@ -209665,8 +209665,8 @@
     }
   },
   {
-    "item": "chír-tsǎi",
-    "pronunciation": "chír-tsǎi",
+    "item": "chúr-tsǎi",
+    "pronunciation": "chúr-tsǎi",
     "hanzi": [
       "此在"
     ],
@@ -209741,8 +209741,8 @@
     }
   },
   {
-    "item": "chìr",
-    "pronunciation": "chìr",
+    "item": "chùr",
+    "pronunciation": "chùr",
     "hanzi": [
       "次"
     ],
@@ -209817,10 +209817,10 @@
     }
   },
   {
-    "item": "chirh",
-    "pronunciation": "chirh",
+    "item": "churh",
+    "pronunciation": "churh",
     "hanzi": [
-      "chirh"
+      "churh"
     ],
     "speech": "行为",
     "label": [],
@@ -216128,8 +216128,8 @@
     }
   },
   {
-    "item": "sǒng-sir",
-    "pronunciation": "sǒng-sir",
+    "item": "sǒng-sur",
+    "pronunciation": "sǒng-sur",
     "hanzi": [
       "讼师"
     ],
@@ -219094,8 +219094,8 @@
     }
   },
   {
-    "item": "sek-sǐr",
-    "pronunciation": "sek-sǐr",
+    "item": "sek-sǔr",
+    "pronunciation": "sek-sǔr",
     "hanzi": [
       "硕士"
     ],
@@ -219398,8 +219398,8 @@
     }
   },
   {
-    "item": "sêng-gír",
-    "pronunciation": "sêng-gír",
+    "item": "sêng-gúr",
+    "pronunciation": "sêng-gúr",
     "hanzi": [
       "成语",
       "成語"
@@ -220312,8 +220312,8 @@
     }
   },
   {
-    "item": "sí-tir-muì-thǹg",
-    "pronunciation": "sí-tir-muì-thǹg",
+    "item": "sí-tur-muì-thǹg",
+    "pronunciation": "sí-tur-muì-thǹg",
     "hanzi": [
       "死猪muì烫"
     ],
@@ -220778,7 +220778,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "Ūi-tì ǒi tiex, hax kui-kír.",
+      "romazi": "Ūi-tì ǒi tiex, hax kui-kúr.",
       "teochew": "位置会着，合规矩。",
       "teochew_tr": "",
       "putonghua": "整整齐齐",
@@ -235239,8 +235239,8 @@
     }
   },
   {
-    "item": "sir-niê",
-    "pronunciation": "sir-niê",
+    "item": "sur-niê",
+    "pronunciation": "sur-niê",
     "hanzi": [
       "思量"
     ],
@@ -235545,8 +235545,8 @@
     }
   },
   {
-    "item": "sîr-gír",
-    "pronunciation": "sîr-gír",
+    "item": "sîr-gúr",
+    "pronunciation": "sîr-gúr",
     "hanzi": [
       "词语",
       "詞語"
@@ -235622,8 +235622,8 @@
     }
   },
   {
-    "item": "sǐr-lí",
-    "pronunciation": "sǐr-lí",
+    "item": "sǔr-lí",
+    "pronunciation": "sǔr-lí",
     "hanzi": [
       "伺理"
     ],
@@ -235698,8 +235698,8 @@
     }
   },
   {
-    "item": "sīr",
-    "pronunciation": "sīr",
+    "item": "sūr",
+    "pronunciation": "sūr",
     "hanzi": [
       "事"
     ],
@@ -240108,8 +240108,8 @@
     }
   },
   {
-    "item": "zún-hír",
-    "pronunciation": "zún-hír",
+    "item": "zún-húr",
+    "pronunciation": "zún-húr",
     "hanzi": [
       "允许"
     ],
@@ -240945,10 +240945,10 @@
     }
   },
   {
-    "item": "zír",
-    "pronunciation": "zír",
+    "item": "zúr",
+    "pronunciation": "zúr",
     "hanzi": [
-      "zír"
+      "zúr"
     ],
     "speech": "行为",
     "label": [],
@@ -241021,10 +241021,10 @@
     }
   },
   {
-    "item": "zír-tséng",
-    "pronunciation": "zír-tséng",
+    "item": "zúr-tséng",
+    "pronunciation": "zúr-tséng",
     "hanzi": [
-      "zír肿"
+      "zúr肿"
     ],
     "speech": "行为",
     "label": [],
@@ -243302,8 +243302,8 @@
     }
   },
   {
-    "item": "hái-sǐr",
-    "pronunciation": "hái-sǐr",
+    "item": "hái-sǔr",
+    "pronunciation": "hái-sǔr",
     "hanzi": [
       "海屿"
     ],
@@ -245354,8 +245354,8 @@
     }
   },
   {
-    "item": "hô-pau-tir-qa",
-    "pronunciation": "hô-pau-tir-qa",
+    "item": "hô-pau-tur-qa",
+    "pronunciation": "hô-pau-tur-qa",
     "hanzi": [
       "荷包猪脚"
     ],
@@ -249694,8 +249694,8 @@
     }
   },
   {
-    "item": "hí-sīr",
-    "pronunciation": "hí-sīr",
+    "item": "hí-sūr",
+    "pronunciation": "hí-sūr",
     "hanzi": [
       "喜事"
     ],
@@ -263979,8 +263979,8 @@
     }
   },
   {
-    "item": "hir",
-    "pronunciation": "hir",
+    "item": "hur",
+    "pronunciation": "hur",
     "hanzi": [
       "虚"
     ],
@@ -264055,8 +264055,8 @@
     }
   },
   {
-    "item": "hír",
-    "pronunciation": "hír",
+    "item": "húr",
+    "pronunciation": "húr",
     "hanzi": [
       "彼"
     ],
@@ -265065,7 +265065,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "Phêng-syê gír-qì.",
+      "romazi": "Phêng-syê gúr-qì.",
       "teochew": "平常语气。",
       "teochew_tr": "",
       "putonghua": "呀",
@@ -266056,7 +266056,7 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "Ēng lad pá tuì-huang tsiah chiú zix lox--qìr, pí thóy tī-nâng lad tuā.",
+      "romazi": "Ēng lad pá tuì-huang tsiah chiú zix lox--qùr, pí thóy tī-nâng lad tuā.",
       "teochew": "用力把对方只手zix落去，比睇底人力大。",
       "teochew_tr": "",
       "putonghua": "掰手腕",
@@ -271732,10 +271732,10 @@
     }
   },
   {
-    "item": "âu-lêng-gǐr",
-    "pronunciation": "âu-lêng-gǐr",
+    "item": "âu-lêng-gǔr",
+    "pronunciation": "âu-lêng-gǔr",
     "hanzi": [
-      "喉咙gǐr"
+      "喉咙gǔr"
     ],
     "speech": "指称",
     "label": [],
@@ -276523,8 +276523,8 @@
     }
   },
   {
-    "item": "eng-gír",
-    "pronunciation": "eng-gír",
+    "item": "eng-gúr",
+    "pronunciation": "eng-gúr",
     "hanzi": [
       "英语",
       "英語,English,英语"
@@ -277588,8 +277588,8 @@
     }
   },
   {
-    "item": "ì-sìr",
-    "pronunciation": "ì-sìr",
+    "item": "ì-sùr",
+    "pronunciation": "ì-sùr",
     "hanzi": [
       "意思"
     ],
@@ -282759,8 +282759,8 @@
     }
   },
   {
-    "item": "iông-ǐr",
-    "pronunciation": "iông-ǐr",
+    "item": "iông-ǔr",
+    "pronunciation": "iông-ǔr",
     "hanzi": [
       "荣誉"
     ],
@@ -289843,8 +289843,8 @@
     }
   },
   {
-    "item": "ui-sir",
-    "pronunciation": "ui-sir",
+    "item": "ui-sur",
+    "pronunciation": "ui-sur",
     "hanzi": [
       "医师"
     ],
@@ -290831,8 +290831,8 @@
     }
   },
   {
-    "item": "ìr-tsìr",
-    "pronunciation": "ìr-tsìr",
+    "item": "ùr-tsùr",
+    "pronunciation": "ùr-tsùr",
     "hanzi": [
       "淤渍"
     ],
@@ -290907,10 +290907,10 @@
     }
   },
   {
-    "item": "irh",
-    "pronunciation": "irh",
+    "item": "urh",
+    "pronunciation": "urh",
     "hanzi": [
-      "irh"
+      "urh"
     ],
     "speech": "行为",
     "label": [],
@@ -290983,8 +290983,8 @@
     }
   },
   {
-    "item": "ǐr",
-    "pronunciation": "ǐr",
+    "item": "ǔr",
+    "pronunciation": "ǔr",
     "hanzi": [
       "预"
     ],
@@ -291059,8 +291059,8 @@
     }
   },
   {
-    "item": "ǐr-pǐ",
-    "pronunciation": "ǐr-pǐ",
+    "item": "ǔr-pǐ",
+    "pronunciation": "ǔr-pǐ",
     "hanzi": [
       "预备"
     ],
@@ -291135,8 +291135,8 @@
     }
   },
   {
-    "item": "ǐr-sib",
-    "pronunciation": "ǐr-sib",
+    "item": "ǔr-sib",
+    "pronunciation": "ǔr-sib",
     "hanzi": [
       "预习"
     ],
@@ -291211,8 +291211,8 @@
     }
   },
   {
-    "item": "ǐr-huâng",
-    "pronunciation": "ǐr-huâng",
+    "item": "ǔr-huâng",
+    "pronunciation": "ǔr-huâng",
     "hanzi": [
       "预防"
     ],
@@ -291441,7 +291441,7 @@
   },
   {
     "item": "hydrogenium",
-    "pronunciation": "hai-zuê-zir-nium",
+    "pronunciation": "hai-zuê-zur-nium",
     "hanzi": [
       "氢",
       "氫",
@@ -300665,7 +300665,7 @@
   },
   {
     "item": "oganesson",
-    "pronunciation": "o-gir-né-san",
+    "pronunciation": "o-gur-né-san",
     "hanzi": [
       "鿫",
       "鿫",
@@ -308099,7 +308099,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "Chin-tsyâ, pě kâi qau-gír kiè-huap. Iā kiè pâ-pâ，a-pâ，a-pa，pa.",
+      "romazi": "Chin-tsyâ, pě kâi qau-gúr kiè-huap. Iā kiè pâ-pâ，a-pâ，a-pa，pa.",
       "teochew": "父的口语叫法。也叫爸爸、阿爸、阿꜀爸、꜀爸。",
       "teochew_tr": "",
       "putonghua": "爸爸",
@@ -309113,7 +309113,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "Chin-tsyâ, bó kâi qau-gír kiè-huap. Iā kiè mâ-mâ，a-mâ.",
+      "romazi": "Chin-tsyâ, bó kâi qau-gúr kiè-huap. Iā kiè mâ-mâ，a-mâ.",
       "teochew": "母的口语叫法。也叫妈妈、阿妈。",
       "teochew_tr": "",
       "putonghua": "妈妈",
@@ -314330,7 +314330,7 @@
   },
   {
     "item": "candela",
-    "pronunciation": "qan-lir-la",
+    "pronunciation": "qan-lur-la",
     "hanzi": [
       "",
       "坎德拉"
@@ -314486,8 +314486,8 @@
     }
   },
   {
-    "item": "kirn",
-    "pronunciation": "kirn",
+    "item": "kurn",
+    "pronunciation": "kurn",
     "hanzi": [
       "斤"
     ],
@@ -315501,8 +315501,8 @@
     }
   },
   {
-    "item": "tir-kwa",
-    "pronunciation": "tir-kwa",
+    "item": "tur-kwa",
+    "pronunciation": "tur-kwa",
     "hanzi": [
       "猪肝"
     ],
@@ -316827,8 +316827,8 @@
     }
   },
   {
-    "item": "tsír",
-    "pronunciation": "tsír",
+    "item": "tsúr",
+    "pronunciation": "tsúr",
     "hanzi": [
       "子"
     ],
@@ -317763,8 +317763,8 @@
     }
   },
   {
-    "item": "chír",
-    "pronunciation": "chír",
+    "item": "chúr",
+    "pronunciation": "chúr",
     "hanzi": [
       "鼠"
     ],
@@ -318621,8 +318621,8 @@
     }
   },
   {
-    "item": "tir",
-    "pronunciation": "tir",
+    "item": "tur",
+    "pronunciation": "tur",
     "hanzi": [
       "猪"
     ],
@@ -321061,7 +321061,7 @@
   },
   {
     "item": "France",
-    "pronunciation": "Hô-rân-sir",
+    "pronunciation": "Hô-rân-sur",
     "hanzi": [
       "法兰西"
     ],
