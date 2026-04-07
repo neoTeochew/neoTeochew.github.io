@@ -108,6 +108,11 @@ body {
     color: #007bff;
 }
 
+.site-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-meta {
     display: flex;
     flex-direction: column;

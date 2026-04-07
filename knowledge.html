@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="潮州话, 潮汕话, 潮州方言, 潮汕方言, 粤东闽方言, 白话字, 罗马字, teochew">
     <!-- <meta name="description" content="潮汕话辞典，兼收古今中外潮人所用词汇。统一拼写各自发音。多语言对照。"> -->
-    <title>知识 | 潮语埠</title>
+    <title data-i18n="title_knowledge">知识 | 潮语埠</title>
     <link rel="icon" href="logo/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- i18n library -->
+    <script src="i18n/i18n.js"></script>
 </head>
 <body>
     <!-- 返回顶部按钮 -->
@@ -23,18 +25,25 @@
                     <div class="logo">
                         <img src="logo/logo.png" alt="neoTeochew Logo" width="50" height="50">
                     </div>
-                    <h1 class="site-name">潮语埠</h1>
+                    <a href="./"><h1 class="site-name">潮语埠</h1></a>
                 </div>
                 <div class="header-meta">
                     <div class="language-switcher">
-                        <a href="index-te.html" class="lang-link">潮汕话</a>
-                        <a href="index.html" class="lang-link active">普通话</a>
-                        <a href="index-en.html" class="lang-link">English</a>
-                        <a href="index-fr.html" class="lang-link">français</a>
-                        <a href="index-ta.html" class="lang-link">ไทย</a>
-                        <a href="index-vi.html" class="lang-link">Tiếng Việt</a>
-                        <a href="index-ma" class="lang-link">Bahasa Melayu</a>
-                        <a href="index-id.html" class="lang-link">Bahasa Indonesia</a>
+                        <a href="?lang=teo" class="lang-link">潮汕话/話</a>
+                        <a href="?lang=zh" class="lang-link active">普通话/話</a>
+                        <a href="?lang=en" class="lang-link">English</a>
+                        <a href="?lang=fr" class="lang-link">français</a>
+                        <a href="?lang=ta" class="lang-link">ภาษาไทย</a>
+                        <a href="?lang=ms" class="lang-link">Bahasa Melayu</a>
+                        <a href="?lang=id" class="lang-link">Bahasa Indonesia</a>
+                        <a href="?lang=vi" class="lang-link">Tiếng Việt</a>
+                        <a href="?lang=km" class="lang-link">ភាសាខ្មែរ</a>
+                        <a href="?lang=lo" class="lang-link">ພາສາລາວ</a>
+                    </div>
+                    <!-- 后面再改吧，我要的逻辑是，if lang=zh, the button switches putonghua & teochew; else it only switches teochew -->
+                    <div class="zh-switcher">
+                        <button class="zh-btn" id="simplified-btn">简体</button>
+                        <button class="zh-btn" id="traditional-btn">繁體</button>
                     </div>
                     <div class="page-info">
                         <span class="creation-date">创建日期: 2025-01-15</span>
@@ -47,22 +56,22 @@
                     <span class="nav-toggle-icon"></span>
                 </button>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html" class="nav-link">辞典</a></li>
-                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link">字典</a></li>
-                    <li class="nav-item"><a href="cources.html" class="nav-link">自学教程</a></li>
-                    <li class="nav-item"><a href="knowledge.html" class="nav-link active">知识</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">新闻</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">故事</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">音乐</a></li>
+                    <li class="nav-item"><a href="dict.html" class="nav-link" data-i18n="nav_dictionary">辞典</a></li>
+                    <li class="nav-item"><a href="hanzi-search.html" class="nav-link" data-i18n="nav_character_dict">字典</a></li>
+                    <li class="nav-item"><a href="cources/cources.html" class="nav-link" data-i18n="nav_courses">自学教程</a></li>
+                    <li class="nav-item"><a href="knowledge.html" class="nav-link active" data-i18n="nav_knowledge">知识</a></li>
+                    <li class="nav-item"><a href="news.html" class="nav-link" data-i18n="nav_news">新闻</a></li>
+                    <li class="nav-item"><a href="stories.html" class="nav-link" data-i18n="nav_stories">故事</a></li>
+                    <li class="nav-item"><a href="music.html" class="nav-link" data-i18n="nav_music">音乐</a></li>
                     <!-- 网站介绍下拉菜单 -->
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle">更多说明</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-i18n="nav_more_info">更多说明</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="introductions.html" class="dropdown-link">网站介绍</a></li>
-                            <li class="dropdown-item"><a href="romazi.html" class="dropdown-link">罗马字方案</a></li>
-                            <li class="dropdown-item"><a href="#" class="dropdown-link">潮汕话输入法</a></li>
-                            <li class="dropdown-item"><a href="#" class="dropdown-link">参考资料</a></li>
-                            <li class="dropdown-item"><a href="logs.html" class="dropdown-link">更新日志</a></li>
+                            <li class="dropdown-item"><a href="introductions.html" class="dropdown-link" data-i18n="nav_site_intro">网站介绍</a></li>
+                            <li class="dropdown-item"><a href="romazi.html" class="dropdown-link" data-i18n="nav_input_method">潮语输入法</a></li>
+                            <li class="dropdown-item"><a href="#" class="dropdown-link" data-i18n="nav_input_method">潮汕话输入法</a></li>
+                            <li class="dropdown-item"><a href="references.html" class="dropdown-link" data-i18n="nav_references">参考资料</a></li>
+                            <li class="dropdown-item"><a href="logs.html" class="dropdown-link" data-i18n="nav_update_logs">更新日志</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -77,29 +86,29 @@
                 <!-- 目录 -->
                 <aside class="sidebar">
                     <div class="toc">
-                        <h3>目录</h3>
+                        <h3 data-i18n="toc_title">目录</h3>
                         <ul class="toc-list">
-                            <li class="toc-item"><a href="#section1" class="toc-link">科学</a></li>
-                            <li class="toc-item"><a href="#section2" class="toc-link">哲学</a></li>
-                            <li class="toc-item"><a href="#section3" class="toc-link">技术</a></li>
-                            <li class="toc-item"><a href="#section4" class="toc-link">技艺</a></li>
-                            <li class="toc-item"><a href="#section5" class="toc-link">历史</a></li>
-                            <li class="toc-item"><a href="#section6" class="toc-link">自然</a></li>
-                            <li class="toc-item"><a href="#section7" class="toc-link">文化</a></li>
-                            <li class="toc-item"><a href="#section8" class="toc-link">社会</a></li>
-                            <li class="toc-item"><a href="#section9" class="toc-link">美学</a></li>
+                            <li class="toc-item"><a href="#section1" class="toc-link" data-i18n="toc_science">科学</a></li>
+                            <li class="toc-item"><a href="#section2" class="toc-link" data-i18n="toc_philosophy">哲学</a></li>
+                            <li class="toc-item"><a href="#section3" class="toc-link" data-i18n="toc_technology">技术</a></li>
+                            <li class="toc-item"><a href="#section4" class="toc-link" data-i18n="toc_arts">技艺</a></li>
+                            <li class="toc-item"><a href="#section5" class="toc-link" data-i18n="toc_history">历史</a></li>
+                            <li class="toc-item"><a href="#section6" class="toc-link" data-i18n="toc_nature">自然</a></li>
+                            <li class="toc-item"><a href="#section7" class="toc-link" data-i18n="toc_culture">文化</a></li>
+                            <li class="toc-item"><a href="#section8" class="toc-link" data-i18n="toc_society">社会</a></li>
+                            <li class="toc-item"><a href="#section9" class="toc-link" data-i18n="toc_aesthetics">美学</a></li>
                         </ul>
                     </div>
                 </aside>
 
                 <!-- 正文 -->
                 <article class="content">
-                    <h2>知识</h2>
-                    <p>睁眼看世界。</p>
+                    <h2 data-i18n="con_knowledge">知识</h2>
+                    <p data-i18n="knowledge_opening">睁眼看世界。</p>
                     
                     <div id="section1" class="results-container">
                         <div class="result-header">
-                            <h3>一、科学</h3>
+                            <h3 data-i18n="section_science">一、科学</h3>
                         </div>
                         
                         <div class="cards-container">
@@ -149,104 +158,104 @@
 
                     <div id="section2" class="results-container">
                         <div class="result-header">
-                            <h3>二、哲学</h3>
+                            <h3 data-i18n="section_philosophy">二、哲学</h3>
                         </div>
                     </div>
 
                     <div id="section3" class="results-container">
                         <div class="result-header">
-                            <h3>三、技术</h3>
+                            <h3 data-i18n="section_technology">三、技术</h3>
                         </div>
                     </div>
 
                     <div id="section4" class="results-container">
                         <div class="result-header">
-                            <h3>四、技艺</h3>
+                            <h3 data-i18n="section_arts">四、技艺</h3>
                         </div>
 
                         <div class="cards-container">
                             <!-- 卡片1 -->
                             <a href="#" class="card">
                                 <div class="card-icon">🌏</div>
-                                <h4 class="card-title">语言</h4>
-                                <p class="card-info">重建巴别塔。</p>
+                                <h4 class="card-title" data-i18n="card_language">语言</h4>
+                                <p class="card-info" data-i18n="card_language_desc">重建巴别塔。</p>
                             </a>
                         </div>
                     </div>
 
                     <div id="section5" class="results-container">
                         <div class="result-header">
-                            <h3>五、历史</h3>
+                            <h3 data-i18n="section_history">五、历史</h3>
                         </div>
                     </div>
 
                     <div id="section6" class="results-container">
                         <div class="result-header">
-                            <h3>六、自然</h3>
+                            <h3 data-i18n="section_nature">六、自然</h3>
                         </div>
 
                         <div class="cards-container">
                             <!-- 卡片1 -->
                             <a href="knowledge/taxonomy.html" class="card">
                                 <div class="card-icon">🐒</div>
-                                <h4 class="card-title">生物识别</h4>
-                                <p class="card-info">我是谁？</p>
+                                <h4 class="card-title" data-i18n="card_biology">生物识别</h4>
+                                <p class="card-info" data-i18n="card_biology_desc">我是谁？</p>
                             </a>
 
                             <!-- 卡片2 -->
                             <a href="#" class="card">
                                 <div class="card-icon">🛞</div>
-                                <h4 class="card-title">地形划分</h4>
-                                <p class="card-info">这是哪里</p>
+                                <h4 class="card-title" data-i18n="card_terrain">地形划分</h4>
+                                <p class="card-info" data-i18n="card_terrain_desc">这是哪里</p>
                             </a>
 
                             <!-- 卡片3 -->
                             <a href="#" class="card">
                                 <div class="card-icon">☁️</div>
-                                <h4 class="card-title">气候类型</h4>
-                                <p class="card-info">干湿冷热</p>
+                                <h4 class="card-title" data-i18n="card_climate">气候类型</h4>
+                                <p class="card-info" data-i18n="card_climate_desc">干湿冷热</p>
                             </a>
 
                             <!-- 卡片4 -->
                             <a href="#" class="card">
                                 <div class="card-icon">👄</div>
-                                <h4 class="card-title">国际音标</h4>
-                                <p class="card-info">我手写我口</p>
+                                <h4 class="card-title" data-i18n="card_phonetics">国际音标</h4>
+                                <p class="card-info" data-i18n="card_phonetics_desc">我手写我口</p>
                             </a>
 
                             <!-- 卡片5 -->
                             <a href="#" class="card">
                                 <div class="card-icon">💎</div>
-                                <h4 class="card-title">化学元素</h4>
-                                <p class="card-info">构成世间万物</p>
+                                <h4 class="card-title" data-i18n="card_chemistry">化学元素</h4>
+                                <p class="card-info" data-i18n="card_chemistry_desc">构成世间万物</p>
                             </a>
                         </div>
                     </div>
 
                     <div id="section7" class="results-container">
                         <div class="result-header">
-                            <h3>七、文化</h3>
+                            <h3 data-i18n="section_culture">七、文化</h3>
                         </div>
                     </div>
 
                     <div id="section8" class="results-container">
                         <div class="result-header">
-                            <h3>八、社会</h3>
+                            <h3 data-i18n="section_society">八、社会</h3>
                         </div>
 
                         <div class="cards-container">
                             <!-- 卡片1 -->
                             <a href="#" class="card">
                                 <div class="card-icon">👾</div>
-                                <h4 class="card-title">语言学</h4>
-                                <p class="card-info">人类如何学会语言？</p>
+                                <h4 class="card-title" data-i18n="card_linguistics">语言学</h4>
+                                <p class="card-info" data-i18n="card_linguistics_desc">人类如何学会语言？</p>
                             </a>
                         </div>
                     </div>
 
                     <div id="section9" class="results-container">
                         <div class="result-header">
-                            <h3>九、美学</h3>
+                            <h3 data-i18n="section_aesthetics">九、美学</h3>
                         </div>
                     </div>
             </article>
@@ -259,10 +268,9 @@
     <div class="container">
         <div class="footer-content">
             <div class="footer-info">
-                <p class="slogan">Sar-hun thyi tsù-tyā, chit-hun kòu phah-pyà.</p>
-                <p class="slogan">三分天注定，七分靠拍拚。</p>
-                <p class="contact-email">邮箱：harold726@qq.com</p>
-                <p class="update-time">最后更新：2025-01-15 14:30</p>
+                <p class="slogan" data-i18n="slogan_teochew">Sar-hun thyi tsù-tyā, chit-hun kòu phah-pyà.</p>
+                <p class="slogan" data-i18n="slogan_chinese">三分天注定，七分靠拍拚。</p>
+                <p class="contact-email"><span data-i18n="contact_email">电子邮箱</span><span>：harold726@qq.com</span></p>
             </div>
         </div>
     </div>

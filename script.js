@@ -97,7 +97,7 @@ function searchVocabulary() {
             // 搜索 phrase
             if (item.phrase) {
                 item.phrase.forEach(ph => {
-                    if (currentLang === 'teo') {
+                    if (currentLang === 'teo' || currentLang === 'teo-tr') {
                         // 只搜索当前语言
                         if (ph[searchProp]) {
                             if (ph[searchProp].toLowerCase().includes(searchInput)) {
@@ -105,14 +105,14 @@ function searchVocabulary() {
                             }
                         }
                     } else {
-                        // 同时搜索当前语言和 teochew
+                        // 同时搜索当前语言和对应的潮汕话属性
                         if (ph[searchProp]) {
                             if (ph[searchProp].toLowerCase().includes(searchInput)) {
                                 match = true;
                             }
                         }
-                        if (ph.teochew) {
-                            if (ph.teochew.toLowerCase().includes(searchInput)) {
+                        if (ph[currentTeochewProp]) {
+                            if (ph[currentTeochewProp].toLowerCase().includes(searchInput)) {
                                 match = true;
                             }
                         }
@@ -127,7 +127,7 @@ function searchVocabulary() {
             // 搜索 examples
             if (item.examples) {
                 item.examples.forEach(ex => {
-                    if (currentLang === 'teo') {
+                    if (currentLang === 'teo' || currentLang === 'teo-tr') {
                         // 只搜索当前语言
                         if (ex[searchProp]) {
                             if (ex[searchProp].toLowerCase().includes(searchInput)) {
@@ -135,19 +135,19 @@ function searchVocabulary() {
                             }
                         }
                     } else {
-                        // 同时搜索当前语言和 teochew
+                        // 同时搜索当前语言和对应的潮汕话属性
                         if (ex[searchProp]) {
                             if (ex[searchProp].toLowerCase().includes(searchInput)) {
                                 match = true;
                             }
                         }
-                        if (ex.teochew) {
-                            if (ex.teochew.toLowerCase().includes(searchInput)) {
+                        if (ex[currentTeochewProp]) {
+                            if (ex[currentTeochewProp].toLowerCase().includes(searchInput)) {
                                 match = true;
                             }
                         }
-                        if (ph.romazi) {
-                            if (ph.romazi.toLowerCase().includes(searchInput)) {
+                        if (ex.romazi) {
+                            if (ex.romazi.toLowerCase().includes(searchInput)) {
                                 match = true;
                             }
                         }
@@ -426,13 +426,13 @@ function displayResults(results) {
         // 处理phrase
         let phraseHtml = '';
         if (item.phrase && item.phrase.length > 0) {
-            const nonEmptyPhrases = item.phrase.filter(ph => ph.romazi || ph.teochew || ph[displayProp]);
+            const nonEmptyPhrases = item.phrase.filter(ph => ph.romazi || ph[currentTeochewProp] || ph[displayProp]);
             if (nonEmptyPhrases.length > 0) {
                 const phrasesContent = nonEmptyPhrases.map(ph => {
                     return `
                         <div class="result-phrase">
                             ${ph.romazi ? `<div class="phrase-romazi">${ph.romazi}</div>` : ''}
-                            ${ph.teochew ? `<div class="phrase-teochew">${ph.teochew}</div>` : ''}
+                            ${ph[currentTeochewProp] ? `<div class="phrase-teochew">${ph[currentTeochewProp]}</div>` : ''}
                             ${ph[displayProp] ? `<div class="phrase-${displayProp}">${ph[displayProp]}</div>` : ''}
                         </div>
                     `;
@@ -444,13 +444,13 @@ function displayResults(results) {
         // 处理examples
         let examplesHtml = '';
         if (item.examples && item.examples.length > 0) {
-            const nonEmptyExamples = item.examples.filter(ex => ex.romazi || ex.teochew || ex[displayProp]);
+            const nonEmptyExamples = item.examples.filter(ex => ex.romazi || ex[currentTeochewProp] || ex[displayProp]);
             if (nonEmptyExamples.length > 0) {
                 examplesHtml = nonEmptyExamples.map(ex => {
                     return `
                         <div class="result-example">
                             ${ex.romazi ? `<div class="example-romazi">${ex.romazi}</div>` : ''}
-                            ${ex.teochew ? `<div class="example-teochew">${ex.teochew}</div>` : ''}
+                            ${ex[currentTeochewProp] ? `<div class="example-teochew">${ex[currentTeochewProp]}</div>` : ''}
                             ${ex[displayProp] ? `<div class="example-${displayProp}">${ex[displayProp]}</div>` : ''}
                         </div>
                     `;
@@ -535,6 +535,71 @@ function showRandomEntry() {
     }
 }
 
+// 存储当前使用的潮汕话属性 (teochew 或 teochew-tr)
+let currentTeochewProp = 'teochew';
+
+// 处理简体按钮点击
+function handleSimplifiedClick() {
+    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
+    
+    if (currentLang === 'zh' || currentLang === 'zh-tr') {
+        // 切换到 zh 语言
+        window.location.href = '?lang=zh';
+    } else if (currentLang === 'teo' || currentLang === 'teo-tr') {
+        // 切换到 teo 语言
+        window.location.href = '?lang=teo';
+    } else {
+        // 其他语言下，切换到 teochew 属性
+        currentTeochewProp = 'teochew';
+        // 重新执行当前的搜索或显示操作
+        const searchInput = document.getElementById('search-input').value.trim();
+        if (searchInput) {
+            searchVocabulary();
+        } else {
+            // 检查是否有筛选条件
+            const speechValue = document.getElementById('filter-speech').value;
+            const labelValue = document.getElementById('filter-label').value;
+            if (speechValue || labelValue) {
+                filterEntries();
+            } else {
+                // 显示所有
+                showAllEntries();
+            }
+        }
+    }
+}
+
+// 处理繁体按钮点击
+function handleTraditionalClick() {
+    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
+    
+    if (currentLang === 'zh' || currentLang === 'zh-tr') {
+        // 切换到 zh-tr 语言
+        window.location.href = '?lang=zh-tr';
+    } else if (currentLang === 'teo' || currentLang === 'teo-tr') {
+        // 切换到 teo-tr 语言
+        window.location.href = '?lang=teo-tr';
+    } else {
+        // 其他语言下，切换到 teochew-tr 属性
+        currentTeochewProp = 'teochew-tr';
+        // 重新执行当前的搜索或显示操作
+        const searchInput = document.getElementById('search-input').value.trim();
+        if (searchInput) {
+            searchVocabulary();
+        } else {
+            // 检查是否有筛选条件
+            const speechValue = document.getElementById('filter-speech').value;
+            const labelValue = document.getElementById('filter-label').value;
+            if (speechValue || labelValue) {
+                filterEntries();
+            } else {
+                // 显示所有
+                showAllEntries();
+            }
+        }
+    }
+}
+
 // 页面加载时加载数据和绑定事件
 if (document.getElementById('vocab-count')) {
     // 暴露 generateFilterOptions 到全局作用域
@@ -571,7 +636,17 @@ if (document.getElementById('vocab-count')) {
             filterBtn.addEventListener('click', filterEntries);
         }
         
-
+        // 绑定简体按钮点击事件
+        const simplifiedBtn = document.getElementById('simplified-btn');
+        if (simplifiedBtn) {
+            simplifiedBtn.addEventListener('click', handleSimplifiedClick);
+        }
+        
+        // 绑定繁体按钮点击事件
+        const traditionalBtn = document.getElementById('traditional-btn');
+        if (traditionalBtn) {
+            traditionalBtn.addEventListener('click', handleTraditionalClick);
+        }
         
         // 绑定搜索输入框回车事件
         const searchInput = document.getElementById('search-input');

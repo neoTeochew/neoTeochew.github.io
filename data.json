@@ -13,7 +13,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Anabas testudineus",
+      "romazi": "Hag-myâ Anabas testudineus",
       "teochew": "学名 Anabas testudineus",
       "teochew_tr": "學名 Anabas testudineus",
       "putonghua": "龟壳攀鲈、过山鲫、巴磨鱼、老虎鱼",
@@ -64,13 +64,13 @@
       }
     ],
     "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
+      "romazi": "Thài-kok-uē ปลาหมอ (pla-mo)",
+      "teochew": "泰国话ปลาหมอ(pla-mo)",
+      "teochew_tr": "泰國話ปลาหมอ(pla-mo)",
       "putonghua": "来自泰语ปลาหมอ(pla-mo)",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
+      "putonghua_tr": "來自泰語ปลาหมอ(pla-mo)",
+      "English": "from Thai ปลาหมอ (pla-mo)",
+      "francais": "du Thaï ปลาหมอ (pla-mo)",
       "phasaThai": "",
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
@@ -92,11 +92,11 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Decapterus maruadsi",
+      "romazi": "hag-myâ Decapterus maruadsi",
       "teochew": "学名 Decapterus maruadsi",
-      "teochew_tr": "",
+      "teochew_tr": "學名 Decapterus maruadsi",
       "putonghua": "蓝圆鲹、巴浪鱼",
-      "putonghua_tr": "",
+      "putonghua_tr": "藍圓鰺、巴浪魚",
       "English": "Japanese scad",
       "francais": "la comète ronde",
       "phasaThai": "ทูแขกหางเหลือง",
@@ -170,9 +170,9 @@
     "definitions": {
       "romazi": "pá bô-ēng chú-lí kàu ǔ-ēng",
       "teochew": "把无用处理到有用",
-      "teochew_tr": "",
+      "teochew_tr": "把无用處理到有用",
       "putonghua": "修理",
-      "putonghua_tr": "",
+      "putonghua_tr": "修理",
       "English": "repair, fix, mend",
       "francais": "réparer",
       "phasaThai": "ซ่อม ซ่อมแซม แก้ไข",
@@ -298,12 +298,12 @@
       }
     ],
     "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
+      "romazi": "Melay-uē pasar",
+      "teochew": "马来话pasar",
+      "teochew_tr": "馬來話pasar",
       "putonghua": "来自马来语pasar",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua_tr": "來自馬來語pasar",
+      "English": "from Melay pasar",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -324,13 +324,13 @@
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "1.tóu bǒi qùn; 2.muex-kyǎ kǹg qah tsōi, piáu-mīn tsyì kàu pyì tuā",
+      "romazi": "1.tóu bǒi qùn; 2.muex-kyǎ qǹg qah tsōi, piáu-mīn tsyì kàu pyì tuā",
       "teochew": "1.肚袂困；2.物件囥较㩼，表面挤到变大",
-      "teochew_tr": "",
+      "teochew_tr": "1.肚袂困；2.物件囥較㩼，表面擠到變大",
       "putonghua": "1.不饿；2.鼓起来",
-      "putonghua_tr": "",
-      "English": "1.full",
-      "francais": "",
+      "putonghua_tr": "1.不餓；2.鼓起來",
+      "English": "1.full, not hungry; 2.",
+      "francais": "1.n'avoir pas faim; 2.",
       "phasaThai": "",
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
@@ -403,12 +403,12 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Panthera pardus",
-      "teochew": "学名 Panthera pardus",
-      "teochew_tr": "",
-      "putonghua": "豹子",
-      "putonghua_tr": "",
-      "English": "leopard",
+      "romazi": "hag-myâ Panthera (pardus, onca, uncia) 佮 Acinonyx",
+      "teochew": "学名 Panthera (pardus, onca, uncia) 佮 Acinonyx, 含豹属的花豹、美洲豹、雪豹，和猎豹属",
+      "teochew_tr": "學名 Panthera (pardus, onca, uncia) 佮 Acinonyx，含豹屬的花豹、美洲豹、雪豹，和獵豹屬。",
+      "putonghua": "豹子，含花豹、美洲豹、雪豹、猎豹。",
+      "putonghua_tr": "豹子，含花豹、美洲豹、雪豹、獵豹",
+      "English": "leopard; jaguar; cheetah",
       "francais": "le léopard",
       "phasaThai": "เสือดาว",
       "bahasaMelayu": "harimau bintang",
@@ -482,8 +482,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "霸道",
+      "putonghua_tr": "霸道",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -560,7 +560,7 @@
       "teochew": "",
       "teochew_tr": "",
       "putonghua": "班级",
-      "putonghua_tr": "",
+      "putonghua_tr": "班級",
       "English": "class",
       "francais": "la classe",
       "phasaThai": "",
@@ -636,7 +636,7 @@
       "teochew": "",
       "teochew_tr": "",
       "putonghua": "版本",
-      "putonghua_tr": "",
+      "putonghua_tr": "版本",
       "English": "version, edition",
       "francais": "",
       "phasaThai": "",
@@ -702,17 +702,18 @@
     "item": "pat",
     "pronunciation": "pat",
     "hanzi": [
-      "捌"
+      "捌",
+      "𧧸"
     ],
     "speech": "状态",
     "label": [],
     "img": "",
     "definitions": {
-      "romazi": "chêng-keng tsò--kuè",
-      "teochew": "曾经做过",
-      "teochew_tr": "",
+      "romazi": "yí-tsôy tsò--kuè",
+      "teochew": "以前做过",
+      "teochew_tr": "以前做過",
       "putonghua": "曾经有过",
-      "putonghua_tr": "",
+      "putonghua_tr": "曾經有過",
       "English": "used to do",
       "francais": "",
       "phasaThai": "",
@@ -743,12 +744,12 @@
     "examples": [
       {
         "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
+        "romazi": "Kah i tǒ mǎng téng phuex tiex tsiè kú, li hwa m̄ pat tǒ hīn-sid sie-ngǒ.",
+        "teochew": "佮伊在网顶诐着迩久，哩还毋捌在现实相遇。",
+        "teochew_tr": "佮伊在网頂詖着邇久，哩還毋捌在現實相遇。",
+        "putonghua": "在网上聊天这么久了，却还没在现实中遇到过。",
+        "putonghua_tr": "在网上聊天這麽久，却還没在現實中遇到過。",
+        "English": "We have talked online for a long time. However, we haven't ever met in reality.",
         "francais": "",
         "phasaThai": "",
         "bahasaMelayu": "",
@@ -762,7 +763,7 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
+      "putonghua": "因为“𧧸”字一些地方显示不了，所以建议用替字“捌”。",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -778,7 +779,8 @@
     "item": "pat",
     "pronunciation": "pat",
     "hanzi": [
-      "捌"
+      "捌",
+      "𧧸"
     ],
     "speech": "行为",
     "label": [],
@@ -786,9 +788,9 @@
     "definitions": {
       "romazi": "zīn-sek",
       "teochew": "认识",
-      "teochew_tr": "",
+      "teochew_tr": "認識",
       "putonghua": "认识",
-      "putonghua_tr": "",
+      "putonghua_tr": "認識",
       "English": "know",
       "francais": "connaître",
       "phasaThai": "",
@@ -801,12 +803,12 @@
     "phrase": [
       {
         "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
+        "romazi": "sie-pat",
+        "teochew": "相捌",
+        "teochew_tr": "相捌",
+        "putonghua": "互相认识",
+        "putonghua_tr": "互相認識",
+        "English": "know each other",
         "francais": "",
         "phasaThai": "",
         "bahasaMelayu": "",
@@ -819,12 +821,12 @@
     "examples": [
       {
         "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
+        "romazi": "Kuè kú bô thóy, nǒ nâng thuà m̄ sie-pat--qùr.",
+        "teochew": "怪久无睇，两人thuà毋相捌去。",
+        "teochew_tr": "怪久无睇，兩人thuà毋相捌去。",
+        "putonghua": "许久未相见，两个人现在都不认得彼此了。",
+        "putonghua_tr": "許久未相見，兩個人現在都不認得彼此了。",
+        "English": "After a long seperation, they have not known each other now.",
         "francais": "",
         "phasaThai": "",
         "bahasaMelayu": "",
@@ -838,7 +840,7 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
+      "putonghua": "因为“𧧸”字一些地方显示不了，所以建议用替字“捌”。",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -5387,6 +5389,84 @@
     "item": "pox-qak",
     "pronunciation": "pox-qak",
     "hanzi": [
+      "驳壳"
+    ],
+    "speech": "指称",
+    "label": [
+      "工具"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "手枪",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "pox-qak",
+    "pronunciation": "pox-qak",
+    "hanzi": [
       "薄壳"
     ],
     "speech": "指称",
@@ -8604,7 +8684,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Ginkgo biloba",
+      "romazi": "hag-myâ Ginkgo biloba",
       "teochew": "学名 Ginkgo biloba",
       "teochew_tr": "",
       "putonghua": "银杏果",
@@ -8835,7 +8915,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Brassica rapa pekinensis",
+      "romazi": "hag-myâ Brassica rapa pekinensis",
       "teochew": "学名 Brassica rapa pekinensis",
       "teochew_tr": "",
       "putonghua": "大白菜",
@@ -10513,7 +10593,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Cicadidae",
+      "romazi": "hag-myâ Cicadidae",
       "teochew": "学名 Cicadidae",
       "teochew_tr": "",
       "putonghua": "知了、蝉",
@@ -10902,7 +10982,7 @@
       "putonghua": "甲鱼",
       "putonghua_tr": "",
       "English": "学名 Trionychidae",
-      "francais": "hag-miâ Trionychidae",
+      "francais": "hag-myâ Trionychidae",
       "phasaThai": "",
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
@@ -11133,7 +11213,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Eriobotrya japonica",
+      "romazi": "hag-myâ Eriobotrya japonica",
       "teochew": "学名 Eriobotrya japonica",
       "teochew_tr": "",
       "putonghua": "枇杷",
@@ -93447,7 +93527,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Nelumbo nucifera",
+      "romazi": "hag-myâ Nelumbo nucifera",
       "teochew": "学名 Nelumbo nucifera",
       "teochew_tr": "",
       "putonghua": "",
@@ -122019,10 +122099,13 @@
     "item": "ko-zúr-hu",
     "pronunciation": "ko-zúr-hu",
     "hanzi": [
-      "高尔夫,golf"
+      "高尔夫"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "运动",
+      "外来语"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
@@ -122560,8 +122643,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "绊倒别人",
+      "putonghua_tr": "絆倒别人",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -122639,6 +122722,84 @@
       "putonghua": "",
       "putonghua_tr": "",
       "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "kong",
+    "pronunciation": "kong",
+    "hanzi": [
+      "公"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, pě kâi pě. Iā kiè a-kong.",
+      "teochew": "父的父。也叫阿公。",
+      "teochew_tr": "",
+      "putonghua": "爷爷，祖父",
+      "putonghua_tr": "",
+      "English": "Grandfather who is Father's father.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -125742,6 +125903,84 @@
     }
   },
   {
+    "item": "kou",
+    "pronunciation": "kou",
+    "hanzi": [
+      "姑"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, pě kâi tsí-muě. Iā kiè a-kou.",
+      "teochew": "父的姊妹。也叫阿姑。",
+      "teochew_tr": "",
+      "putonghua": "姑姑",
+      "putonghua_tr": "",
+      "English": "Aunt who is Father's sister.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "kou-twa",
     "pronunciation": "kou-twa",
     "hanzi": [
@@ -126970,7 +127209,7 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
+      "putonghua": "多。",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -127002,11 +127241,11 @@
     "examples": [
       {
         "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
+        "romazi": "Lúr tsyî siǎng ke.",
+        "teochew": "你钱上加。",
+        "teochew_tr": "你錢上加。",
+        "putonghua": "你钱最多了。",
+        "putonghua_tr": "你錢最多了。",
         "English": "",
         "francais": "",
         "phasaThai": "",
@@ -127037,16 +127276,16 @@
     "item": "ke",
     "pronunciation": "ke",
     "hanzi": [
-      "家"
+      "加"
     ],
-    "speech": "指称",
+    "speech": "状态",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
+      "putonghua": "再多来几个",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -127060,11 +127299,27 @@
     "phrase": [
       {
         "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
+        "romazi": "ke ē",
+        "teochew": "加下",
+        "teochew_tr": "加下",
+        "putonghua": "再来一次",
+        "putonghua_tr": "再來一次",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      },
+      {
+        "id": 2,
+        "romazi": "ke kòl",
+        "teochew": "加块",
+        "teochew_tr": "加塊",
+        "putonghua": "再来一个",
+        "putonghua_tr": "再來一個",
         "English": "",
         "francais": "",
         "phasaThai": "",
@@ -127402,6 +127657,82 @@
       "teochew": "",
       "teochew_tr": "",
       "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "ke-ē",
+    "pronunciation": "ke-ē",
+    "hanzi": [
+      "加下"
+    ],
+    "speech": "状态",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "待会儿",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "相似的表达“加下”(ke ē)是“加”+量词的词组，就是字面意思“再来某个东西”。因为可以加任意量词，数量无限，所以不单独列成条目。",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -132594,8 +132925,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "黄金",
+      "putonghua_tr": "黄金",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -132664,7 +132995,10 @@
       "金橄榄"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "植物",
+      "调料"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
@@ -133131,6 +133465,84 @@
       "putonghua": "关进监狱",
       "putonghua_tr": "",
       "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "kǐm",
+    "pronunciation": "kǐm",
+    "hanzi": [
+      "妗"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, kǔ kâi bóu. Iā kiè a-kǐm.",
+      "teochew": "舅的亩。也叫阿妗。",
+      "teochew_tr": "",
+      "putonghua": "舅妈",
+      "putonghua_tr": "",
+      "English": "Aunt who is the wife of Mother's brother.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -134263,15 +134675,95 @@
       "囝"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "亲戚"
+    ],
     "img": "",
     "definitions": {
+      "romazi": "Chin-tsyâ, ser kāi nâng.",
+      "teochew": "生的人。",
+      "teochew_tr": "",
+      "putonghua": "儿子，女儿",
+      "putonghua_tr": "",
+      "English": "Son or daughter.",
+      "francais": "Enfant.",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "下一代",
+      "putonghua": "",
       "putonghua_tr": "",
       "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "kyá-sài",
+    "pronunciation": "kyá-sài",
+    "hanzi": [
+      "囝婿"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, ǎu tō nâng kâi ang.",
+      "teochew": "后代人的翁。",
+      "teochew_tr": "",
+      "putonghua": "女婿",
+      "putonghua_tr": "",
+      "English": "Son-in-law.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -138298,10 +138790,89 @@
     }
   },
   {
+    "item": "kǔ",
+    "pronunciation": "kǔ",
+    "hanzi": [
+      "舅"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, bó kâi hya-tǐ. Iā kiè a-kǔ.",
+      "teochew": "母的兄弟。也叫阿舅。",
+      "teochew_tr": "",
+      "putonghua": "舅舅",
+      "putonghua_tr": "",
+      "English": "Uncle who is Mother's brother.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "kū",
     "pronunciation": "kū",
     "hanzi": [
-      "旧"
+      "旧",
+      "舊"
     ],
     "speech": "描述",
     "label": [],
@@ -138377,7 +138948,8 @@
     "item": "kū-sūr",
     "pronunciation": "kū-sūr",
     "hanzi": [
-      "故事"
+      "旧事",
+      "舊事"
     ],
     "speech": "指称",
     "label": [],
@@ -138386,9 +138958,9 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "故事",
+      "putonghua_tr": "故事",
+      "English": "story",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -167908,8 +168480,85 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
+      "putonghua": "一节",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
       "putonghua": "",
       "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "tsat-mag",
+    "pronunciation": "tsat-mag",
+    "hanzi": [
+      "节目",
+      "節目"
+    ],
+    "speech": "指称",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "1.娱乐项目；2.表演节目、电视节目",
+      "putonghua_tr": "1.娛樂項目；2.表演節目、电視節目",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -168136,7 +168785,7 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
+      "putonghua": "拔（头发）",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -172475,6 +173124,82 @@
       "teochew": "",
       "teochew_tr": "",
       "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "tsok-tsok",
+    "pronunciation": "tsok-tsok",
+    "hanzi": [
+      "足足"
+    ],
+    "speech": "状态",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "偏偏",
       "putonghua_tr": "",
       "English": "",
       "francais": "",
@@ -211798,7 +212523,8 @@
     "item": "san-tîr",
     "pronunciation": "san-tîr",
     "hanzi": [
-      "删除"
+      "删除",
+      "刪除"
     ],
     "speech": "行为",
     "label": [],
@@ -212330,7 +213056,8 @@
     "item": "sang",
     "pronunciation": "sang",
     "hanzi": [
-      "双"
+      "双",
+      "雙"
     ],
     "speech": "量词",
     "label": [],
@@ -212406,7 +213133,8 @@
     "item": "sang-mīn-ka",
     "pronunciation": "sang-mīn-ka",
     "hanzi": [
-      "双面胶"
+      "双面胶",
+      "雙面膠"
     ],
     "speech": "指称",
     "label": [],
@@ -212482,7 +213210,8 @@
     "item": "sang-ser",
     "pronunciation": "sang-ser",
     "hanzi": [
-      "双生"
+      "双生",
+      "雙生"
     ],
     "speech": "描述",
     "label": [],
@@ -212558,7 +213287,8 @@
     "item": "sang-ser-zî",
     "pronunciation": "sang-ser-zî",
     "hanzi": [
-      "双生儿"
+      "双生儿",
+      "雙生兒"
     ],
     "speech": "指称",
     "label": [],
@@ -212938,7 +213668,8 @@
     "item": "sai",
     "pronunciation": "sai",
     "hanzi": [
-      "狮"
+      "狮",
+      "獅"
     ],
     "speech": "指称",
     "label": [],
@@ -213014,7 +213745,8 @@
     "item": "sai-pě",
     "pronunciation": "sai-pě",
     "hanzi": [
-      "师父"
+      "师父",
+      "師父"
     ],
     "speech": "指称",
     "label": [],
@@ -213090,10 +213822,13 @@
     "item": "sai-kong",
     "pronunciation": "sai-kong",
     "hanzi": [
-      "师公"
+      "师公",
+      "師公"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "身份"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
@@ -251746,6 +252481,162 @@
     }
   },
   {
+    "item": "hya",
+    "pronunciation": "hya",
+    "hanzi": [
+      "兄"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, tâng tō nâng nî-lêng tuā kâi ta-pou. Iā kiè a-hya.",
+      "teochew": "同代人年龄大的<ruby>丈夫<rt>ta-pou</ruby>。也叫阿兄。",
+      "teochew_tr": "",
+      "putonghua": "哥哥",
+      "putonghua_tr": "",
+      "English": "Elder brother.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "hya-tǐ-kyá",
+    "pronunciation": "hya-tǐ-kyá",
+    "hanzi": [
+      "兄弟囝"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, hya kah tǐ hax-buâ.",
+      "teochew": "兄佮弟合磨。",
+      "teochew_tr": "",
+      "putonghua": "兄弟",
+      "putonghua_tr": "",
+      "English": "Brother.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "hyà",
     "pronunciation": "hyà",
     "hanzi": [
@@ -251758,8 +252649,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "敞开",
+      "putonghua_tr": "敞開",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -251825,7 +252716,7 @@
     "item": "hyâ",
     "pronunciation": "hyâ",
     "hanzi": [
-      "hyâ"
+      "燃"
     ],
     "speech": "行为",
     "label": [],
@@ -251834,8 +252725,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "煮温热",
+      "putonghua_tr": "煮温熱",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -251904,14 +252795,16 @@
       "莶"
     ],
     "speech": "描述",
-    "label": [],
+    "label": [
+      "味觉"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "辣",
+      "putonghua_tr": "辣",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -251980,14 +252873,17 @@
       "莶椒"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "植物",
+      "调料"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "辣椒",
+      "putonghua_tr": "辣椒",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -252053,7 +252949,8 @@
     "item": "hiám-hiám",
     "pronunciation": "hiám-hiám",
     "hanzi": [
-      "险险"
+      "险险",
+      "險險"
     ],
     "speech": "状态",
     "label": [],
@@ -252063,7 +252960,7 @@
       "teochew": "",
       "teochew_tr": "",
       "putonghua": "差点儿",
-      "putonghua_tr": "",
+      "putonghua_tr": "差點兒",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -252138,8 +253035,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "嫌弃",
+      "putonghua_tr": "嫌棄",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -255713,7 +256610,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Columba, kak-sog",
+      "romazi": "hag-myâ Columba, kak-sog",
       "teochew": "学名 Columba，鸽属",
       "teochew_tr": "",
       "putonghua": "鸽子",
@@ -258556,7 +259453,7 @@
     ],
     "img": "",
     "definitions": {
-      "romazi": "hag-miâ Cairina moschata",
+      "romazi": "hag-myâ Cairina moschata",
       "teochew": "学名 Cairina moschata",
       "teochew_tr": "",
       "putonghua": "疣鼻栖鸭、麝香鸭、红面鸭、番鸭、洋鸭",
@@ -268864,6 +269761,84 @@
     }
   },
   {
+    "item": "ang",
+    "pronunciation": "ang",
+    "hanzi": [
+      "翁"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, sie kat-hun kâi ta-pou.",
+      "teochew": "相结婚的<ruby>丈夫<rt>ta-pou</ruby>。",
+      "teochew_tr": "",
+      "putonghua": "丈夫",
+      "putonghua_tr": "",
+      "English": "Husband.",
+      "francais": "Mari.",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "ang-kyá",
     "pronunciation": "ang-kyá",
     "hanzi": [
@@ -268955,6 +269930,84 @@
       "putonghua": "",
       "putonghua_tr": "",
       "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "ang-tsiá",
+    "pronunciation": "ang-tsiá",
+    "hanzi": [
+      "翁姐"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, ang kah bóu hax-buâ.",
+      "teochew": "翁佮亩合磨。",
+      "teochew_tr": "",
+      "putonghua": "夫妻",
+      "putonghua_tr": "",
+      "English": "Husband and wife. A couple.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -270764,6 +271817,85 @@
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
       "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
+    "item": "âi",
+    "pronunciation": "âi",
+    "hanzi": [
+      "嫒",
+      "嬡"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, bó.",
+      "teochew": "母。",
+      "teochew_tr": "",
+      "putonghua": "母亲",
+      "putonghua_tr": "",
+      "English": "Mother.",
+      "francais": "Mère.",
+      "phasaThai": "แม่",
+      "bahasaMelayu": "Ibu.",
+      "bahasaIndonesia": "Ibu.",
+      "tiengViet": "Mẹ.",
       "pheasaKhmer": "",
       "phasaLao": ""
     },
@@ -277439,7 +278571,8 @@
     "item": "i-sì",
     "pronunciation": "i-sì",
     "hanzi": [
-      "依势"
+      "依势",
+      "依勢"
     ],
     "speech": "行为",
     "label": [],
@@ -277448,8 +278581,8 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "拖延",
+      "putonghua_tr": "拖延",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -277664,10 +278797,89 @@
     }
   },
   {
+    "item": "î",
+    "pronunciation": "î",
+    "hanzi": [
+      "姨"
+    ],
+    "speech": "指称",
+    "label": [
+      "亲戚"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "Chin-tsyâ, bó kâi tsí-muě. Iā kiè a-î.",
+      "teochew": "母的姊妹。也叫阿姨。",
+      "teochew_tr": "",
+      "putonghua": "姨妈",
+      "putonghua_tr": "",
+      "English": "Aunt who is Mother's sister.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "î-tǒng",
     "pronunciation": "î-tǒng",
     "hanzi": [
-      "移动"
+      "移动",
+      "移動"
     ],
     "speech": "行为",
     "label": [],
@@ -277746,14 +278958,16 @@
       "椅"
     ],
     "speech": "指称",
-    "label": [],
+    "label": [
+      "家具"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "椅子",
+      "putonghua_tr": "椅子",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -310272,474 +311486,6 @@
     }
   },
   {
-    "item": "kong",
-    "pronunciation": "kong",
-    "hanzi": [
-      "公"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, pě kâi pě. Iā kiè a-kong.",
-      "teochew": "父的父。也叫阿公。",
-      "teochew_tr": "",
-      "putonghua": "爷爷，祖父",
-      "putonghua_tr": "",
-      "English": "Grandfather who is Father's father.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "kou",
-    "pronunciation": "kou",
-    "hanzi": [
-      "姑"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, pě kâi tsí-muě. Iā kiè a-kou.",
-      "teochew": "父的姊妹。也叫阿姑。",
-      "teochew_tr": "",
-      "putonghua": "姑姑",
-      "putonghua_tr": "",
-      "English": "Aunt who is Father's sister.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "kǐm",
-    "pronunciation": "kǐm",
-    "hanzi": [
-      "妗"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, kǔ kâi bóu. Iā kiè a-kǐm.",
-      "teochew": "舅的亩。也叫阿妗。",
-      "teochew_tr": "",
-      "putonghua": "舅妈",
-      "putonghua_tr": "",
-      "English": "Aunt who is the wife of Mother's brother.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "kyá",
-    "pronunciation": "kyá",
-    "hanzi": [
-      "囝"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, ser kāi nâng.",
-      "teochew": "生的人。",
-      "teochew_tr": "",
-      "putonghua": "儿子，女儿",
-      "putonghua_tr": "",
-      "English": "Son or daughter.",
-      "francais": "Enfant.",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "kyá-sài",
-    "pronunciation": "kyá-sài",
-    "hanzi": [
-      "囝婿"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, ǎu tō nâng kâi ang.",
-      "teochew": "后代人的翁。",
-      "teochew_tr": "",
-      "putonghua": "女婿",
-      "putonghua_tr": "",
-      "English": "Son-in-law.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "kǔ",
-    "pronunciation": "kǔ",
-    "hanzi": [
-      "舅"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, bó kâi hya-tǐ. Iā kiè a-kǔ.",
-      "teochew": "母的兄弟。也叫阿舅。",
-      "teochew_tr": "",
-      "putonghua": "舅舅",
-      "putonghua_tr": "",
-      "English": "Uncle who is Mother's brother.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
     "item": "guā-má",
     "pronunciation": "guā-má",
     "hanzi": [
@@ -311925,475 +312671,6 @@
       "putonghua": "侄子，侄女",
       "putonghua_tr": "",
       "English": "Nephew or niece who is brother's child.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "hya",
-    "pronunciation": "hya",
-    "hanzi": [
-      "兄"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, tâng tō nâng nî-lêng tuā kâi ta-pou. Iā kiè a-hya.",
-      "teochew": "同代人年龄大的<ruby>丈夫<rt>ta-pou</ruby>。也叫阿兄。",
-      "teochew_tr": "",
-      "putonghua": "哥哥",
-      "putonghua_tr": "",
-      "English": "Elder brother.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "hya-tǐ-kyá",
-    "pronunciation": "hya-tǐ-kyá",
-    "hanzi": [
-      "兄弟囝"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, hya kah tǐ hax-buâ.",
-      "teochew": "兄佮弟合磨。",
-      "teochew_tr": "",
-      "putonghua": "兄弟",
-      "putonghua_tr": "",
-      "English": "Brother.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "ang",
-    "pronunciation": "ang",
-    "hanzi": [
-      "翁"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, sie kat-hun kâi ta-pou.",
-      "teochew": "相结婚的<ruby>丈夫<rt>ta-pou</ruby>。",
-      "teochew_tr": "",
-      "putonghua": "丈夫",
-      "putonghua_tr": "",
-      "English": "Husband.",
-      "francais": "Mari.",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "ang-tsiá",
-    "pronunciation": "ang-tsiá",
-    "hanzi": [
-      "翁姐"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, ang kah bóu hax-buâ.",
-      "teochew": "翁佮亩合磨。",
-      "teochew_tr": "",
-      "putonghua": "夫妻",
-      "putonghua_tr": "",
-      "English": "Husband and wife. A couple.",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "âi",
-    "pronunciation": "âi",
-    "hanzi": [
-      "嫒",
-      "嬡"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, bó.",
-      "teochew": "母。",
-      "teochew_tr": "",
-      "putonghua": "母亲",
-      "putonghua_tr": "",
-      "English": "Mother.",
-      "francais": "Mère.",
-      "phasaThai": "แม่",
-      "bahasaMelayu": "Ibu.",
-      "bahasaIndonesia": "Ibu.",
-      "tiengViet": "Mẹ.",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrase": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    }
-  },
-  {
-    "item": "î",
-    "pronunciation": "î",
-    "hanzi": [
-      "姨"
-    ],
-    "speech": "指称",
-    "label": [
-      "亲戚"
-    ],
-    "img": "",
-    "definitions": {
-      "romazi": "Chin-tsyâ, bó kâi tsí-muě. Iā kiè a-î.",
-      "teochew": "母的姊妹。也叫阿姨。",
-      "teochew_tr": "",
-      "putonghua": "姨妈",
-      "putonghua_tr": "",
-      "English": "Aunt who is Mother's sister.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -324064,6 +324341,85 @@
     }
   },
   {
+    "item": "Haojiang",
+    "pronunciation": "Hâu-kang",
+    "hanzi": [
+      "濠江"
+    ],
+    "speech": "专名",
+    "label": [
+      "区",
+      "行政区"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "Chenghai",
     "pronunciation": "Thêng-hái",
     "hanzi": [
@@ -324860,7 +325216,8 @@
     "item": "Jianyang",
     "pronunciation": "Kiǎn-iâng",
     "hanzi": [
-      "建阳"
+      "建阳",
+      "建陽"
     ],
     "speech": "专名",
     "label": [
@@ -325259,7 +325616,8 @@
     "item": "Haihou",
     "pronunciation": "Hái-ǎu",
     "hanzi": [
-      "海后"
+      "海后",
+      "海後"
     ],
     "speech": "专名",
     "label": [
@@ -325415,9 +325773,10 @@
   },
   {
     "item": "Lianshang",
-    "pronunciation": "Nôi-tsyē",
+    "pronunciation": "Nôy-tsyē",
     "hanzi": [
-      "莲上"
+      "莲上",
+      "蓮上"
     ],
     "speech": "专名",
     "label": [
@@ -325652,7 +326011,7 @@
   },
   {
     "item": "Zhulin",
-    "pronunciation": "Tek-nâ",
+    "pronunciation": "Tek-nâr",
     "hanzi": [
       "竹林"
     ],

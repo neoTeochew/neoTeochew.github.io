@@ -59,8 +59,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Set active language link
     document.querySelectorAll('.lang-link').forEach(link => {
         link.classList.remove('active');
-        if (link.getAttribute('href') === `?lang=${lang}` || 
-            (link.getAttribute('href') === '' && lang === 'zh')) {
+        if (link.getAttribute('href') === `?lang=${lang}`) {
             link.classList.add('active');
         }
     });
@@ -84,11 +83,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             
             // Update URL without page reload
             const url = new URL(window.location.href);
-            if (lang === 'zh') {
-                url.search = '';
-            } else {
-                url.search = `?lang=${lang}`;
-            }
+            url.search = `?lang=${lang}`;
             window.history.pushState({}, '', url);
             
             await i18n.setLanguage(lang);
