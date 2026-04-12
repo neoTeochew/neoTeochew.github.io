@@ -42210,6 +42210,82 @@
     }
   },
   {
+    "item": "mag-chox",
+    "pronunciation": "mag-chox",
+    "hanzi": [
+      "目亍"
+    ],
+    "speech": "指称",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "眼瞎，贬义。",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrase": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "",
+      "putonghua_tr": "",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    }
+  },
+  {
     "item": "mag-chì-mô",
     "pronunciation": "mag-chì-mô",
     "hanzi": [
@@ -248834,7 +248910,8 @@
     "item": "heh",
     "pronunciation": "heh",
     "hanzi": [
-      "吓"
+      "吓",
+      "嚇"
     ],
     "speech": "行为",
     "label": [],
@@ -248843,9 +248920,9 @@
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "恐吓",
+      "putonghua": "惊吓；开玩笑式的恐吓",
       "putonghua_tr": "",
-      "English": "",
+      "English": "surprise",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
