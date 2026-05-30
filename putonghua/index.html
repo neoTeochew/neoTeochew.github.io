@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>潮语辞典 | 潮语埠 - 收录潮汕话表达</title>
+     <link rel="icon" href="../logo/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="../logo/logo.png" alt="潮语埠">
+                <h1>潮语埠</h1>
+            </div>
+            <div class="lang-switch">
+                <a href="#" data-lang="teochew">潮汕话</a>
+                <a href="#" class="active" data-lang="putonghua">普通话</a>
+                <a href="#" data-lang="English">English</a>
+                <a href="#" data-lang="francais">français</a>
+                <a href="#" data-lang="phasaThai">ภาษาไทย</a>
+                <a href="#" data-lang="bahasaMelayu">Bahasa Melayu</a>
+                <a href="#" data-lang="bahasaIndonesia">Bahasa Indonesia</a>
+                <a href="#" data-lang="tiengViet">Tiếng Việt</a>
+                <a href="#" data-lang="pheasaKhmer">ភាសាខ្មែរ</a>
+                <a href="#" data-lang="phasaLao">ພາສາລາວ</a>
+                <!-- <span class="current-lang-label" id="currentLangLabel">当前语言: 潮汕话</span> -->
+                <!-- <div class="lang-toggle">
+                    <button>简体</button>
+                    <button>繁體</button>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-bar">
+        <div class="nav-content">
+            <a href="#" class="active">辞典</a>
+            <a href="#">字典</a>
+            <a href="#">自学</a>
+            <a href="#">知识</a>
+            <a href="#">新闻</a>
+            <a href="#">故事</a>
+            <a href="#">歌囝</a>
+            <a href="#">潮语输入法</a>
+            <a href="#">参考资料</a>
+            <a href="#">关于我们</a>
+            <a href="logs.html">网站进度</a>   
+            <!-- <div class="nav-dropdown">
+                <a href="#" class="dropdown-toggle">更多说明</a>
+                <div class="dropdown-menu">
+                    <a href="#">关于我们</a>
+                    <a href="#">潮语输入法</a>
+                    <a href="#">参考资料</a>
+                </div>
+            </div> -->
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="search-box">
+            <h2>潮语辞典</h2>
+
+            <div class="search-input-wrapper">
+                <input type="text" class="search-input" placeholder="输入要搜索的词">
+                <button class="btn btn-primary" id="searchBtn">查找</button>
+                <button class="btn btn-secondary" id="randomBtn">随机</button>
+                <button class="btn btn-secondary" id="allBtn">全部</button>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-title">搜索范围</div>
+                <div class="checkbox-group">
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchItem" checked>
+                        <span>词汇</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchHanzi" checked>
+                        <span>汉字</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchDefinition">
+                        <span>定义</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchExample">
+                        <span>用例</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="select-filter">
+                <select class="filter-select" id="speechFilter">
+                    <option value="">所有词性</option>
+                </select>
+                <select class="filter-select" id="tagFilter">
+                    <option value="">所有标签</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-title">首音节限定</div>
+                <div class="phonetic-filters">
+                    <label>
+                        声母:
+                        <select id="shengmuFilter">
+                            <option value="">不限</option>
+                        </select>
+                    </label>
+                    <label>
+                        韵母:
+                        <select id="yunmuFilter">
+                            <option value="">不限</option>
+                        </select>
+                    </label>
+                    <label>
+                        声调:
+                        <select id="toneFilter">
+                            <option value="">不限</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="stats-bar">
+                <p>目前收录了 <span id="totalCount">0</span> 个词汇和词组。</p>
+                <p>á à â ǎ ā ó ò ô ǒ ō é è ê ě ē í ì î ǐ ī ú ù û ǔ ū ḿ m̀ m̂ m̌ m̄ ń ǹ n̂ ň n̄</p>
+                <p>原本的数据主要注重数量，收录得太乱了，现在重新整理，目前正在整理声母p。其他页面暂时先下了。</p>
+            </div>
+
+            <div class="search-results" id="searchResults">
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

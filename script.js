@@ -1,661 +1,466 @@
-// 搜索功能实现
-let vocabularyData = [];
+const langNames = {
+    'teochew': '潮汕话',
+    'putonghua': '普通话',
+    'English': 'English',
+    'francais': 'français',
+    'phasaThai': 'ภาษาไทย',
+    'bahasaMelayu': 'Bahasa Melayu',
+    'bahasaIndonesia': 'Bahasa Indonesia',
+    'tiengViet': 'Tiếng Việt',
+    'pheasaKhmer': 'ភាសាខ្មែរ',
+    'phasaLao': 'ພາສາລາວ'
+};
 
-// 加载数据
+let dictionaryData = [];
+let currentLang = 'teochew';
+let allSpeech = [];
+let allTags = [];
+let allShengmu = [];
+let allYunmu = [];
+let allTones = [];
+
+function getCurrentLangFromPath() {
+    const path = window.location.pathname;
+    const parts = path.split('/');
+    for (let i = parts.length - 2; i >= 0; i--) {
+        if (langNames[parts[i]]) {
+            return parts[i];
+        }
+    }
+    return 'teochew';
+}
+
 async function loadData() {
     try {
-        const response = await fetch('data.json');
-        vocabularyData = await response.json();
-        
-        // 统计词汇数量
-        const vocabCountValue = vocabularyData.length;
-        
-        // 更新词汇和词组数量
-        const vocabCountElement = document.getElementById('vocab-count');
-        if (vocabCountElement) {
-            vocabCountElement.textContent = `${vocabCountValue}`;
-            // 触发i18n更新
-            if (window.i18n) {
-                window.i18n.updateContent();
-            }
-        }
+        const response = await fetch('../data.json');//这是网页方获取统计和结果数据
+        dictionaryData = await response.json();
+        extractFilterOptions();
+        populateFilterOptions();
+        document.getElementById('totalCount').textContent = dictionaryData.length;
+        showInitialState();
     } catch (error) {
         console.error('加载数据失败:', error);
-        const vocabCountElement = document.getElementById('vocab-count');
-        if (vocabCountElement) {
-            vocabCountElement.textContent = '加载失败';
-        }
     }
 }
 
-// 搜索函数
-function searchVocabulary() {
-    const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
-    const searchWord = document.getElementById('search-word').checked;
-    const searchHanzi = document.getElementById('search-hanzi').checked;
-    const searchDefinition = document.getElementById('search-definition').checked;
-    const searchUsage = document.getElementById('search-usage').checked;
-    
-    const resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = '';
-    
-    if (!searchInput) {
-        return;
-    }
-    
-    // 获取当前语言
-    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
-    
-    // 根据语言决定搜索的属性
-    let searchProp = 'putonghua';
-    if (currentLang === 'teo') {
-        searchProp = 'teochew';
-    } else if (currentLang === 'en') {
-        searchProp = 'English';
-    } else if (currentLang === 'zh-tr') {
-        searchProp = 'putonghua-tr';
-    } else if (currentLang === 'teo-tr') {
-        searchProp = 'teochew-tr';
-    } else if (currentLang === 'fr') {
-        searchProp = 'francais';
-    } else if (currentLang === 'th') {
-        searchProp = 'phasaThai';
-    } else if (currentLang === 'me') {
-        searchProp = 'phasaThai';
-    } else if (currentLang === 'id') {
-        searchProp = 'bahasaIndonesia';
-    } else if (currentLang === 'vi') {
-        searchProp = 'tiengViet';
-    } else if (currentLang === 'km') {
-        searchProp = 'pheasaKhmer';
-    } else if (currentLang === 'lo') {
-        searchProp = 'phasaLao';
-    }
-    
-    const results = vocabularyData.filter(item => {
-        let match = false;
-        
-        // 搜索词汇 (item)
-        if (searchWord && item.item.toLowerCase().includes(searchInput)) {
-            match = true;
-        }
-        
-        // 搜索汉字 (hanzi)
-        if (searchHanzi && item.hanzi.some(h => h.toLowerCase().includes(searchInput))) {
-            match = true;
-        }
-        
-        // 搜索定义 (只搜索本语言即可)
-        if (searchDefinition) {
-            if (item.definitions[searchProp].toLowerCase().includes(searchInput)) {
-                match = true;
-            }
-        }
-        
-        // 搜索用例 (既要有teochew，又要有本语言)
-        if (searchUsage) {
-            // 搜索 phrase
-            if (item.phrase) {
-                item.phrase.forEach(ph => {
-                    if (currentLang === 'teo' || currentLang === 'teo-tr') {
-                        // 只搜索当前语言
-                        if (ph[searchProp]) {
-                            if (ph[searchProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                    } else {
-                        // 同时搜索当前语言和对应的潮汕话属性
-                        if (ph[searchProp]) {
-                            if (ph[searchProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                        if (ph[currentTeochewProp]) {
-                            if (ph[currentTeochewProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                        if (ph.romazi) {
-                            if (ph.romazi.toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                    }
-                });
-            }
-            // 搜索 examples
-            if (item.examples) {
-                item.examples.forEach(ex => {
-                    if (currentLang === 'teo' || currentLang === 'teo-tr') {
-                        // 只搜索当前语言
-                        if (ex[searchProp]) {
-                            if (ex[searchProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                    } else {
-                        // 同时搜索当前语言和对应的潮汕话属性
-                        if (ex[searchProp]) {
-                            if (ex[searchProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                        if (ex[currentTeochewProp]) {
-                            if (ex[currentTeochewProp].toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                        if (ex.romazi) {
-                            if (ex.romazi.toLowerCase().includes(searchInput)) {
-                                match = true;
-                            }
-                        }
-                    }
-                });
-            }
-        }
-        
-        return match;
-    });
-    
-    // 显示搜索结果
-    displayResults(results);
-}
-
-// 显示所有条目
-function showAllEntries() {
-    const resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = '';
-    
-    if (vocabularyData.length > 0) {
-        displayResults(vocabularyData);
-    } else {
-        resultsContainer.innerHTML = '<div class="no-results">数据加载中，请稍后再试</div>';
-    }
-}
-
-// 按speech和label筛选
-function filterEntries() {
-    const speechValue = document.getElementById('filter-speech').value;
-    const labelValue = document.getElementById('filter-label').value;
-    
-    const resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = '';
-    
-    const results = vocabularyData.filter(item => {
-        let matchSpeech = true;
-        let matchLabel = true;
-        
-        if (speechValue) {
-            matchSpeech = item.speech === speechValue;
-        }
-        
-        if (labelValue) {
-            matchLabel = item.label.includes(labelValue);
-        }
-        
-        return matchSpeech && matchLabel;
-    });
-    
-    displayResults(results);
-}
-
-// 生成筛选选项
-function generateFilterOptions() {
-    // 收集所有唯一的speech和label
+function extractFilterOptions() {
     const speeches = new Set();
-    const labels = new Set();
-    
-    vocabularyData.forEach(item => {
+    const tags = new Set();
+    const shengmus = new Set();
+    const yunmus = new Set();
+    const tones = new Set();
+
+    dictionaryData.forEach(item => {
         if (item.speech) speeches.add(item.speech);
         if (item.label) {
-            item.label.forEach(label => {
-                if (label) labels.add(label);
-            });
+            item.label.forEach(t => tags.add(t));
         }
+        if (item.shengmu) shengmus.add(item.shengmu);
+        if (item.yunmu) yunmus.add(item.yunmu);
+        if (item.tone) tones.add(item.tone);
     });
-    
-    // 获取当前语言
-    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
-    
-    // 填充speech选项
-    const speechSelect = document.getElementById('filter-speech');
-    if (speechSelect) {
-        // 清空现有选项
-        speechSelect.innerHTML = '<option value="" data-i18n="filter_speech">所有词性</option>';
-        
-        // 添加speech选项
-        Array.from(speeches).sort().forEach(speech => {
-            const option = document.createElement('option');
-            option.value = speech;
-            option.textContent = getTranslatedSpeechOrLabel(speech, currentLang);
-            speechSelect.appendChild(option);
-        });
-    }
-    
-    // 填充label选项
-    const labelSelect = document.getElementById('filter-label');
-    if (labelSelect) {
-        // 清空现有选项
-        labelSelect.innerHTML = '<option value="" data-i18n="filter_label">所有标签</option>';
-        
-        // 添加label选项
-        Array.from(labels).sort().forEach(label => {
-            const option = document.createElement('option');
-            option.value = label;
-            option.textContent = getTranslatedSpeechOrLabel(label, currentLang);
-            labelSelect.appendChild(option);
-        });
-    }
-    
-    // 触发i18n更新
-    if (window.i18n) {
-        window.i18n.updateContent();
-    }
+
+    allSpeech = Array.from(speeches).sort();
+    allTags = Array.from(tags).sort();
+    allShengmu = Array.from(shengmus).sort();
+    allYunmu = Array.from(yunmus).sort();
+    allTones = Array.from(tones).sort();
 }
 
-// 获取翻译后的speech或label
-function getTranslatedSpeechOrLabel(value, lang) {
-    // 定义翻译映射
-    const translations = {
-        // 词性翻译
-        "指称": {
-            "en": "Object",
-            "teo": "物件",
-            "zh-tr": "指稱"
-        },
-        "行为": {
-            "en": "Action",
-            "teo": "行为",
-            "zh-tr": "行爲"
-        },
-        "描述": {
-            "en": "Description",
-            "teo": "描述",
-            "zh-tr": "描述"
-        },
-        "状态": {
-            "en": "Condition",
-            "teo": "状态",
-            "zh-tr": "狀態"
-        },
-        "量词": {
-            "en": "Classifier",
-            "teo": "量词",
-            "zh-tr": "量詞"
-        },
-        "称呼": {
-            "en": "Pronoun",
-            "teo": "称呼",
-            "zh-tr": "稱呼"
-        },
-        "连词": {
-            "en": "Conjunction",
-            "teo": "连词",
-            "zh-tr": "連詞"
-        },
-        "介词": {
-            "en": "Position",
-            "teo": "介词",
-            "zh-tr": "介詞"
-        },
-        "专名": {
-            "en": "ProperName",
-            "teo": "名字",
-            "zh-tr": "專名"
-        },
-        "数字": {
-            "en": "Numero",
-            "teo": "数字",
-            "zh-tr": "數字"
-        },
-        "拟声词": {
-            "en": "Sound",
-            "teo": "声音",
-            "zh-tr": "擬聲詞"
-        },
-        "拟态词": {
-            "en": "Texture",
-            "teo": "质感",
-            "zh-tr": "擬態詞"
-        },
-        "台词": {
-            "en": "Message",
-            "teo": "台词",
-            "zh-tr": "臺詞"
-        },
-        "表达": {
-            "en": "Expression",
-            "teo": "表达",
-            "zh-tr": "表達"
-        },
-        "语气词": {
-            "en": "Model",
-            "teo": "语气词",
-            "zh-tr": "語氣詞"
-        },
-        "词头": {
-            "en": "Prefix",
-            "teo": "词头",
-            "zh-tr": "詞頭"
-        },
-        "词中": {
-            "en": "Infix",
-            "teo": "词中",
-            "zh-tr": "詞中"
-        },
-        "词尾": {
-            "en": "Suffix",
-            "teo": "词尾",
-            "zh-tr": "詞尾"
-        },
-        "词组": {
-            "en": "phrase",
-            "teo": "词组",
-            "zh-tr": "詞組"
-        },
-        // 标签翻译
-        "动物": {
-            "en": "Animals",
-            "teo": "动物",
-            "zh-tr": "動物"
-        },
-        "鱼": {
-            "en": "Fish",
-            "teo": "鱼",
-            "zh-tr": "魚"
-        },
-        "外来语": {
-            "en": "Loanwords",
-            "teo": "外来语",
-            "zh-tr": "外來語"
+function populateFilterOptions() {
+    const speechSelect = document.getElementById('speechFilter');
+    allSpeech.forEach(speech => {
+        const option = document.createElement('option');
+        option.value = speech;
+        option.textContent = speech;
+        speechSelect.appendChild(option);
+    });
+
+    const tagSelect = document.getElementById('tagFilter');
+    allTags.forEach(tag => {
+        const option = document.createElement('option');
+        option.value = tag;
+        option.textContent = tag;
+        tagSelect.appendChild(option);
+    });
+
+    const shengmuSelect = document.getElementById('shengmuFilter');
+    allShengmu.forEach(sm => {
+        const option = document.createElement('option');
+        option.value = sm;
+        option.textContent = sm;
+        shengmuSelect.appendChild(option);
+    });
+
+    const yunmuSelect = document.getElementById('yunmuFilter');
+    allYunmu.forEach(ym => {
+        const option = document.createElement('option');
+        option.value = ym;
+        option.textContent = ym;
+        yunmuSelect.appendChild(option);
+    });
+
+    const toneSelect = document.getElementById('toneFilter');
+    allTones.forEach(t => {
+        const option = document.createElement('option');
+        option.value = t;
+        option.textContent = t;
+        toneSelect.appendChild(option);
+    });
+}
+
+function setLanguage(lang) {
+    const currentPath = window.location.pathname;
+    const parts = currentPath.split('/');
+    const fileName = parts.pop();
+    const basePath = parts.slice(0, -1).join('/');
+    window.location.href = basePath + '/' + lang + '/' + fileName;
+}
+
+function search() {
+    const keyword = document.querySelector('.search-input').value.trim().toLowerCase();
+
+    const searchItem = document.getElementById('searchItem').checked;
+    const searchHanzi = document.getElementById('searchHanzi').checked;
+    const searchDefinition = document.getElementById('searchDefinition').checked;
+    const searchExample = document.getElementById('searchExample').checked;
+
+    const speechFilter = document.getElementById('speechFilter').value;
+    const tagFilter = document.getElementById('tagFilter').value;
+    const shengmuFilter = document.getElementById('shengmuFilter').value;
+    const yunmuFilter = document.getElementById('yunmuFilter').value;
+    const toneFilter = document.getElementById('toneFilter').value;
+
+    let results = dictionaryData.filter(item => {
+        if (shengmuFilter && item.shengmu !== shengmuFilter) return false;
+        if (yunmuFilter && item.yunmu !== yunmuFilter) return false;
+        if (toneFilter && item.tone !== toneFilter) return false;
+
+        if (speechFilter && item.speech !== speechFilter) return false;
+
+        if (tagFilter) {
+            if (!item.label || !item.label.includes(tagFilter)) return false;
         }
-    };
-    
-    // 检查是否有翻译
-    if (translations[value] && translations[value][lang]) {
-        return translations[value][lang];
-    }
-    
-    // 默认返回原值
-    return value;
+
+        if (!keyword) return true;
+
+        if (searchItem && item.item.toLowerCase().includes(keyword)) return true;
+
+        if (searchHanzi && item.hanzi && item.hanzi.some(h => h.toLowerCase().includes(keyword))) return true;
+
+        if (searchDefinition) {
+            const defs = item.definitions;
+            if (defs) {
+                if ((defs[currentLang] && defs[currentLang].toLowerCase().includes(keyword)) ||
+                    (defs.romazi && defs.romazi.toLowerCase().includes(keyword)) ||
+                    (defs.teochew && defs.teochew.toLowerCase().includes(keyword))) {
+                    return true;
+                }
+            }
+        }
+
+        if (searchExample && item.examples && item.examples.length > 0) {
+            for (const ex of item.examples) {
+                if ((ex[currentLang] && ex[currentLang].toLowerCase().includes(keyword)) ||
+                    (ex.romazi && ex.romazi.toLowerCase().includes(keyword)) ||
+                    (ex.teochew && ex.teochew.toLowerCase().includes(keyword))) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    });
+
+    showResults(results);
 }
 
-// 显示搜索结果
-function displayResults(results) {
-    const resultsContainer = document.getElementById('search-results');
-    
+function showResults(results) {
+    const resultsContainer = document.getElementById('searchResults');
+
     if (results.length === 0) {
-        const noResultsText = window.i18n ? window.i18n.t('no_results', '没有找到匹配的结果') : '没有找到匹配的结果';
-        resultsContainer.innerHTML = `<div class="no-results">${noResultsText}</div>`;
-        return;
-    }
-    
-    // 获取当前语言
-    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
-    
-    // 根据语言决定显示的属性
-    let displayProp = 'putonghua';
-    if (currentLang === 'en') {
-        displayProp = 'English';
-    } else if (currentLang === 'zh-tr') {
-        displayProp = 'putonghua-tr';
-    } else if (currentLang === 'teo-tr') {
-        displayProp = 'teochew-tr';
-    } else if (currentLang === 'fr') {
-        displayProp = 'francais';
-    } else if (currentLang === 'th') {
-        displayProp = 'phasaThai';
-    } else if (currentLang === 'me') {
-        displayProp = 'phasaThai';
-    } else if (currentLang === 'id') {
-        displayProp = 'bahasaIndonesia';
-    } else if (currentLang === 'vi') {
-        displayProp = 'tiengViet';
-    } else if (currentLang === 'km') {
-        displayProp = 'pheasaKhmer';
-    } else if (currentLang === 'lo') {
-        displayProp = 'phasaLao';
-    }
-    
-    results.forEach(item => {
-        const resultItem = document.createElement('div');
-        resultItem.className = 'result-item';
-        
-        // 处理phrase
-        let phraseHtml = '';
-        if (item.phrase && item.phrase.length > 0) {
-            const nonEmptyPhrases = item.phrase.filter(ph => ph.romazi || ph[currentTeochewProp] || ph[displayProp]);
-            if (nonEmptyPhrases.length > 0) {
-                const phrasesContent = nonEmptyPhrases.map(ph => {
-                    return `
-                        <div class="result-phrase">
-                            ${ph.romazi ? `<div class="phrase-romazi">${ph.romazi}</div>` : ''}
-                            ${ph[currentTeochewProp] ? `<div class="phrase-teochew">${ph[currentTeochewProp]}</div>` : ''}
-                            ${ph[displayProp] ? `<div class="phrase-${displayProp}">${ph[displayProp]}</div>` : ''}
-                        </div>
-                    `;
-                }).join('');
-                phraseHtml = `<div class="phrases-container">${phrasesContent}</div>`;
-            }
-        }
-        
-        // 处理examples
-        let examplesHtml = '';
-        if (item.examples && item.examples.length > 0) {
-            const nonEmptyExamples = item.examples.filter(ex => ex.romazi || ex[currentTeochewProp] || ex[displayProp]);
-            if (nonEmptyExamples.length > 0) {
-                examplesHtml = nonEmptyExamples.map(ex => {
-                    return `
-                        <div class="result-example">
-                            ${ex.romazi ? `<div class="example-romazi">${ex.romazi}</div>` : ''}
-                            ${ex[currentTeochewProp] ? `<div class="example-teochew">${ex[currentTeochewProp]}</div>` : ''}
-                            ${ex[displayProp] ? `<div class="example-${displayProp}">${ex[displayProp]}</div>` : ''}
-                        </div>
-                    `;
-                }).join('');
-            }
-        }
-        
-        // 处理note
-        let noteHtml = '';
-        if (item.note && item.note[displayProp]) {
-            noteHtml = `<div class="result-note">${item.note[displayProp]}</div>`;
-        }
-        
-        // 处理label
-        let labelHtml = '';
-        const labels = item.label.filter(l => l); // 过滤空label
-        if (labels.length > 0) {
-            labelHtml = labels.map(label => `<span class="result-label">${getTranslatedSpeechOrLabel(label, currentLang)}</span>`).join(' ');
-        }
-        
-        // 构建结果HTML，使用新的卡片式布局
-        resultItem.innerHTML = `
-            <div class="result-card">
-                <div class="card-top">
-                    <div class="card-top-left">
-                        <div class="top-row1">
-                            <span class="result-vocab">${item.item}</span>
-                            ${item.pronunciation ? `<span class="result-pronunciation">${item.pronunciation}</span>` : ''}
-                        </div>
-                        <div class="top-row2">
-                            ${item.hanzi.some(h => h) ? `<span class="result-hanzi">${item.hanzi.filter(h => h).join('、')}</span>` : ''}
-                            ${item.speech ? `<span class="result-speech">${getTranslatedSpeechOrLabel(item.speech, currentLang)}</span>` : ''}
-                        </div>
-                        <div class="top-row3">
-                            ${labelHtml}
-                        </div>
-                    </div>
-                    <div class="card-top-right">
-                        ${item.img ? `<img src="${item.img}" alt="${item.item}" class="result-image">` : ''}
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    ${item.definitions[displayProp] ? `
-                        <div class="bottom-top">
-                            <div class="result-definition">${item.definitions[displayProp]}</div>
-                        </div>
-                    ` : ''}
-                    ${phraseHtml ? `
-                        <div class="bottom-middle-top">
-                            ${phraseHtml}
-                        </div>
-                    ` : ''}
-                    ${examplesHtml ? `
-                        <div class="bottom-middle-bottom">
-                            ${examplesHtml}
-                        </div>
-                    ` : ''}
-                    ${noteHtml ? `
-                        <div class="bottom-bottom">
-                            ${noteHtml}
-                        </div>
-                    ` : ''}
-                </div>
+        resultsContainer.innerHTML = `
+            <div class="no-results">
+                <p>没有找到匹配的结果</p>
+                <p>请尝试使用其他关键词或调整筛选条件</p>
             </div>
         `;
-        
-        resultsContainer.appendChild(resultItem);
-    });
+        return;
+    }
+
+    const header = `
+        <div class="results-header">
+            <div class="results-count">找到 <span>${results.length}</span> 个结果</div>
+        </div>
+    `;
+
+    const itemsHtml = results.map(item => {
+        const labelsHtml = item.label && item.label.length > 0
+            ? item.label.map(tag => `<span class="tag">${tag}</span>`).join('')
+            : '<span class="tag" style="background: #e0e0e0; color: #9e9e9e;">暂无</span>';
+
+        let definition = '';
+        if (item.definitions) {
+            definition = item.definitions[currentLang] || ' ';
+        }
+
+        return `
+            <div class="result-item" onclick="showDetail('${item.id}')">
+                <span class="item-word">${item.item}</span>
+                <span class="item-pronunciation">${item.pronunciation || '暂无'}</span>
+                <span class="item-hanzi">${(item.hanzi || []).join(' / ') || '暂无'}</span>
+                <span class="item-speech">${item.speech || '暂无'}</span>
+                <div class="item-labels">${labelsHtml}</div>
+                <div class="item-definition"><strong>${langNames[currentLang] || currentLang}:</strong> ${definition}</div>
+            </div>
+        `;
+    }).join('');
+
+    resultsContainer.innerHTML = header + itemsHtml;
 }
 
-// 显示随机条目
-function showRandomEntry() {
-    const resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = '';
+function showInitialState() {
+    const resultsContainer = document.getElementById('searchResults');
+    resultsContainer.innerHTML = `
+        <div class="no-results">
+            <p>请输入关键词进行搜索</p>
+            <p>或点击"全部"查看所有条目</p>
+        </div>
+    `;
+}
+
+function showDetail(itemId) {
+    const url = 'result.html?id=' + itemId;
+    window.open(url, '_blank');
+}
+
+function showAll() {
+    document.querySelector('.search-input').value = '';
+    document.getElementById('searchItem').checked = true;
+    document.getElementById('searchHanzi').checked = true;
+    document.getElementById('searchDefinition').checked = false;
+    document.getElementById('searchExample').checked = false;
+    document.getElementById('speechFilter').value = '';
+    document.getElementById('tagFilter').value = '';
+    document.getElementById('shengmuFilter').value = '';
+    document.getElementById('yunmuFilter').value = '';
+    document.getElementById('toneFilter').value = '';
+    search();
+}
+
+function showRandom() {
+    const randomIndex = Math.floor(Math.random() * dictionaryData.length);
+    const randomItem = dictionaryData[randomIndex];
+    showDetail(randomItem.id);
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    currentLang = getCurrentLangFromPath();
     
-    if (vocabularyData.length > 0) {
-        const randomIndex = Math.floor(Math.random() * vocabularyData.length);
-        const randomEntry = vocabularyData[randomIndex];
-        displayResults([randomEntry]);
-    } else {
-        resultsContainer.innerHTML = '<div class="no-results">数据加载中，请稍后再试</div>';
+    document.querySelectorAll('.lang-switch a').forEach(a => {
+        a.classList.toggle('active', a.dataset.lang === currentLang);
+    });
+
+    await loadData();
+
+    document.getElementById('searchBtn').addEventListener('click', search);
+    document.getElementById('randomBtn').addEventListener('click', showRandom);
+    document.getElementById('allBtn').addEventListener('click', showAll);
+
+    document.querySelector('.search-input').addEventListener('keyup', (e) => {
+        if (e.key === 'Enter') {
+            search();
+        }
+    });
+
+    document.querySelectorAll('.lang-switch a').forEach(a => {
+        a.addEventListener('click', (e) => {
+            e.preventDefault();
+            setLanguage(a.dataset.lang);
+        });
+    });
+
+    document.querySelectorAll('.filter-select, .phonetic-filters select').forEach(select => {
+        select.addEventListener('change', search);
+    });
+});
+
+const resultLangNames = {
+    putonghua: '普通话',
+    putonghua_tr: '普通话(繁)',
+    teochew: '潮汕话',
+    teochew_tr: '潮汕话(繁)',
+    romazi: '罗马字',
+    English: 'English',
+    francais: 'français',
+    phasaThai: 'ภาษาไทย',
+    bahasaMelayu: 'Bahasa Melayu',
+    bahasaIndonesia: 'Bahasa Indonesia',
+    tiengViet: 'Tiếng Việt',
+    pheasaKhmer: 'ភាសាខ្មែរ',
+    phasaLao: 'ພາສາລາວ'
+};
+
+let resultDictionaryData = [];
+
+async function loadResultData() {
+    try {
+        const response = await fetch('../data.json');//这是网页方获取详细数据
+        resultDictionaryData = await response.json();
+    } catch (error) {
+        console.error('加载数据失败:', error);
     }
 }
 
-// 存储当前使用的潮汕话属性 (teochew 或 teochew-tr)
-let currentTeochewProp = 'teochew';
-
-// 处理简体按钮点击
-function handleSimplifiedClick() {
-    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
+async function loadItemDetail() {
+    await loadResultData();
     
-    if (currentLang === 'zh' || currentLang === 'zh-tr') {
-        // 切换到 zh 语言
-        window.location.href = '?lang=zh';
-    } else if (currentLang === 'teo' || currentLang === 'teo-tr') {
-        // 切换到 teo 语言
-        window.location.href = '?lang=teo';
-    } else {
-        // 其他语言下，切换到 teochew 属性
-        currentTeochewProp = 'teochew';
-        // 重新执行当前的搜索或显示操作
-        const searchInput = document.getElementById('search-input').value.trim();
-        if (searchInput) {
-            searchVocabulary();
-        } else {
-            // 检查是否有筛选条件
-            const speechValue = document.getElementById('filter-speech').value;
-            const labelValue = document.getElementById('filter-label').value;
-            if (speechValue || labelValue) {
-                filterEntries();
-            } else {
-                // 显示所有
-                showAllEntries();
-            }
-        }
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('id');
+    
+    if (!itemId) {
+        window.location.href = 'index.html';
+        return;
     }
-}
 
-// 处理繁体按钮点击
-function handleTraditionalClick() {
-    const currentLang = window.i18n ? window.i18n.currentLang : 'zh';
+    const item = resultDictionaryData.find(i => i.id === itemId);
     
-    if (currentLang === 'zh' || currentLang === 'zh-tr') {
-        // 切换到 zh-tr 语言
-        window.location.href = '?lang=zh-tr';
-    } else if (currentLang === 'teo' || currentLang === 'teo-tr') {
-        // 切换到 teo-tr 语言
-        window.location.href = '?lang=teo-tr';
-    } else {
-        // 其他语言下，切换到 teochew-tr 属性
-        currentTeochewProp = 'teochew-tr';
-        // 重新执行当前的搜索或显示操作
-        const searchInput = document.getElementById('search-input').value.trim();
-        if (searchInput) {
-            searchVocabulary();
-        } else {
-            // 检查是否有筛选条件
-            const speechValue = document.getElementById('filter-speech').value;
-            const labelValue = document.getElementById('filter-label').value;
-            if (speechValue || labelValue) {
-                filterEntries();
-            } else {
-                // 显示所有
-                showAllEntries();
-            }
-        }
+    if (!item) {
+        alert('未找到对应的词条');
+        window.location.href = 'index.html';
+        return;
     }
+
+    renderItemDetail(item);
 }
 
-// 页面加载时加载数据和绑定事件
-if (document.getElementById('vocab-count')) {
-    // 暴露 generateFilterOptions 到全局作用域
-    window.generateFilterOptions = generateFilterOptions;
+function renderItemDetail(item) {
+    const container = document.getElementById('resultContainer');
+
+    const tagsHtml = item.label && item.label.length > 0 ? 
+        item.label.map(tag => `<span class="tag">${tag}</span>`).join('') : 
+        '<span style="color: #9e9e9e;"></span>';
+
+    const translations = [
+        { key: 'putonghua', value: item.definitions?.putonghua },
+        { key: 'English', value: item.definitions?.English },
+        { key: 'francais', value: item.definitions?.francais },
+        { key: 'phasaThai', value: item.definitions?.phasaThai },
+        { key: 'tiengViet', value: item.definitions?.tiengViet },
+        { key: 'bahasaMelayu', value: item.definitions?.bahasaMelayu },
+        { key: 'bahasaIndonesia', value: item.definitions?.bahasaIndonesia },
+        { key: 'pheasaKhmer', value: item.definitions?.pheasaKhmer },
+        { key: 'phasaLao', value: item.definitions?.phasaLao }
+    ];
+
+    const translationRows = [];
+    for (let i = 0; i < translations.length; i += 2) {
+        const row = `
+            <tr>
+                <td>${renderTranslationItem(translations[i])}</td>
+                <td>${translations[i + 1] ? renderTranslationItem(translations[i + 1]) : ''}</td>
+            </tr>
+        `;
+        translationRows.push(row);
+    }
+
+    const examples = item.examples?.filter(e => e.putonghua || e.English || e.teochew) || [];
+    const examplesHtml = examples.length > 0 ? examples.map((ex, index) => `
+        <div class="example-item">
+            <span class="number">${index + 1}</span>
+            <span class="chinese">${ex.teochew || ''}</span>
+            ${ex.English ? `<span class="english">${ex.English}</span>` : ''}
+        </div>
+    `).join('') : '<p style="text-align: center; color: #9e9e9e; padding: 20px;">暂无例句</p>';
+
+    const relatedPhrases = (item.phrases?.map(phraseId => 
+        resultDictionaryData.find(d => d.id === phraseId)
+    ).filter(Boolean)) || [];
     
-    loadData().then(() => {
-        // 数据加载完成后生成筛选选项
-        generateFilterOptions();
-    });
-    
-    // 绑定所有事件
-    document.addEventListener('DOMContentLoaded', function() {
-        // 绑定搜索按钮点击事件
-        const searchBtn = document.getElementById('search-btn');
-        if (searchBtn) {
-            searchBtn.addEventListener('click', searchVocabulary);
-        }
-        
-        // 绑定随机按钮点击事件
-        const randomBtn = document.getElementById('random-btn');
-        if (randomBtn) {
-            randomBtn.addEventListener('click', showRandomEntry);
-        }
-        
-        // 绑定显示所有按钮点击事件
-        const showAllBtn = document.getElementById('show-all-btn');
-        if (showAllBtn) {
-            showAllBtn.addEventListener('click', showAllEntries);
-        }
-        
-        // 绑定筛选按钮点击事件
-        const filterBtn = document.getElementById('filter-btn');
-        if (filterBtn) {
-            filterBtn.addEventListener('click', filterEntries);
-        }
-        
-        // 绑定简体按钮点击事件
-        const simplifiedBtn = document.getElementById('simplified-btn');
-        if (simplifiedBtn) {
-            simplifiedBtn.addEventListener('click', handleSimplifiedClick);
-        }
-        
-        // 绑定繁体按钮点击事件
-        const traditionalBtn = document.getElementById('traditional-btn');
-        if (traditionalBtn) {
-            traditionalBtn.addEventListener('click', handleTraditionalClick);
-        }
-        
-        // 绑定搜索输入框回车事件
-        const searchInput = document.getElementById('search-input');
-        if (searchInput) {
-            searchInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') {
-                    searchVocabulary();
-                }
-            });
-        }
-    });
+    const phrasesHtml = relatedPhrases.length > 0 ? relatedPhrases.map(phrase => `
+        <a href="result.html?id=${phrase.id}" class="phrase-item">
+            <span class="phrase-dialect">${phrase.item}</span>
+            <span class="phrase-hanzi">${phrase.hanzi?.[0] || ''}</span>
+            <span class="phrase-meaning">${phrase.definitions?.teochew || phrase.definitions?.putonghua || ''}</span>
+        </a>
+    `).join('') : '<p style="text-align: center; color: #9e9e9e; padding: 20px;">暂无关联词组</p>';
+
+    container.innerHTML = `
+        <div class="top-section">
+            <div class="content-left">
+                <div class="word-title">
+                    ${item.item} <span class="phonetic">[${item.pronunciation || ''}]</span>
+                </div>
+
+                <table class="data-table">
+                    <tr>
+                        <td class="label">汉字</td>
+                        <td class="value">${(item.hanzi || []).join('、')}</td>
+                    </tr>
+                    <tr>
+                        <td class="label">词性</td>
+                        <td class="value">${item.speech || ''}</td>
+                    </tr>
+                    <tr>
+                        <td class="label">标签</td>
+                        <td class="value">
+                            <div class="tags">${tagsHtml}</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">定义</td>
+                        <td class="value">${item.definitions?.teochew || ''}</td>
+                    </tr>
+                    <tr>
+                        <td class="label">TYĀ-NGǏ</td>
+                        <td class="value">${item.definitions?.romazi || ''}</td>
+                    </tr>
+                </table>
+            </div>
+
+            ${item.img ? `
+            <div class="image-box">
+                <img src="${item.img}" alt="${item.item}" class="main-image">
+                <div class="image-caption">${item.item}</div>
+            </div>
+            ` : ''}
+        </div>
+
+        <div class="section-title">翻译</div>
+        <table class="translation-table">
+            ${translationRows.join('')}
+        </table>
+
+        <div class="related-phrases">
+            <div class="section-title">词组</div>
+            ${phrasesHtml}
+        </div>
+
+        <div class="examples">
+            <div class="section-title">例句</div>
+            ${examplesHtml}
+        </div>
+
+        ${item.note ? `
+        <div class="notes">
+            <div class="title">备注:</div>
+            <div class="content">${item.note}</div>
+        </div>
+        ` : ''}
+    `;
 }
+
+function renderTranslationItem(translation) {
+    return `
+        <div class="translation-item">
+            <span class="lang-name">${resultLangNames[translation.key] || translation.key}</span>
+            <span class="lang-value">${translation.value || ''}</span>
+        </div>
+    `;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('resultContainer')) {
+        loadItemDetail();
+    }
+});

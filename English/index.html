@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teochew Dictionary | NeoTeochew Port - Collections of Teochew Expressions</title>
+     <link rel="icon" href="../logo/logo.png">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="../logo/logo.png" alt="潮语埠">
+                <h1>NeoTeochew Port</h1>
+            </div>
+            <div class="lang-switch">
+                <a href="#" data-lang="teochew">潮汕话</a>
+                <a href="#" data-lang="putonghua">普通话</a>
+                <a href="#" class="active" data-lang="English">English</a>
+                <a href="#" data-lang="francais">français</a>
+                <a href="#" data-lang="phasaThai">ภาษาไทย</a>
+                <a href="#" data-lang="bahasaMelayu">Bahasa Melayu</a>
+                <a href="#" data-lang="bahasaIndonesia">Bahasa Indonesia</a>
+                <a href="#" data-lang="tiengViet">Tiếng Việt</a>
+                <a href="#" data-lang="pheasaKhmer">ភាសាខ្មែរ</a>
+                <a href="#" data-lang="phasaLao">ພາສາລາວ</a>
+                <!-- <span class="current-lang-label" id="currentLangLabel">当前语言: 潮汕话</span> -->
+                <!-- <div class="lang-toggle">
+                    <button>简体</button>
+                    <button>繁體</button>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-bar">
+        <div class="nav-content">
+            <a href="#" class="active">Dictionary</a>
+            <a href="#">Hanzi Search</a>
+            <a href="#">Self-Learning</a>
+            <a href="#">Knowledge</a>
+            <a href="#">News</a>
+            <a href="#">Stories</a>
+            <a href="#">Songs</a>
+            <a href="#">Teochew Input Method</a>
+            <a href="#">References</a>
+            <a href="#">About Us</a>
+            <a href="logs.html">Logs</a>
+            <!-- <div class="nav-dropdown">
+                <a href="#" class="dropdown-toggle">更多说明</a>    
+                <div class="dropdown-menu">
+                    <a href="#">关于我们</a>
+                    <a href="#">潮语输入法</a>
+                    <a href="#">参考资料</a>
+                </div>
+            </div> -->
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="search-box">
+            <h2>Dictionary</h2>
+
+            <div class="search-input-wrapper">
+                <input type="text" class="search-input" placeholder="Search for a word or phrase">
+                <button class="btn btn-primary" id="searchBtn">Search</button>
+                <button class="btn btn-secondary" id="randomBtn">Random</button>
+                <button class="btn btn-secondary" id="allBtn">All</button>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-title">Filter</div>
+                <div class="checkbox-group">
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchItem" checked>
+                        <span>Words</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchHanzi" checked>
+                        <span>Hanzi</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchDefinition">
+                        <span>Definitions</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" id="searchExample">
+                        <span>Examples</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="select-filter">
+                <select class="filter-select" id="speechFilter">
+                    <option value="">All Speech Types</option>
+                </select>
+                <select class="filter-select" id="tagFilter">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-title">Phonetic Filters</div>
+                <div class="phonetic-filters">
+                    <label>
+                        Initial:
+                        <select id="shengmuFilter">
+                            <option value="">Unlimited</option>
+                        </select>
+                    </label>
+                    <label>
+                        Final:
+                        <select id="yunmuFilter">
+                            <option value="">Unlimited</option>
+                        </select>
+                    </label>
+                    <label>
+                        Tone:
+                        <select id="toneFilter">
+                            <option value="">Unlimited</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="stats-bar">
+                <p>Currently, <span id="totalCount">0</span> words and phrases are available.</p>
+                <p>á à â ǎ ā ó ò ô ǒ ō é è ê ě ē í ì î ǐ ī ú ù û ǔ ū ḿ m̀ m̂ m̌ m̄ ń ǹ n̂ ň n̄</p>
+                <p>原本的数据主要注重数量，收录得太乱了，现在重新整理，目前正在整理声母p。其他页面暂时先下了。</p>
+            </div>
+
+            <div class="search-results" id="searchResults">
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
