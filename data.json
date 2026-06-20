@@ -876,7 +876,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pang1-tso6"
+    ],
     "examples": [
       {
         "id": 1,
@@ -1025,7 +1027,11 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pang3-tiau7",
+      "pang3-kya2",
+      "pang3-he6"
+    ],
     "examples": [
       {
         "id": 1,
@@ -1443,7 +1449,7 @@
     "note": ""
   },
   {
-    "id": "oak4-sia7",
+    "id": "pak4-sia7",
     "item": "pak-siā",
     "pronunciation": "pak-siā",
     "shengmu": "p",
@@ -1917,7 +1923,12 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pai5-pi2",
+      "pai5-mya5",
+      "pai5-kiu5",
+      "pai5-hue5"
+    ],
     "examples": [
       {
         "id": 1,
@@ -2858,7 +2869,13 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "po2-pi3",
+      "po2-leng5-kiu5",
+      "po2-tseng3",
+      "po2-ho7",
+      "po2-hu6"
+    ],
     "examples": [
       {
         "id": 1,
@@ -3358,7 +3375,13 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "poh8-pya2",
+      "poh8-phue5",
+      "poh8-phue5lau5ue5tsur2chin3mue5",
+      "poh8-khak4",
+      "poh8-khak4-bi2"
+    ],
     "examples": [
       {
         "id": 1,
@@ -3432,7 +3455,7 @@
     "note": ""
   },
   {
-    "id": "poh8-pya2",
+    "id": "poh8-phue5",
     "item": "pôh-phuê",
     "pronunciation": "pôh-phuê",
     "shengmu": "p",
@@ -3459,7 +3482,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "poh8-phue5lau5ue5tsur2chin3mue5"
+    ],
     "examples": [
       {
         "id": 1,
@@ -3634,6 +3659,57 @@
     "note": ""
   },
   {
+    "id": "poih4",
+    "item": "poih",
+    "pronunciation": "poih",
+    "shengmu": "p",
+    "yunmu": "oih",
+    "tone": "4",
+    "hanzi": [
+      "八"
+    ],
+    "speech": "数量词",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "八。",
+      "putonghua_tr": "八。",
+      "English": "eight.",
+      "francais": "huit.",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [
+      "poih4-kak4"
+    ],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
     "id": "poih4-kak4",
     "item": "poih-kak",
     "pronunciation": "poih-kak",
@@ -3761,7 +3837,10 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "poy2-ou1poy2-peh8",
+      "poy2-ou1poy2-peh8ma2-khi2tsiah8zit8-theh8"
+    ],
     "examples": [
       {
         "id": 1,
@@ -3811,7 +3890,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "poy2-ou1poy2-peh8ma2-khi2tsiah8zit8-theh8"
+    ],
     "examples": [
       {
         "id": 1,
@@ -4499,7 +4580,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pou3-chan5"
+    ],
     "examples": [
       {
         "id": 1,
@@ -4843,7 +4926,10 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh4-au5",
+      "peh4-au5-peh4-tsih8"
+    ],
     "examples": [
       {
         "id": 1,
@@ -4892,7 +4978,10 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh4chiu7",
+      "peh4swa1"
+    ],
     "examples": [
       {
         "id": 1,
@@ -4992,7 +5081,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh4-hah8"
+    ],
     "examples": [
       {
         "id": 1,
@@ -5491,7 +5582,22 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh8-pu6",
+      "peh8-tur1-nek8",
+      "peh8-thng5",
+      "peh8-thih4",
+      "peh8-liau7-si1",
+      "peh8-kue2",
+      "peh8-tsya2",
+      "peh8-tsya2-bo5-bi7",
+      "peh8-chai3",
+      "peh8-zin5",
+      "peh8-hia6",
+      "peh8-in5",
+      "peh8-ue7",
+      "peh8-ue7-ji7"
+    ],
     "examples": [
       {
         "id": 1,
@@ -5847,7 +5953,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh8-tsya2-bo5-bi7"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6154,7 +6262,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peh8-ue7-ji7"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6351,7 +6461,10 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "per5-ke1",
+      "per5-ye7"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6650,7 +6763,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "peng1--tieh8"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6748,7 +6863,10 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pek4-kue3-hue2",
+      "pek4-chek4"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6896,7 +7014,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pi1-iam5"
+    ],
     "examples": [
       {
         "id": 1,
@@ -6995,7 +7115,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pi2-sai3"
+    ],
     "examples": [
       {
         "id": 1,
@@ -7399,7 +7521,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pi5-tsiu2-tsun1"
+    ],
     "examples": [
       {
         "id": 1,
@@ -7546,7 +7670,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pi6-ko3"
+    ],
     "examples": [
       {
         "id": 1,
@@ -8594,7 +8720,9 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pin1-pong5-kiu5"
+    ],
     "examples": [
       {
         "id": 1,
@@ -8693,7 +8821,11 @@
       "pheasaKhmer": "",
       "phasaLao": ""
     },
-    "phrases": [],
+    "phrases": [
+      "pya1-thng5",
+      "pya1-khi5-lim5",
+      "pya1-sye1"
+    ],
     "examples": [
       {
         "id": 1,
@@ -10362,23 +10494,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pu3",
     "item": "pù",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pù",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "3",
+    "hanzi": [
+      "富"
+    ],
+    "speech": "修饰词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "有钱。",
+      "putonghua_tr": "有錢。",
+      "English": "rich.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10409,23 +10543,29 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "pù-ong",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
+    "id": "pu3-nang5",
+    "item": "pù-nâng",
+    "pronunciation": "pù-nâng",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "3",
+    "hanzi": [
+      "富人",
+      "富侬",
+      "富儂"
+    ],
+    "speech": "事物词",
+    "label": [
+      "身份"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "有钱人。",
+      "putonghua_tr": "有錢人。",
+      "English": "rich man.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10456,22 +10596,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "puh4",
     "item": "puh",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puh",
+    "shengmu": "p",
+    "yunmu": "uh",
+    "tone": "4",
+    "hanzi": [
+      "抪"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "扎刺。",
+      "putonghua_tr": "扎刺。",
       "English": "poke.",
       "francais": "",
       "phasaThai": "",
@@ -10500,26 +10642,28 @@
         "phasaLao": ""
       }
     ],
-    "note": ""
+    "note": "这个字好像不变调。"
   },
   {
-    "id": "",
+    "id": "pu5_sie1tsui2",
     "item": "pû",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pû",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "5",
+    "hanzi": [
+      "煲"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "煮水。",
+      "putonghua_tr": "煮水。",
+      "English": "boil.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10550,22 +10694,26 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pu5_sit8mueh8",
     "item": "pû",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
+    "pronunciation": "pû",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "5",
+    "hanzi": [
+      "瓠"
+    ],
+    "speech": "事物词",
+    "label": [
+      "植物"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "瓠瓜。",
+      "putonghua_tr": "瓠瓜。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -10597,22 +10745,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pu5_sai2",
     "item": "pû",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pû",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "5",
+    "hanzi": [
+      "脬"
+    ],
+    "speech": "量词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "一泡屎尿。",
+      "putonghua_tr": "一泡屎尿。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -10644,23 +10794,25 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "pū",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "id": "pu7-nng6",
+    "item": "pū-nňg",
+    "pronunciation": "pū-nňg",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "7",
+    "hanzi": [
+      "孵卵"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "孵蛋。",
+      "putonghua_tr": "孵蛋。",
+      "English": "hatch.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10691,22 +10843,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pu7-lang5",
     "item": "pū-lâng",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pū-lâng",
+    "shengmu": "p",
+    "yunmu": "u",
+    "tone": "7",
+    "hanzi": [
+      "孵脓",
+      "孵膿"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "化脓。",
+      "putonghua_tr": "化膿。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -10738,22 +10893,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun1_phue3",
     "item": "pun",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pun",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "1",
+    "hanzi": [
+      "分"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "分发。",
+      "putonghua_tr": "分發。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -10785,23 +10942,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun1_khurh4",
     "item": "pun",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pun",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "1",
+    "hanzi": [
+      "分"
+    ],
+    "speech": "虚词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "被。",
+      "putonghua_tr": "被。",
+      "English": "be done.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10832,70 +10991,25 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "pun",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
+    "id": "pun2-lai5",
     "item": "pún-lâi",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pún-lâi",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "2",
+    "hanzi": [
+      "本来"
+    ],
+    "speech": "状态",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "本来。",
+      "putonghua_tr": "本來。",
+      "English": "originally.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -10926,22 +11040,73 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun2-sin1",
+    "item": "pún-sin",
+    "pronunciation": "pún-sin",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "2",
+    "hanzi": [
+      "本身"
+    ],
+    "speech": "状态",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "本身。",
+      "putonghua_tr": "本身。",
+      "English": "itself.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "pun2-sur7",
     "item": "pún-sūr",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pún-sūr",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "2",
+    "hanzi": [
+      "本事"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "本事。",
+      "putonghua_tr": "本事。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -10973,22 +11138,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun3-tau2",
     "item": "pùn-táu",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pùn-táu",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "3",
+    "hanzi": [
+      "畚斗"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "簸箕。",
+      "putonghua_tr": "簸箕。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11020,22 +11187,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun3-thang2",
     "item": "pùn-tháng",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pùn-tháng",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "3",
+    "hanzi": [
+      "畚桶",
+      "粪桶"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "垃圾桶。",
+      "putonghua_tr": "垃圾桶。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11067,22 +11237,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun3-ki1",
     "item": "pùn-ki",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pùn-ki",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "3",
+    "hanzi": [
+      "畚箕"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "竹编盛器。",
+      "putonghua_tr": "竹編盛器。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11114,23 +11286,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "put4",
     "item": "put",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "put",
+    "shengmu": "p",
+    "yunmu": "ut",
+    "tone": "4",
+    "hanzi": [
+      "抔"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "撮。垃圾扫进簸箕。",
+      "putonghua_tr": "撮。垃圾掃進簸箕。",
+      "English": "bin.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -11161,22 +11335,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "put4-kuan2",
     "item": "put-kuán",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "put-kuán",
+    "shengmu": "p",
+    "yunmu": "ut",
+    "tone": "4",
+    "hanzi": [
+      "不管"
+    ],
+    "speech": "状态",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "不管。",
+      "putonghua_tr": "不管。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11208,22 +11384,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "put4-tsun2",
     "item": "put-tsún",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "put-tsún",
+    "shengmu": "p",
+    "yunmu": "ut",
+    "tone": "4",
+    "hanzi": [
+      "不准"
+    ],
+    "speech": "状态",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "不准。",
+      "putonghua_tr": "不准。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11255,22 +11433,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pun5",
     "item": "pûn",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pûn",
+    "shengmu": "p",
+    "yunmu": "un",
+    "tone": "5",
+    "hanzi": [
+      "歕",
+      "㖹"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "吹气。",
+      "putonghua_tr": "吹氣。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11302,116 +11483,25 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "pūn",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
-    "item": "puà-chut",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
+    "id": "puah4",
     "item": "puah",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puah",
+    "shengmu": "p",
+    "yunmu": "uah",
+    "tone": "4",
+    "hanzi": [
+      "钵",
+      "鉢"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "小盆。",
+      "putonghua_tr": "小盆。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11443,22 +11533,24 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puax",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "id": "puah8_loh8",
+    "item": "puâh",
+    "pronunciation": "puâh",
+    "shengmu": "p",
+    "yunmu": "uah",
+    "tone": "8",
+    "hanzi": [
+      "跋"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "摔倒。",
+      "putonghua_tr": "摔倒。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11490,22 +11582,24 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puax",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "id": "puah8_tsyi5",
+    "item": "puâh",
+    "pronunciation": "puâh",
+    "shengmu": "p",
+    "yunmu": "uah",
+    "tone": "8",
+    "hanzi": [
+      "跋"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "赌博。",
+      "putonghua_tr": "賭博。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11537,22 +11631,24 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puax-pue",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "id": "puah8-pue1",
+    "item": "puâh-pue",
+    "pronunciation": "puâh-pue",
+    "shengmu": "p",
+    "yunmu": "uah",
+    "tone": "8",
+    "hanzi": [
+      "跋杯"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "掷圣杯占卜。",
+      "putonghua_tr": "擲聖杯占卜。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11584,22 +11680,73 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "puah8-tsyi5",
+    "item": "puâh-tsyî",
+    "pronunciation": "puâh-tsyî",
+    "shengmu": "p",
+    "yunmu": "uah",
+    "tone": "8",
+    "hanzi": [
+      "跋钱"
+    ],
+    "speech": "活动词",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "赌博。",
+      "putonghua_tr": "賭博。",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "pwa1",
     "item": "pwa",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwa",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "1",
+    "hanzi": [
+      "搬"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "搬动。",
+      "putonghua_tr": "搬動。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11631,22 +11778,73 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa3",
     "item": "pwà",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwà",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "1",
+    "hanzi": [
+      "半"
+    ],
+    "speech": "修饰词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "一半。",
+      "putonghua_tr": "一半。",
+      "English": "half.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "pwa3-teng1",
+    "item": "pwà-teng",
+    "pronunciation": "pwà-teng",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "3",
+    "hanzi": [
+      "半丁"
+    ],
+    "speech": "修饰词",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "傻。",
+      "putonghua_tr": "傻。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11678,22 +11876,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa3-thang2-sai2",
     "item": "pwà-tháng-sái",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwà-tháng-sái",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "3",
+    "hanzi": [
+      "半桶屎"
+    ],
+    "speech": "修饰词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "半吊子。",
+      "putonghua_tr": "半吊子。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11725,23 +11925,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa3-kua3",
     "item": "pwà-kuà",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwà-kuà",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "3",
+    "hanzi": [
+      "半旰"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "午次中。",
+      "putonghua_tr": "午次中。",
+      "English": "between two meals.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -11772,22 +11974,75 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa3-kueh8",
     "item": "pwà-kuêh",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwà-kuêh",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "3",
+    "hanzi": [
+      "半橛"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "一半。",
+      "putonghua_tr": "一半。",
+      "English": "half.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "pwa3-sian1",
+    "item": "pwà-sian",
+    "pronunciation": "pwà-sian",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "3",
+    "hanzi": [
+      "半仙"
+    ],
+    "speech": "事物词",
+    "label": [
+      "身份"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "算命先生。",
+      "putonghua_tr": "算命先生。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11819,24 +12074,26 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa5",
     "item": "pwâ",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwâ",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "5",
+    "hanzi": [
+      "盘"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
+      "putonghua": "盘子。",
+      "putonghua_tr": "盤子。",
+      "English": "plate.",
+      "francais": "l'assiette.",
       "phasaThai": "",
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
@@ -11866,22 +12123,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pwa6",
     "item": "pwǎ",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pwǎ",
+    "shengmu": "p",
+    "yunmu": "wa",
+    "tone": "6",
+    "hanzi": [
+      "拌"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "鞭打。",
+      "putonghua_tr": "鞭打。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11913,22 +12172,73 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "puan6",
+    "item": "puǎn",
+    "pronunciation": "puǎn",
+    "shengmu": "p",
+    "yunmu": "uan",
+    "tone": "6",
+    "hanzi": [
+      "扮"
+    ],
+    "speech": "活动词",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "舞动。",
+      "putonghua_tr": "舞動。",
+      "English": "dance.",
+      "francais": "danser.",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "puan6-sau1",
     "item": "puǎn-sau",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puǎn-sau",
+    "shengmu": "p",
+    "yunmu": "uan",
+    "tone": "6",
+    "hanzi": [
+      "扮骚"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "搔首弄姿。",
+      "putonghua_tr": "搔首弄姿。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -11960,22 +12270,26 @@
     "note": ""
   },
   {
-    "id": "puat8",
+    "id": "puat8-ho5",
     "item": "puât-hô",
     "pronunciation": "puât-hô",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
+    "shengmu": "p",
+    "yunmu": "uat",
+    "tone": "8",
+    "hanzi": [
+      "拔河"
+    ],
+    "speech": "活动词",
+    "label": [
+      "运动"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "拔河。",
+      "putonghua_tr": "拔河。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12167,7 +12481,9 @@
       "飛機"
     ],
     "speech": "事物词",
-    "label": [],
+    "label": [
+      "交通工具"
+    ],
     "img": "",
     "definitions": {
       "romazi": "",
@@ -12206,22 +12522,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pue2",
     "item": "pué",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pué",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "2",
+    "hanzi": [
+      "掊"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "翻找。",
+      "putonghua_tr": "翻找。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12253,23 +12571,26 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pue3-song6",
     "item": "puè-sǒng",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puè-sǒng",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "3",
+    "hanzi": [
+      "背诵",
+      "背誦"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "背诵。",
+      "putonghua_tr": "背誦。",
+      "English": "recite.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -12300,22 +12621,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pue3-au6",
     "item": "puè-ǎu",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puè-ǎu",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "3",
+    "hanzi": [
+      "背后",
+      "背後"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "背后。",
+      "putonghua_tr": "背後。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12347,22 +12671,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pue5",
     "item": "puê",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puê",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "5",
+    "hanzi": [
+      "赔",
+      "賠"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "赔偿。",
+      "putonghua_tr": "賠償。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12394,163 +12721,24 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puê-phwǎ",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
-    "item": "puê-syê",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
-    "item": "puê-iáng",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
+    "id": "pue6",
     "item": "puě",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puě",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "6",
+    "hanzi": [
+      "倍"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "倍数。",
+      "putonghua_tr": "倍數。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12582,22 +12770,25 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puē-sie",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "id": "pue6sie1",
+    "item": "puē sie",
+    "pronunciation": "puē sie",
+    "shengmu": "p",
+    "yunmu": "ue",
+    "tone": "7",
+    "hanzi": [
+      "焙烧",
+      "焙燒"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "提供热气以取暖。",
+      "putonghua_tr": "提供熱氣以取暖。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12629,22 +12820,25 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pui1-cham2",
     "item": "pui-chám",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "pui-chám",
+    "shengmu": "p",
+    "yunmu": "ui",
+    "tone": "1",
+    "hanzi": [
+      "悲惨",
+      "悲慘"
+    ],
+    "speech": "修饰词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "悲惨。",
+      "putonghua_tr": "悲慘。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12676,22 +12870,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pui5_iu5",
     "item": "puî",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puî",
+    "shengmu": "p",
+    "yunmu": "ui",
+    "tone": "5",
+    "hanzi": [
+      "肥"
+    ],
+    "speech": "修饰词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "油腻。",
+      "putonghua_tr": "油膩。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12723,22 +12919,24 @@
     "note": ""
   },
   {
-    "id": "",
+    "id": "pui5_liau7",
     "item": "puî",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puî",
+    "shengmu": "p",
+    "yunmu": "ui",
+    "tone": "5",
+    "hanzi": [
+      "肥"
+    ],
+    "speech": "事物词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
+      "putonghua": "肥料。",
+      "putonghua_tr": "肥料。",
       "English": "",
       "francais": "",
       "phasaThai": "",
@@ -12770,70 +12968,76 @@
     "note": ""
   },
   {
-    "id": "",
-    "item": "puî",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
-    "label": [],
-    "img": "",
-    "definitions": {
-      "romazi": "",
-      "teochew": "",
-      "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
-      "francais": "",
-      "phasaThai": "",
-      "bahasaMelayu": "",
-      "bahasaIndonesia": "",
-      "tiengViet": "",
-      "pheasaKhmer": "",
-      "phasaLao": ""
-    },
-    "phrases": [],
-    "examples": [
-      {
-        "id": 1,
-        "romazi": "",
-        "teochew": "",
-        "teochew_tr": "",
-        "putonghua": "",
-        "putonghua_tr": "",
-        "English": "",
-        "francais": "",
-        "phasaThai": "",
-        "bahasaMelayu": "",
-        "bahasaIndonesia": "",
-        "tiengViet": "",
-        "pheasaKhmer": "",
-        "phasaLao": ""
-      }
-    ],
-    "note": ""
-  },
-  {
-    "id": "",
+    "id": "pui7",
     "item": "puī",
-    "pronunciation": "",
-    "shengmu": "",
-    "yunmu": "",
-    "tone": "",
-    "hanzi": [],
-    "speech": "",
+    "pronunciation": "puī",
+    "shengmu": "p",
+    "yunmu": "ui",
+    "tone": "7",
+    "hanzi": [
+      "吠"
+    ],
+    "speech": "活动词",
     "label": [],
     "img": "",
     "definitions": {
       "romazi": "",
       "teochew": "",
       "teochew_tr": "",
-      "putonghua": "",
-      "putonghua_tr": "",
-      "English": "",
+      "putonghua": "狗叫。",
+      "putonghua_tr": "狗叫。",
+      "English": "bark.",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "png7",
+    "item": "pn̄g",
+    "pronunciation": "pn̄g",
+    "shengmu": "p",
+    "yunmu": "ng",
+    "tone": "7",
+    "hanzi": [
+      "饭"
+    ],
+    "speech": "事物词",
+    "label": [
+      "食物"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "饭。",
+      "putonghua_tr": "飯。",
+      "English": "rice.",
       "francais": "",
       "phasaThai": "",
       "bahasaMelayu": "",
@@ -47858,6 +48062,58 @@
     "note": ""
   },
   {
+    "id": "tur1-huan1",
+    "item": "tur-huan",
+    "pronunciation": "tur-huan",
+    "shengmu": "t",
+    "yunmu": "ur",
+    "tone": "1",
+    "hanzi": [
+      "猪番",
+      "豬番"
+    ],
+    "speech": "事物词",
+    "label": [
+      "食物"
+    ],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "猪肠。唐人避讳tn̂g音。",
+      "putonghua_tr": "豬腸。唐人避諱tn̂g音。",
+      "English": "",
+      "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
     "id": "",
     "item": "tur-hueh",
     "pronunciation": "",
@@ -55525,6 +55781,56 @@
       "putonghua_tr": "",
       "English": "",
       "francais": "",
+      "phasaThai": "",
+      "bahasaMelayu": "",
+      "bahasaIndonesia": "",
+      "tiengViet": "",
+      "pheasaKhmer": "",
+      "phasaLao": ""
+    },
+    "phrases": [],
+    "examples": [
+      {
+        "id": 1,
+        "romazi": "",
+        "teochew": "",
+        "teochew_tr": "",
+        "putonghua": "",
+        "putonghua_tr": "",
+        "English": "",
+        "francais": "",
+        "phasaThai": "",
+        "bahasaMelayu": "",
+        "bahasaIndonesia": "",
+        "tiengViet": "",
+        "pheasaKhmer": "",
+        "phasaLao": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "thiau5-ker1",
+    "item": "thiâu-ker",
+    "pronunciation": "thiâu-ker",
+    "shengmu": "th",
+    "yunmu": "iau",
+    "tone": "5",
+    "hanzi": [
+      "调羹",
+      "調羹"
+    ],
+    "speech": "事物词",
+    "label": [],
+    "img": "",
+    "definitions": {
+      "romazi": "",
+      "teochew": "",
+      "teochew_tr": "",
+      "putonghua": "汤勺。",
+      "putonghua_tr": "湯勺。",
+      "English": "spoon.",
+      "francais": "la cuillère.",
       "phasaThai": "",
       "bahasaMelayu": "",
       "bahasaIndonesia": "",
