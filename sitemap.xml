@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://example.com/orthography/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/orthography/"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/orthography/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/orthography/"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/orthography/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/orthography/"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/orthography/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/orthography/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/orthography/"/>
+  </url>
+  <url>
+    <loc>https://example.com/grammar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/grammar/"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/grammar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/grammar/"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/grammar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/grammar/"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/grammar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/grammar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/grammar/"/>
+  </url>
+  <url>
+    <loc>https://example.com/resource/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/resource/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/resource/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resource/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/resource/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/resource/"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/resource/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/resource/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/resource/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resource/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/resource/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/resource/"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/resource/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/resource/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/resource/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resource/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/resource/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/resource/"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/resource/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/resource/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/resource/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/resource/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/resource/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/resource/"/>
+  </url>
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/about/"/>
+  </url>
+  <url>
+    <loc>https://example.com/zh/about/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/about/"/>
+  </url>
+  <url>
+    <loc>https://example.com/en/about/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/about/"/>
+  </url>
+  <url>
+    <loc>https://example.com/fr/about/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nan" href="https://example.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/zh/about/"/>
+  </url>
+</urlset>
