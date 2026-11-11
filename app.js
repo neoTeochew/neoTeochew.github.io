@@ -81,13 +81,22 @@
     return declared || LANGUAGES[0];
   }
 
+  /* 站内相对地址：pagePath 形如 '' / 'zh/' / 'about/'；file:// 下补回 index.html */
+  function pageHref(pagePath) {
+    const href = (pageLanguage().path ? '../' : './') + pagePath;
+    return window.location.protocol === 'file:' ? href + 'index.html' : href;
+  }
+
   /* 切语言 = 跳到对应语言的页面，并保留当前 hash（如 #/entry/sái） */
   function languageHref(code) {
     const target = LANGUAGES.find(item => item.code === code);
     if (!target) return '';
-    const base = pageLanguage().path ? '../' : './';
-    const hash = window.location.hash || '';
-    return base + target.path + 'index.html' + hash;
+    return pageHref(target.path) + (window.location.hash || '');
+  }
+
+  /* 当前语言首页的相对地址 */
+  function homeHref() {
+    return pageHref(pageLanguage().path);
   }
 
   /* 当前界面语言 → 内容语言的查找顺序（含回退链） */
@@ -961,6 +970,7 @@
   function renderCardSense(def, index, showNumber) {
     const hanzi = cleanHanzi(def.hanzi);
     const speech = def.speech || [];
+    const teochewPage = currentLanguage().code === 'te';
     const preview = previewForDefinition(def);
     const previewTranslation = bestTranslation(def);
     const needle = searchNeedle();
@@ -970,13 +980,21 @@
       speech.map(value => `<span class="badge badge-speech">${esc(value)}</span>`).join('')
     ].filter(Boolean);
 
+    // 潮汕话版没有译文，固定显示 meaning / meaning_hanzi 两个字段
+    const teochewRows = teochewPage
+      ? [def.meaning, def.meaning_hanzi].filter(Boolean).map(text =>
+        `<p class="card-sense-def">${needle && state.scopes.meaning && matchesNeedle(text, needle)
+          ? excerptHtml(text, 60)
+          : esc(text)}</p>`)
+      : [];
+
     // 预览区已展示的内容不再重复追加；没展示但命中的字段才补进来
     const previewSource = preview.empty ? 'none'
       : previewTranslation ? 'translation'
         : (preview.text === def.meaning_hanzi ? 'meaning_hanzi' : 'meaning');
 
     const extraRows = [];
-    if (needle && state.scopes.meaning) {
+    if (needle && state.scopes.meaning && !teochewPage) {
       if (previewSource !== 'meaning' && matchesNeedle(def.meaning, needle)) {
         extraRows.push(matchRowHtml(t('detailMeaning'), def.meaning, 36));
       }
@@ -996,7 +1014,9 @@
       ${showNumber ? `<span class="card-sense-no">${pad2(index)}</span>` : ''}
       <div class="card-sense-main">
         ${lineParts.length ? `<div class="card-sense-line">${lineParts.join('')}</div>` : ''}
-        <p class="card-sense-def${preview.empty ? ' is-empty' : ''}">${previewHtml(preview)}</p>
+        ${teochewPage
+          ? (teochewRows.length ? teochewRows.join('') : `<p class="card-sense-def is-empty">${esc(t('noTranslation'))}</p>`)
+          : `<p class="card-sense-def${preview.empty ? ' is-empty' : ''}">${previewHtml(preview)}</p>`}
         ${extraRows.length ? `<div class="card-match-list card-match-sense">${extraRows.join('')}</div>` : ''}
       </div>
     </div>`;
@@ -1265,6 +1285,28 @@
     openEntry(entry.word);
   }
 
+  /* 去掉空路由 #/ 或 #，让地址栏回到干净的页面地址 */
+  function stripEmptyHash() {
+    if (!window.location.hash || !/^#\/?$/.test(window.location.hash)) return;
+    try {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    } catch (error) {
+      window.location.hash = '';
+    }
+  }
+
+  /* 返回首页：清掉 hash 路由，地址栏保持干净的页面地址 */
+  function goHome() {
+    if (window.location.hash) {
+      try {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      } catch (error) {
+        window.location.hash = '';
+      }
+    }
+    handleRoute(false);
+  }
+
   function handleRoute(initial) {
     const match = /^#\/entry\/(.+)$/.exec(window.location.hash);
     if (match) {
@@ -1283,13 +1325,15 @@
     }
 
     if (/^#\/articles\/?$/.test(window.location.hash)) {
-      window.location.replace('index.html');
+      window.location.replace(homeHref());
       return;
     }
     if (/^#\/about\/?$/.test(window.location.hash)) {
-      window.location.replace('about/index.html');
+      window.location.replace(pageHref(pageLanguage().path + 'about/'));
       return;
     }
+
+    stripEmptyHash();
 
     const wasDetail = !detailEl.hidden;
     showHome();
@@ -1366,7 +1410,7 @@
     detailEl.addEventListener('click', event => {
       const back = event.target.closest('[data-action="back"]');
       if (back) {
-        window.location.hash = '#/';
+        goHome();
       }
     });
 

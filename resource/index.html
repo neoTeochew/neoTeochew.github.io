@@ -4,16 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 统一地址：/xxx/index.html 跳到 /xxx/；file:// 下把目录链接补回 index.html，方便本地双击预览 -->
+  <script>
+    if (location.protocol === 'file:') {
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('a[href]').forEach(function (link) {
+          var href = link.getAttribute('href');
+          if (!href || href.charAt(0) === '#' || /^[a-z][a-z0-9+.-]*:/i.test(href)) return;
+          if (href.slice(-1) !== '/') return;
+          link.setAttribute('href', href + 'index.html');
+        });
+      });
+    } else if (/\/index\.html$/.test(location.pathname)) {
+      location.replace(location.pathname.replace(/index\.html$/, '') + location.search + location.hash);
+    }
+  </script>
   <title>资料 · 潮语埠</title>
   <meta name="description" content="争取收集撮有用的资料，尽量共怹电子化，了大家人拢好用。">
   <!-- SEO:start -->
   <!-- 由 build_site.py 生成，请勿手改；上线前用 --site-url 指定真实域名后重跑 -->
-  <link rel="canonical" href="https://example.com/resource/">
-  <link rel="alternate" hreflang="nan" href="https://example.com/resource/">
-  <link rel="alternate" hreflang="zh-Hans" href="https://example.com/zh/resource/">
-  <link rel="alternate" hreflang="en" href="https://example.com/en/resource/">
-  <link rel="alternate" hreflang="fr" href="https://example.com/fr/resource/">
-  <link rel="alternate" hreflang="x-default" href="https://example.com/resource/">
+  <link rel="canonical" href="https://neoteochew.github.io/resource/">
+  <link rel="alternate" hreflang="nan" href="https://neoteochew.github.io/resource/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://neoteochew.github.io/zh/resource/">
+  <link rel="alternate" hreflang="en" href="https://neoteochew.github.io/en/resource/">
+  <link rel="alternate" hreflang="fr" href="https://neoteochew.github.io/fr/resource/">
+  <link rel="alternate" hreflang="x-default" href="https://neoteochew.github.io/resource/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="潮语辞典 · Neo-Teochew Dictionary">
   <meta property="og:locale" content="nan_CN">
@@ -65,7 +80,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="../index.html" aria-label="潮州话词典">
+      <a class="brand" href="../" aria-label="潮州话词典">
         <span class="seal" aria-hidden="true">潮</span>
         <span class="brand-text">
           <span class="brand-title">潮语埠 · 潮语辞典</span>
@@ -73,29 +88,29 @@
         </span>
       </a>
       <nav class="header-nav" aria-label="内容导航" data-i18n-aria="navAria">
-        <a class="header-link" href="../index.html" data-nav="home">
+        <a class="header-link" href="../" data-nav="home">
           <span data-i18n="navDictionary">辞典</span>
         </a>
-        <a class="header-link" href="../orthography/index.html" data-nav="orthography">
+        <a class="header-link" href="../orthography/" data-nav="orthography">
           <span data-i18n="navOrthography">拼写规则</span>
         </a>
-        <a class="header-link" href="../grammar/index.html" data-nav="grammar">
+        <a class="header-link" href="../grammar/" data-nav="grammar">
           <span data-i18n="navGrammar">语法</span>
         </a>
-        <a class="header-link is-active" href="../resource/index.html" data-nav="resource">
+        <a class="header-link is-active" href="../resource/" data-nav="resource">
           <span data-i18n="navResource">资源</span>
         </a>
-        <a class="header-link" href="../about/index.html" data-nav="about">
+        <a class="header-link" href="../about/" data-nav="about">
           <span data-i18n="navAbout">关于</span>
         </a>
       </nav>
       <div class="header-right">
         <span class="header-note" data-i18n="headerNote">多种语言咯更新……</span>
         <div class="lang-switch" role="group" aria-label="Language">
-          <a class="lang-btn is-active" href="../resource/index.html" hreflang="nan" aria-current="page"><span class="lang-full">潮汕话</span><span class="lang-short">潮</span></a>
-          <a class="lang-btn" href="../zh/resource/index.html" hreflang="zh-Hans"><span class="lang-full">普通话</span><span class="lang-short">普</span></a>
-          <a class="lang-btn" href="../en/resource/index.html" hreflang="en"><span class="lang-full">English</span><span class="lang-short">EN</span></a>
-          <a class="lang-btn" href="../fr/resource/index.html" hreflang="fr"><span class="lang-full">Français</span><span class="lang-short">FR</span></a></div>
+          <a class="lang-btn is-active" href="../resource/" hreflang="nan" aria-current="page"><span class="lang-full">潮汕话</span><span class="lang-short">潮</span></a>
+          <a class="lang-btn" href="../zh/resource/" hreflang="zh-Hans"><span class="lang-full">普通话</span><span class="lang-short">普</span></a>
+          <a class="lang-btn" href="../en/resource/" hreflang="en"><span class="lang-full">English</span><span class="lang-short">EN</span></a>
+          <a class="lang-btn" href="../fr/resource/" hreflang="fr"><span class="lang-full">Français</span><span class="lang-short">FR</span></a></div>
       </div>
     </div>
   </header>
@@ -103,7 +118,7 @@
   <main id="app">
     <div class="page">
       <div class="page-topbar">
-        <a class="back-link" href="../index.html">
+        <a class="back-link" href="../">
           <svg class="icon"><use href="#i-arrow-left"></use></svg>
           <span>转去</span>
         </a>

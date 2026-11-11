@@ -332,7 +332,7 @@ def build_landing_page(template, lang, site, i18n, stats, languages):
 NAV_LINK_RE = re.compile(r'<a class="([^"]*)"([^>]*?)data-nav="([^"]+)"')
 LANG_SWITCH_RE = re.compile(r'<div class="lang-switch"([^>]*)></div>')
 SCRIPT_RE = re.compile(r'[ \t]*<script src="(?:data|app)\.js"></script>\n?')
-HREF_RE = re.compile(r'href="(index\.html|(?:%s)/index\.html)"' % '|'.join(SITE_PAGES))
+HREF_RE = re.compile(r'href="(\./|(?:%s)/)"' % '|'.join(SITE_PAGES))
 ASSET_RE = re.compile(r'href="(styles\.css)"')
 
 
@@ -343,7 +343,7 @@ def lang_switch_html(lang, slug, languages, prefix):
         code = item['code']
         if code not in SITE_LANGS:
             continue
-        href = prefix + item['path'] + (slug + '/' if slug else '') + 'index.html'
+        href = prefix + item['path'] + (slug + '/' if slug else '')
         active = code == lang
         items.append(
             '<a class="lang-btn%s" href="%s" hreflang="%s"%s>'
@@ -372,7 +372,14 @@ def set_active_nav(page_html, slug):
 
 def prefix_links(page_html, link_prefix, asset_prefix):
     """站内链接退一级留在同语言目录；静态资源要退到站点根。"""
-    page_html = HREF_RE.sub(lambda m: 'href="%s%s"' % (link_prefix, m.group(1)), page_html)
+    def repl(match):
+        target = match.group(1)
+        # 首页就是当前语言目录本身，退一级即可，不必拼出 .././
+        if target == './':
+            return 'href="%s"' % link_prefix
+        return 'href="%s%s"' % (link_prefix, target)
+
+    page_html = HREF_RE.sub(repl, page_html)
     return ASSET_RE.sub(lambda m: 'href="%s%s"' % (asset_prefix, m.group(1)), page_html)
 
 
@@ -406,7 +413,7 @@ def content_main(lang, slug, strings, stats, prefix):
         '<main id="app">\n'
         '    <div class="page">\n'
         '      <div class="page-topbar">\n'
-        '        <a class="back-link" href="%sindex.html">\n'
+        '        <a class="back-link" href="%s">\n'
         '          <svg class="icon"><use href="#i-arrow-left"></use></svg>\n'
         '          <span>%s</span>\n'
         '        </a>\n'

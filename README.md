@@ -205,11 +205,12 @@ python build_site.py --site-url https://你的域名
 | 语言回退 | 当前语言缺译文时，按 `fallback` 链依次回退。fr → English → 普通话，te → 普通话，并在详情页提示"暂无法语译文" |
 | 语言记忆 | 选择语言后写入 `localStorage['teochew.lang']`；语言页面本身又以 URL 为准（`/zh/`、`/en/`、`/fr/`），回到主站时若记住的是其他语言，会自动跳到对应语言页，保证"看到的语言"和"地址栏"始终一致 |
 | 语言落地页 / SEO | `build_site.py` 从 `index.html` 生成 `zh/` `en/` `fr/` 三份静态页，预填该语言的静态文案与首屏数字，写入 `canonical` / `hreflang` / OG，并生成 `sitemap.xml`、`robots.txt` |
-| 语言切换方式 | 点语言按钮 = **跳到对应语言的页面**（`/`、`/zh/index.html`、`/en/index.html`、`/fr/index.html`），并保留当前 hash（如 `#/entry/sái`）；不再原地换文字 |
+| 语言切换方式 | 点语言按钮 = **跳到对应语言的页面**（`/`、`/zh/`、`/en/`、`/fr/`），并保留当前 hash（如 `#/entry/sái`）；不再原地换文字 |
 | 数字格式化 | `Intl.NumberFormat(uiLocale)`，中英法数字分隔符自动正确 |
-| 导航 | 「辞典 / 拼写规则 / 语法 / 资源 / 关于」都是**真实文件链接**（`index.html`、`orthography/index.html` …），不是 hash 路由，所以每个页面都能被搜索引擎单独收录；高亮由 `data-nav` 与 `setActiveNav()` 控制，生成页在构建时就把 `is-active` 写死 |
+| 导航 | 「辞典 / 拼写规则 / 语法 / 资源 / 关于」都是**真实文件链接**（`./`、`orthography/` …，目录形式），不是 hash 路由，所以每个页面都能被搜索引擎单独收录；高亮由 `data-nav` 与 `setActiveNav()` 控制，生成页在构建时就把 `is-active` 写死 |
 | 内容页 | 4 个页面 × 4 种语言，由 `build_site.py` 生成纯静态 HTML；正文放在 `content/<语言>/<页面>.html`，没有文件就显示"内容筹备中"占位卡。页面不加载 JS，语言切换是静态 `<a>` |
-| 旧 hash 内容页 | `#/about`、`#/articles` 仍能打开，会立即跳转到对应的真实页面（`about/index.html`），避免旧链接 404 |
+| 旧 hash 内容页 | `#/about`、`#/articles` 仍能打开，会立即跳转到对应的真实页面（`about/`），避免旧链接 404 |
+| 地址规范 | 站内链接统一用目录形式；直接访问 `/xxx/index.html` 时由内联脚本跳到 `/xxx/`（`file://` 本地预览不跳）；详情页返回会清掉空 `#/`，但保留 `#/entry/...` |
 | 键盘与可访问性 | 卡片支持 Enter / Space 打开；`aria-pressed` / `aria-selected` 同步；`focus-visible` 描边；Toast 用 `aria-live` |
 | 移动端 | `860px` 页头导航换行居中；`640px` 语言按钮显示简写（中 / EN / FR） |
 
@@ -261,7 +262,7 @@ python build_site.py --site-url https://你的域名
 | 改颜色 / 字体 / 最大宽度 | `styles.css` 的 `:root` |
 | 改某个区块的样式 | `styles.css` 对应区块（见 4.4 节地图） |
 | 给内容页写正文 | 新建 `content/<语言>/<页面>.html` → 重跑构建（见 6.5） |
-| 加一个导航栏链接（新独立页） | `index.html` 加 `<a href="<slug>/index.html">` + 各语 `I18N`（`navXxx` / `xxxTitle` / `xxxLead`）+ `build_site.py` 的 `SITE_PAGES` 加 slug（**见 6.6**） |
+| 加一个导航栏链接（新独立页） | `index.html` 加 `<a href="<slug>/">` + 各语 `I18N`（`navXxx` / `xxxTitle` / `xxxLead`）+ `build_site.py` 的 `SITE_PAGES` 加 slug（**见 6.6**） |
 | 加页面上一句新文案 | `I18N` 的 te / zh / en / fr **四块都加**，HTML 用 `data-i18n` |
 | 加卡片 / 详情页新字段 | `data.json` + 重建 `data.js` + `renderEntryCard`/`renderDetail` + CSS + `I18N` |
 | 改排序选项 | `index.html` 的 `#sort` options + `sortList()` + 各语 `I18N` |
@@ -397,7 +398,7 @@ content/fr/orthography.html
 2. **`index.html`** 的 `.header-nav` 里加一项（**链接指向真实文件**，不是 `#/`）：
 
    ```html
-   <a class="header-link" href="resources/index.html" data-nav="resources">
+   <a class="header-link" href="resources/" data-nav="resources">
      <span data-i18n="navResources">资料库</span>
    </a>
    ```
