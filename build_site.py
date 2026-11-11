@@ -54,15 +54,15 @@ CONTENT_DIR = os.path.join(ROOT, 'content')
 
 META_DESCRIPTION = {
     # 潮汕话界面文案暂沿用普通话，待补
-    'te': '潮语辞典：按词语、汉字、释义与多语言译文检索潮汕话、潮州话、潮语，支持声韵调、词性与分类筛选。',
-    'zh': '潮语辞典：按词语、汉字、释义与多语言译文检索潮汕话、潮州话、潮语，支持声韵调、词性与分类筛选。',
+    'te': '潮语辞典，检索潮汕话、潮州话、潮语相关表达，尽量涵盖古今中外。',
+    'zh': '潮语辞典，检索潮汕话、潮州话、潮语相关表达，尽量涵盖古今中外。',
     'en': 'Neo-Teochew Dictionary: searched by words, hanzi, definitions, and translations in different languages. Filters by pronunciation, part of speech, and category are supported.',
     'fr': 'Neo-Teochew Dictionnaire: recherche par mots, caractères chinois, définitions et traductions en beaucoup de langues. Les filtres par prononciation, partie de la phrase et catégorie sont supportés.',
 }
 
-OG_LOCALE = {'te': 'nan_CN', 'zh': 'zh_CN', 'en': 'en_US', 'fr': 'fr_FR'}
-HTML_LANG = {'te': 'nan', 'zh': 'zh-CN', 'en': 'en', 'fr': 'fr'}
-HREFLANG = {'te': 'nan', 'zh': 'zh-Hans', 'en': 'en', 'fr': 'fr'}
+OG_LOCALE = {'te': 'teo_CN', 'zh': 'zh_CN', 'en': 'en_US', 'fr': 'fr_FR'}
+HTML_LANG = {'te': 'teo', 'zh': 'zh-CN', 'en': 'en', 'fr': 'fr'}
+HREFLANG = {'te': 'teo', 'zh': 'zh-Hans', 'en': 'en', 'fr': 'fr'}
 
 
 # ---------------------------------------------------------------- 极简 JS 对象解析
@@ -227,6 +227,19 @@ def seo_block(site, lang, title, description=None, slug=None):
     lines.append('  <meta property="og:title" content="%s">' % html.escape(title, quote=True))
     lines.append('  <meta property="og:description" content="%s">'
                  % html.escape(description or META_DESCRIPTION[lang], quote=True))
+    if slug is None:
+        # 结构化数据：把「潮汕话 / 潮州话 / 潮语 / Teochew」作为同一站点的别名告诉搜索引擎
+        data = {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            'name': '潮语埠 · 潮汕话辞典',
+            'alternateName': ['潮语辞典', '潮汕话辞典', '潮汕话词典', '潮州话词典', 'Teochew Dictionary'],
+            'url': '%s/%s' % (site, page_path(None, lang)),
+            'description': description or META_DESCRIPTION[lang],
+            'inLanguage': HREFLANG[lang],
+        }
+        lines.append('  <script type="application/ld+json">%s</script>'
+                     % json.dumps(data, ensure_ascii=False, separators=(',', ':')))
     lines.append('  ' + SEO_END)
     return '\n'.join(lines)
 

@@ -129,7 +129,7 @@
       pagePending: '本页正文尚未撰写。篇幅短时可直接写成一页，篇幅长时可拆成多篇独立文章。',
       eyebrow: '潮语辞典',
       heroTitle: '收录潮语表达，平样拼写。',
-      heroDesc: '收着 {entries} 条词目、{senses} 个义项。按词语、汉字、释义与多语言译文检索，也可依声母、韵母、声调、词性和分类逐层筛选。',
+      heroDesc: '无论潮语、潮汕话、潮州话，拢是咱家己的母语，传承、发展伊。',
       statEntries: '条目',
       statSenses: '义项',
       searchLabel: '检索关键词',
