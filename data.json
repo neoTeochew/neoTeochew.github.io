@@ -375,41 +375,6 @@
       "tips": ""
     },
     {
-      "word": "ú-suí",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "u",
-      "tone": "2",
-      "definitions": [
-        {
-          "hanzi": [
-            "雨水"
-          ],
-          "categories": [
-            "节气"
-          ],
-          "speech": [
-            "专名"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "雨水。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [
-        "hǒu",
-        "lôh hǒu"
-      ],
-      "tips": ""
-    },
-    {
       "word": "mâk",
       "pronunciations": "",
       "accents": [],
@@ -606,7 +571,7 @@
             "中国"
           ],
           "categories": [
-            "地点"
+            "国家"
           ],
           "speech": [
             "专名"
@@ -647,7 +612,7 @@
             "學校"
           ],
           "categories": [
-            "地点"
+            "场所"
           ],
           "speech": [
             "名词"
@@ -2105,8 +2070,8 @@
           "speech": [
             "名词"
           ],
-          "meaning": "Tsu-sêng atom kâi hǔ-tiǎn pǒu-hūn. Spin uî 1\/2 kâi fermion.",
-          "meaning_hanzi": "组成atom的负电部分。Spin为1\/2的fermion。",
+          "meaning": "Tsu-sêng atom kâi hǔ-tiǎn pǒu-hūn. Spin uî 1/2 kâi fermion.",
+          "meaning_hanzi": "组成atom的负电部分。Spin为1/2的fermion。",
           "translations": [
             {
               "lang": "普通话",
@@ -2885,10 +2850,11 @@
             "枸杞"
           ],
           "categories": [
-            "食物"
+            "食物",
+            "植物"
           ],
           "speech": [
-            "名字"
+            "名词"
           ],
           "meaning": "",
           "meaning_hanzi": "",
@@ -3222,11 +3188,9 @@
             "陈",
             "陳"
           ],
-          "categories": [
-            "姓"
-          ],
+          "categories": [],
           "speech": [
-            "名词"
+            "姓氏"
           ],
           "meaning": "",
           "meaning_hanzi": "",
@@ -3541,83 +3505,6 @@
             {
               "lang": "français",
               "text": "rouge."
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "Hân-kok",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "an",
-      "tone": "5",
-      "definitions": [
-        {
-          "hanzi": [
-            "韩国",
-            "韓國"
-          ],
-          "categories": [
-            "地点"
-          ],
-          "speech": [
-            "专名"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "韩国。"
-            },
-            {
-              "lang": "English",
-              "text": "South Korea."
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "Zît-pún",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "z",
-      "yunmu": "it",
-      "tone": "8",
-      "definitions": [
-        {
-          "hanzi": [
-            "日本"
-          ],
-          "categories": [
-            "地点"
-          ],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "日本。"
-            },
-            {
-              "lang": "English",
-              "text": "Japan."
-            },
-            {
-              "lang": "français",
-              "text": "le Japon."
             }
           ],
           "examples": []
@@ -4014,7 +3901,7 @@
             "英國"
           ],
           "categories": [
-            "地点"
+            "国家"
           ],
           "speech": [
             "专名"
@@ -4433,42 +4320,6 @@
       "tips": ""
     },
     {
-      "word": "Uât-nâm",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "uat",
-      "tone": "8",
-      "definitions": [
-        {
-          "hanzi": [
-            "越南"
-          ],
-          "categories": [
-            "地点"
-          ],
-          "speech": [
-            "专名"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "越南。"
-            },
-            {
-              "lang": "English",
-              "text": "Vietnam."
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "sya",
       "pronunciations": "",
       "accents": [],
@@ -4656,7 +4507,6 @@
             "北京"
           ],
           "categories": [
-            "地点",
             "行政市"
           ],
           "speech": [
@@ -4697,7 +4547,6 @@
             "上海"
           ],
           "categories": [
-            "地点",
             "行政市"
           ],
           "speech": [
@@ -4800,7 +4649,6 @@
             "深圳"
           ],
           "categories": [
-            "地点",
             "行政市"
           ],
           "speech": [
@@ -4842,7 +4690,6 @@
             "汕頭"
           ],
           "categories": [
-            "地点",
             "行政市"
           ],
           "speech": [
@@ -4880,7 +4727,7 @@
             "汕頭"
           ],
           "categories": [
-            "地点"
+            "地区"
           ],
           "speech": [
             "专名"
@@ -4920,7 +4767,6 @@
             "潮州"
           ],
           "categories": [
-            "地点",
             "行政市"
           ],
           "speech": [
@@ -4957,7 +4803,7 @@
             "潮州"
           ],
           "categories": [
-            "地点"
+            "地区"
           ],
           "speech": [
             "专名"
@@ -4997,7 +4843,6 @@
             "澄海"
           ],
           "categories": [
-            "地点",
             "行政区"
           ],
           "speech": [
@@ -8345,6 +8190,35 @@
             }
           ],
           "examples": []
+        },
+        {
+          "hanzi": [
+            "知"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "多做，多注意。"
+            }
+          ],
+          "examples": [
+            {
+              "sentence": "Tsai tsiâh tsuí.",
+              "sentence_hanzi": "知食水。",
+              "translations": [
+                {
+                  "lang": "普通话",
+                  "text": "记得多喝水。"
+                }
+              ]
+            }
+          ]
         }
       ],
       "phrases": [],
@@ -12400,7 +12274,7 @@
             "亞洲"
           ],
           "categories": [
-            "地点"
+            "大洲"
           ],
           "speech": [
             "专名"
@@ -12436,7 +12310,7 @@
             "非洲"
           ],
           "categories": [
-            "地点"
+            "大洲"
           ],
           "speech": [
             "专名"
@@ -12473,7 +12347,7 @@
             "歐洲"
           ],
           "categories": [
-            "地点"
+            "大洲"
           ],
           "speech": [
             "专名"
@@ -13107,7 +12981,7 @@
           "translations": [
             {
               "lang": "普通话",
-              "text": "要不然。"
+              "text": "要不。"
             }
           ],
           "examples": []
@@ -13565,6 +13439,24 @@
             {
               "lang": "普通话",
               "text": "字。"
+            }
+          ],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "字"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "五分钟。"
             }
           ],
           "examples": []
@@ -15719,8 +15611,8 @@
       "definitions": [
         {
           "hanzi": [
-            "猪猳",
-            "豬猳"
+            "猪豭",
+            "豬豭"
           ],
           "categories": [
             "动物"
@@ -19482,6 +19374,24 @@
           "meaning": "",
           "meaning_hanzi": "",
           "translations": [],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "*"
+          ],
+          "categories": [],
+          "speech": [
+            "量词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "一坨。"
+            }
+          ],
           "examples": []
         }
       ],
@@ -26816,7 +26726,7 @@
           "translations": [
             {
               "lang": "普通话",
-              "text": "弄丢了。"
+              "text": "弄丢了，消失了。"
             }
           ],
           "examples": []
@@ -38665,6 +38575,25 @@
             }
           ],
           "examples": []
+        },
+        {
+          "hanzi": [
+            "点",
+            "點"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "整点钟。"
+            }
+          ],
+          "examples": []
         }
       ],
       "phrases": [],
@@ -38943,6 +38872,24 @@
             {
               "lang": "普通话",
               "text": "完成。"
+            }
+          ],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "直"
+          ],
+          "categories": [],
+          "speech": [
+            "形容词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "笔直。"
             }
           ],
           "examples": []
@@ -42624,8 +42571,7 @@
       "definitions": [
         {
           "hanzi": [
-            "泼",
-            "潑"
+            "*"
           ],
           "categories": [],
           "speech": [
@@ -42636,7 +42582,7 @@
           "translations": [
             {
               "lang": "普通话",
-              "text": "泼水。"
+              "text": "披。"
             }
           ],
           "examples": []
@@ -42720,36 +42666,6 @@
             {
               "lang": "普通话",
               "text": "翘脚。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "phuǎn-tǎi-hái",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "ph",
-      "yunmu": "uan",
-      "tone": "6",
-      "definitions": [
-        {
-          "hanzi": [
-            "胖大海"
-          ],
-          "categories": [],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "胖大海。"
             }
           ],
           "examples": []
@@ -44086,39 +44002,6 @@
             {
               "lang": "普通话",
               "text": "麻烦。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "buán-thâu",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "b",
-      "yunmu": "uan",
-      "tone": "2",
-      "definitions": [
-        {
-          "hanzi": [
-            "馒头",
-            "饅頭"
-          ],
-          "categories": [
-            "食物"
-          ],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "馒头。"
             }
           ],
           "examples": []
@@ -47588,7 +47471,7 @@
             "唐山"
           ],
           "categories": [
-            "地点"
+            "地区"
           ],
           "speech": [
             "专名"
@@ -48994,37 +48877,6 @@
       "tips": ""
     },
     {
-      "word": "nyí âng-chuì_tûn",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "n",
-      "yunmu": "yi",
-      "tone": "2",
-      "definitions": [
-        {
-          "hanzi": [
-            "染红嘴唇",
-            "染紅嘴唇"
-          ],
-          "categories": [],
-          "speech": [
-            "动词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "涂口红。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "tûn-ko",
       "pronunciations": "",
       "accents": [],
@@ -50108,38 +49960,6 @@
             {
               "lang": "普通话",
               "text": "淘汰。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "Thài-swa",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "th",
-      "yunmu": "ai",
-      "tone": "3",
-      "definitions": [
-        {
-          "hanzi": [
-            "泰山"
-          ],
-          "categories": [
-            "山"
-          ],
-          "speech": [
-            "专名"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "泰山。"
             }
           ],
           "examples": []
@@ -51516,7 +51336,7 @@
           "translations": [
             {
               "lang": "普通话",
-              "text": "难道。"
+              "text": "有没有。"
             }
           ],
           "examples": []
@@ -54302,39 +54122,6 @@
       "tips": ""
     },
     {
-      "word": "ngâk",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "ng",
-      "yunmu": "ak",
-      "tone": "8",
-      "definitions": [
-        {
-          "hanzi": [
-            "鳄鱼",
-            "鱷魚"
-          ],
-          "categories": [
-            "动物"
-          ],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "鳄鱼。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "ngán-kuang",
       "pronunciations": "",
       "accents": [],
@@ -55599,7 +55386,7 @@
     },
     {
       "word": "Hángzhōu",
-      "pronunciations": "",
+      "pronunciations": "Hâng-tsiu",
       "accents": [],
       "shengmu": "h",
       "yunmu": "ang",
@@ -62774,8 +62561,10 @@
       "definitions": [
         {
           "hanzi": [
-            "多谢",
-            "多謝"
+            "㩼谢",
+            "㩼謝",
+            "济谢",
+            "濟謝"
           ],
           "categories": [],
           "speech": [
@@ -65905,7 +65694,7 @@
       "definitions": [
         {
           "hanzi": [
-            "*"
+            "𤰉"
           ],
           "categories": [],
           "speech": [
@@ -65923,7 +65712,8 @@
         },
         {
           "hanzi": [
-            "*"
+            "挠",
+            "撓"
           ],
           "categories": [],
           "speech": [
@@ -69308,54 +69098,6 @@
       "tips": ""
     },
     {
-      "word": "a",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "a",
-      "tone": "",
-      "definitions": [
-        {
-          "hanzi": [
-            "阿"
-          ],
-          "categories": [],
-          "speech": [
-            "副词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "那个谁。"
-            }
-          ],
-          "examples": []
-        },
-        {
-          "hanzi": [
-            "抑"
-          ],
-          "categories": [],
-          "speech": [
-            "连词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "或。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "a-hiá",
       "pronunciations": "",
       "accents": [],
@@ -71556,36 +71298,6 @@
       "tips": ""
     },
     {
-      "word": "7h",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "uh",
-      "tone": "4",
-      "definitions": [
-        {
-          "hanzi": [
-            "*"
-          ],
-          "categories": [],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "处。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "nap-uh",
       "pronunciations": "",
       "accents": [],
@@ -73129,67 +72841,6 @@
             {
               "lang": "普通话",
               "text": "邻居。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "Lêng-kang",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "l",
-      "yunmu": "eng",
-      "tone": "5",
-      "definitions": [
-        {
-          "hanzi": [
-            "隆江"
-          ],
-          "categories": [],
-          "speech": [
-            "专名"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "隆江。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "Hân-kang",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "an",
-      "tone": "5",
-      "definitions": [
-        {
-          "hanzi": [
-            "韩江",
-            "韓江"
-          ],
-          "categories": [],
-          "speech": [
-            "名词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "韩江。"
             }
           ],
           "examples": []
@@ -75180,7 +74831,12 @@
     {
       "word": "kàu",
       "pronunciations": "",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "à",
+          "dialect": "弱读"
+        }
+      ],
       "shengmu": "k",
       "yunmu": "au",
       "tone": "3",
@@ -78754,7 +78410,7 @@
             "澳門"
           ],
           "categories": [
-            "地点"
+            "行政区"
           ],
           "speech": [
             "专名"
@@ -78790,7 +78446,7 @@
             "南澳"
           ],
           "categories": [
-            "地点"
+            "行政县"
           ],
           "speech": [
             "专名"
@@ -79734,7 +79390,12 @@
     {
       "word": "A",
       "pronunciations": "e",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "a",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "e",
       "tone": "1",
@@ -79766,7 +79427,12 @@
     {
       "word": "B",
       "pronunciations": "bi",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "pe",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "b",
       "yunmu": "i",
       "tone": "1",
@@ -79798,7 +79464,12 @@
     {
       "word": "C",
       "pronunciations": "si",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "che",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "s",
       "yunmu": "u",
       "tone": "1",
@@ -79830,7 +79501,12 @@
     {
       "word": "D",
       "pronunciations": "ti",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "te",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "t",
       "yunmu": "i",
       "tone": "1",
@@ -79862,7 +79538,12 @@
     {
       "word": "E",
       "pronunciations": "i",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "ur",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "i",
       "tone": "1",
@@ -79926,7 +79607,12 @@
     {
       "word": "G",
       "pronunciations": "zi",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "ke",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "z",
       "yunmu": "i",
       "tone": "1",
@@ -79958,7 +79644,12 @@
     {
       "word": "H",
       "pronunciations": "êk'-chut",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "ha",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "ek",
       "tone": "8",
@@ -79990,7 +79681,12 @@
     {
       "word": "I",
       "pronunciations": "ai",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "i",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "ai",
       "tone": "1",
@@ -80214,7 +79910,12 @@
     {
       "word": "N",
       "pronunciations": "eng",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "ne",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "eng",
       "tone": "1",
@@ -80278,7 +79979,12 @@
     {
       "word": "P",
       "pronunciations": "phi",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "phe",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "ph",
       "yunmu": "i",
       "tone": "1",
@@ -80310,7 +80016,12 @@
     {
       "word": "Q",
       "pronunciations": "khiu",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "chiu",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "kh",
       "yunmu": "iu",
       "tone": "1",
@@ -80406,7 +80117,12 @@
     {
       "word": "T",
       "pronunciations": "thi",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "the",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "th",
       "yunmu": "i",
       "tone": "1",
@@ -80438,7 +80154,12 @@
     {
       "word": "U",
       "pronunciations": "iu",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "u",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "iu",
       "tone": "1",
@@ -80469,8 +80190,25 @@
     },
     {
       "word": "V",
-      "pronunciations": "bui",
-      "accents": [],
+      "pronunciations": "vui",
+      "accents": [
+        {
+          "pengim": "ui",
+          "dialect": ""
+        },
+        {
+          "pengim": "ve",
+          "dialect": "汉语拼音"
+        },
+        {
+          "pengim": "be",
+          "dialect": "汉语拼音"
+        },
+        {
+          "pengim": "bui",
+          "dialect": ""
+        }
+      ],
       "shengmu": "b",
       "yunmu": "ui",
       "tone": "1",
@@ -80502,7 +80240,12 @@
     {
       "word": "W",
       "pronunciations": "tâp'-liū",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "wa",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "t",
       "yunmu": "ap",
       "tone": "8",
@@ -80534,7 +80277,12 @@
     {
       "word": "X",
       "pronunciations": "êk'-surh",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "si",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "ek",
       "tone": "8",
@@ -80566,7 +80314,12 @@
     {
       "word": "Y",
       "pronunciations": "uai",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "ia",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "0",
       "yunmu": "uai",
       "tone": "1",
@@ -80598,7 +80351,12 @@
     {
       "word": "Z",
       "pronunciations": "zeh",
-      "accents": [],
+      "accents": [
+        {
+          "pengim": "tse",
+          "dialect": "汉语拼音"
+        }
+      ],
       "shengmu": "z",
       "yunmu": "eh",
       "tone": "4",
@@ -83126,36 +82884,6 @@
       "tips": ""
     },
     {
-      "word": "háah",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "aa",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "哈"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "委婉命令。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": "阴上+h表示这是中降调，语气词专属。声调记0吧。"
-    },
-    {
       "word": "tàa",
       "pronunciations": "",
       "accents": [],
@@ -84789,217 +84517,6 @@
       "tips": ""
     },
     {
-      "word": "éh",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "e",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "哎"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "引起注意。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "hóih",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "oi",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "嗘"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "委婉要求。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "óih",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "oi",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "哙",
-            "噲"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "应答别人的呼唤。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "láh",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "l",
-      "yunmu": "a",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "啦"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "求认同。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "hónnh",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "onn",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "乎"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "求认同。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "héeh",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "h",
-      "yunmu": "ee",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "嘿"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "求回答。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "éeh",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "0",
-      "yunmu": "ee",
-      "tone": "0",
-      "definitions": [
-        {
-          "hanzi": [
-            "嗄"
-          ],
-          "categories": [],
-          "speech": [
-            "语气词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "给你。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
       "word": "kòr",
       "pronunciations": "",
       "accents": [],
@@ -85052,36 +84569,6 @@
             {
               "lang": "普通话",
               "text": "随便吧。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "lor",
-      "pronunciations": "",
-      "accents": [],
-      "shengmu": "l",
-      "yunmu": "or",
-      "tone": "1",
-      "definitions": [
-        {
-          "hanzi": [
-            "在"
-          ],
-          "categories": [],
-          "speech": [
-            "副词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "正在。"
             }
           ],
           "examples": []
@@ -85621,42 +85108,6 @@
             {
               "lang": "普通话",
               "text": "做操。"
-            }
-          ],
-          "examples": []
-        }
-      ],
-      "phrases": [],
-      "tips": ""
-    },
-    {
-      "word": "tsòr-nî",
-      "pronunciations": "",
-      "accents": [
-        {
-          "pengim": "tsùr-nî",
-          "dialect": "弱化"
-        }
-      ],
-      "shengmu": "ts",
-      "yunmu": "or",
-      "tone": "3",
-      "definitions": [
-        {
-          "hanzi": [
-            "咋呢",
-            "做呢"
-          ],
-          "categories": [],
-          "speech": [
-            "代词"
-          ],
-          "meaning": "",
-          "meaning_hanzi": "",
-          "translations": [
-            {
-              "lang": "普通话",
-              "text": "做什么，怎么，为什么。"
             }
           ],
           "examples": []
@@ -86367,12 +85818,7 @@
     {
       "word": "siu",
       "pronunciations": "",
-      "accents": [
-        {
-          "pengim": "",
-          "dialect": ""
-        }
-      ],
+      "accents": [],
       "shengmu": "s",
       "yunmu": "iu",
       "tone": "1",
@@ -86391,6 +85837,3851 @@
             {
               "lang": "普通话",
               "text": "收拾，收走。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "kuan-suè",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "uan",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "关税",
+            "關稅"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "关税。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "kek-kuang",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ek",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "激光"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "激光。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "khài-lût",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "kh",
+      "yunmu": "ai",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "概率"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "概率。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "buê-khì",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "ue",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "煤气",
+            "煤氣"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "煤气。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "buê-khì-lôu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "ue",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "煤气炉",
+            "煤氣爐"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "煤气炉。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "sèe-myā",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "ee",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "性命"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "性命。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chiok-tiǎn",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "iok",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "触电",
+            "觸電"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "触电。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "ké-tsi-ǒi",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "e",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "假*会",
+            "假*會"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "假勤奋。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsieh-zît",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "ieh",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "炙日"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "晒太阳。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "phâk-zît",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ph",
+      "yunmu": "ak",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "曝日"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "晒太阳。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "âng-thâu-tsûn",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "ang",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "红头船",
+            "紅頭船"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "红头船。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "nyí âng-chuì-tûn",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "n",
+      "yunmu": "yi",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "染红嘴唇",
+            "染紅嘴唇"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "涂口红。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chiú-siêh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "iu",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "手液"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "手汗。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "sek-pit",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "ek",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "色笔",
+            "色筆"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "彩笔。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Lí",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "i",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "李"
+          ],
+          "categories": [],
+          "speech": [
+            "姓氏"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "李。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chuà",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "chwà",
+          "dialect": ""
+        }
+      ],
+      "shengmu": "ch",
+      "yunmu": "ua",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "蔡"
+          ],
+          "categories": [],
+          "speech": [
+            "姓氏"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "蔡。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Kang",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "江"
+          ],
+          "categories": [],
+          "speech": [
+            "姓氏"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "江。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "ě-kuà",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "e",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "下旰"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "下午。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "ě-hâi",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "e",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "下颏",
+            "下頦"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "下巴。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Việt Nam",
+      "pronunciations": "Uât-nâm",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "uat",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "越南"
+          ],
+          "categories": [
+            "国家"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "越南。"
+            },
+            {
+              "lang": "English",
+              "text": "Vietnam."
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Xiàmén",
+      "pronunciations": "Ě-mn̂g",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "e",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "厦门",
+            "廈門"
+          ],
+          "categories": [
+            "市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "厦门。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hanguk",
+      "pronunciations": "Hân-kok",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "an",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "韩国",
+            "韓國"
+          ],
+          "categories": [
+            "国家"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "韩国。"
+            },
+            {
+              "lang": "English",
+              "text": "South Korea."
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Nippon",
+      "pronunciations": "Zît-pún",
+      "accents": [],
+      "shengmu": "z",
+      "yunmu": "it",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "日本"
+          ],
+          "categories": [
+            "国家"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "日本。"
+            },
+            {
+              "lang": "English",
+              "text": "Japan."
+            },
+            {
+              "lang": "français",
+              "text": "le Japon."
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Muí-tsiu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "m",
+      "yunmu": "ui",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "美洲"
+          ],
+          "categories": [
+            "大洲"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "美洲。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Quánzhōu",
+      "pronunciations": "Tsuân-tsiu",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "uan",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "泉州"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "泉州。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": "名从主人，所以“泉”用文读。因为该地名平常用得不算多，所以有必要纠正读法。"
+    },
+    {
+      "word": "muán-thâu",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "buán-thâu",
+          "dialect": ""
+        }
+      ],
+      "shengmu": "b",
+      "yunmu": "uan",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "馒头",
+            "饅頭"
+          ],
+          "categories": [
+            "食物"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "馒头。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Méizhōu",
+      "pronunciations": "Buê-tsiu",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "ue",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "梅州"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "梅州。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hiǎ",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "ia",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "蚁",
+            "蟻"
+          ],
+          "categories": [],
+          "speech": [
+            "姓氏"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "蚁。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "pa-lói",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "p",
+      "yunmu": "a",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "巴礼",
+            "巴禮"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "修理。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "巴黎",
+      "pronunciations": "Pa-lî",
+      "accents": [],
+      "shengmu": "p",
+      "yunmu": "a",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "巴黎"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "巴黎。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hán Jiāng",
+      "pronunciations": "Hân-kang",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "an",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "韩江",
+            "韓江"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "韩江。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Lóng Jiāng",
+      "pronunciations": "Lêng-kang",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "eng",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "隆江"
+          ],
+          "categories": [],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "隆江。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Zhāngzhōu",
+      "pronunciations": "Tsiang-tsiu",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "iang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "漳州"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "漳州。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Guǎngzhōu",
+      "pronunciations": "Kńg-tsiu",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ng",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "广州",
+            "廣州"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "广州。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Shànwěi",
+      "pronunciations": "Swà-bué",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "wa",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "汕尾"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "汕尾。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hong Kong",
+      "pronunciations": "Hiang-káng",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "iang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "香港"
+          ],
+          "categories": [
+            "行政区"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "香港。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Jiēyáng",
+      "pronunciations": "Kit-yê",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "it",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "揭阳",
+            "揭陽"
+          ],
+          "categories": [
+            "行政市"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "揭阳。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsiǔ-thâu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "iu",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "就头",
+            "就頭"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "重新开始。"
+            }
+          ],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "就头",
+            "就頭"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "胡乱弄。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "phah-pyà",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ph",
+      "yunmu": "ah",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "拍拚"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "打拼。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "ngâk-hûr",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ng",
+      "yunmu": "ak",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "鳄鱼",
+            "鱷魚"
+          ],
+          "categories": [
+            "动物"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "鳄鱼。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chài-thâu-kué",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "ai",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "菜头粿",
+            "菜頭粿"
+          ],
+          "categories": [
+            "食物"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "菜头粿、萝卜糕。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "pak-kêk",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "p",
+      "yunmu": "ak",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "北极"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "北极。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "nâm-kêk",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "n",
+      "yunmu": "am",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "南极"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "南极。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hâm-siàu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "am",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "函数",
+            "函數"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "函数。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "kêk-hǎn",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ek",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "极限"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "极限。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "sou-kiáu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "ou",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "酥饺",
+            "酥餃"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "炸饺。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "kám-ày",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "am",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "敢爱",
+            "敢愛"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "只要。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "a",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "a",
+      "tone": "",
+      "definitions": [
+        {
+          "hanzi": [
+            "阿"
+          ],
+          "categories": [],
+          "speech": [
+            "前缀"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "呼叫某人。"
+            },
+            {
+              "lang": "English",
+              "text": "A prefix to names of persons."
+            }
+          ],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "抑"
+          ],
+          "categories": [],
+          "speech": [
+            "连词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "或。"
+            },
+            {
+              "lang": "English",
+              "text": "or."
+            },
+            {
+              "lang": "français",
+              "text": "ou."
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [
+        "a-pâ",
+        "a-mâ",
+        "a-muě",
+        "a-tǐ",
+        "a-tia",
+        "a-nôu",
+        "a-nyê",
+        "a-tsé",
+        "a-sià",
+        "a-hya"
+      ],
+      "tips": ""
+    },
+    {
+      "word": "sang-see-nňg",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "ang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "双生卵",
+            "雙生卵"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "双胞胎。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Thài Shān",
+      "pronunciations": "Thài-swa",
+      "accents": [],
+      "shengmu": "th",
+      "yunmu": "ai",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "泰山"
+          ],
+          "categories": [
+            "山"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "泰山。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "phuàn-tǎi-hái",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ph",
+      "yunmu": "uan",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "胖大海"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "胖大海。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "bô-syě",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "o",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "无想",
+            "無想"
+          ],
+          "categories": [
+            "否定"
+          ],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "没注意。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsuan",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "uan",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "专",
+            "專"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "偏偏。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tiǎu-tsuan",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "tǒu-tsuan",
+          "dialect": "澄海"
+        }
+      ],
+      "shengmu": "t",
+      "yunmu": "iau",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "*专",
+            "*專"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "故意。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "khin-tǎng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "kh",
+      "yunmu": "in",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "轻动",
+            "輕動"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "无缘无故。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tin-tǎng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "in",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "振动",
+            "振動"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "动。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "bô-tsò-bô-nî",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "o",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "无咋无呢",
+            "無咋無呢"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "无缘无故。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tye-yē-tye-syè",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "ye",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "张样张相",
+            "張樣張相"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "装模作样。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsí-huê",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "i",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "此回"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "长期现在。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chúr-tsûn",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "ur",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "此阵",
+            "此陣"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "短期现在，此刻。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "khah-ǔ",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "khàu",
+          "dialect": "合音"
+        }
+      ],
+      "shengmu": "kh",
+      "yunmu": "ah",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "岂有",
+            "豈有"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "有没有。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "náu mó",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "n",
+      "yunmu": "au",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "脑孬",
+            "腦孬"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "脑子坏了。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "nah-sap-kyá",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "n",
+      "yunmu": "ah",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "垃圾囝"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "老赖。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "chàu-syè",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "au",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "臭相"
+          ],
+          "categories": [],
+          "speech": [
+            "形容词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "犯规，作弊。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "khó-lêng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "kh",
+      "yunmu": "o",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "可能"
+          ],
+          "categories": [],
+          "speech": [
+            "形容词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "可能。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "sîn-sian",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "in",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "神仙"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "神仙。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "sîn-keng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "in",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "神经",
+            "神經"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "神经。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tì-tseng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "i",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "**"
+          ],
+          "categories": [],
+          "speech": [
+            "形容词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Ú-suí",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "u",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "雨水"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "雨水。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [
+        "hǒu",
+        "lôh hǒu"
+      ],
+      "tips": ""
+    },
+    {
+      "word": "Lîp-chun",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "ip",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "立春"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "立春。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Keng-têk",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "eng",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "惊蛰",
+            "驚蟄"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "惊蛰。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Chun-hun",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "un",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "春分"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "春分。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Cheng-mêng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "eng",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "清明"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "清明。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Kok-ú",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ok",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "谷雨",
+            "穀雨"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "谷雨。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Lîp-hē",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "ip",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "立夏"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "立夏。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Siáu-mwá",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "iau",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "小满",
+            "小滿"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "小满。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Mâng-tsóng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "m",
+      "yunmu": "ang",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "芒种",
+            "芒種"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "芒种。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hē-tsì",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "e",
+      "tone": "7",
+      "definitions": [
+        {
+          "hanzi": [
+            "夏至"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "夏至。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Siáu-sú",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "iau",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "小暑"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "小暑。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tǎi-sú",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "ai",
+      "tone": "7",
+      "definitions": [
+        {
+          "hanzi": [
+            "大暑"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "大暑。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Lîp-chiu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "ip",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "立秋"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "立秋。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Chù-sú",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "u",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "处暑",
+            "處暑"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "处暑。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Pêh-lòu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "p",
+      "yunmu": "eh",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "白露"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "白露。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Chiu-hun",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ch",
+      "yunmu": "iu",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "秋分"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "秋分。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Hân-lòu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "an",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "寒露"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "寒露。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Sang-kàng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "ang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "霜降"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "霜降。"
+            }
+          ],
+          "examples": []
+        },
+        {
+          "hanzi": [
+            "双杠"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "双杠。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Lîp-tang",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "ip",
+      "tone": "8",
+      "definitions": [
+        {
+          "hanzi": [
+            "立冬"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "立冬。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Siáu-soh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "iau",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "小雪"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "小雪。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tǎi-soh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "ai",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "大雪"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "大雪。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tang-tsoih",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "ang",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "冬节",
+            "冬節"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "冬至。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Siáu-hân",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "iau",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "小寒"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "小寒。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tǎi-hân",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "ai",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "大寒"
+          ],
+          "categories": [
+            "节气"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "大寒。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tuan-ngóu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "uan",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "端午"
+          ],
+          "categories": [
+            "节日"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "端午节。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Tiong-chiu",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "t",
+      "yunmu": "iong",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "中秋"
+          ],
+          "categories": [
+            "节日"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "中秋节。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "Kok-kèng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "k",
+      "yunmu": "ok",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "国庆",
+            "國慶"
+          ],
+          "categories": [
+            "节日"
+          ],
+          "speech": [
+            "专名"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "国庆节。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "nueh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "n",
+      "yunmu": "ueh",
+      "tone": "4",
+      "definitions": [
+        {
+          "hanzi": [
+            "*"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "捡。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "wì-chih",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "wi",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "畏*"
+          ],
+          "categories": [],
+          "speech": [
+            "形容词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "怕生。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tor",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "lor",
+          "dialect": ""
+        }
+      ],
+      "shengmu": "l",
+      "yunmu": "or",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "在"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "正在。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsyà-tǹg",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "ya",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "正顿",
+            "正頓"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "正餐。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "buâ-mêe",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "ua",
+      "tone": "5",
+      "definitions": [
+        {
+          "hanzi": [
+            "磨暝"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "熬夜。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "àh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "a",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "到"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "很。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hàah",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "aa",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "哈"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "委婉命令。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": "阴上+h表示这是中降调，语气词专属。声调记0吧。"
+    },
+    {
+      "word": "èh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "e",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "哎"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "引起注意。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hòih",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "oi",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "嗘"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "委婉要求。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "òih",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "oi",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "哙",
+            "噲"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "应答别人的呼唤。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "làh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "a",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "啦"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "求认同。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hòoh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "oo",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "乎"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "求认同。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hèeh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "ee",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "嘿"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "求回答。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "èeh",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "0",
+      "yunmu": "ee",
+      "tone": "0",
+      "definitions": [
+        {
+          "hanzi": [
+            "嗄"
+          ],
+          "categories": [],
+          "speech": [
+            "语气词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "给你。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "soy-huê",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "s",
+      "yunmu": "oy",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "先回"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "以前。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "bǒi-sǐ",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "b",
+      "yunmu": "oi",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "𠀾是",
+            "袂是"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "难不成。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsò-nî",
+      "pronunciations": "",
+      "accents": [
+        {
+          "pengim": "tsùr-nî",
+          "dialect": "弱化"
+        }
+      ],
+      "shengmu": "ts",
+      "yunmu": "o",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "怎呢",
+            "咋呢"
+          ],
+          "categories": [],
+          "speech": [
+            "代词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "做什么，怎么，为什么。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsò",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "o",
+      "tone": "3",
+      "definitions": [
+        {
+          "hanzi": [
+            "怎",
+            "咋"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "怎么。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "thǎi",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "th",
+      "yunmu": "ai",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "*"
+          ],
+          "categories": [],
+          "speech": [
+            "动词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "放任不管。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "hiá-bô",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "h",
+      "yunmu": "ia",
+      "tone": "2",
+      "definitions": [
+        {
+          "hanzi": [
+            "遐无",
+            "遐無"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "要不然。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "tsǎi-see",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "ts",
+      "yunmu": "ai",
+      "tone": "6",
+      "definitions": [
+        {
+          "hanzi": [
+            "在生"
+          ],
+          "categories": [],
+          "speech": [
+            "副词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "怎么样？"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "po-seng",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "p",
+      "yunmu": "o",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "巴仙"
+          ],
+          "categories": [
+            "外来词"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "百分点。"
+            },
+            {
+              "lang": "English",
+              "text": "percent."
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": "抖音@Pink很拼（96123487）在2026.11.19的视频，记录与法国潮人司机的对话。"
+    },
+    {
+      "word": "khong-kan",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "kh",
+      "yunmu": "ong",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "空间",
+            "空間"
+          ],
+          "categories": [],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "空间。"
+            }
+          ],
+          "examples": []
+        }
+      ],
+      "phrases": [],
+      "tips": ""
+    },
+    {
+      "word": "la-sià-zúr",
+      "pronunciations": "",
+      "accents": [],
+      "shengmu": "l",
+      "yunmu": "a",
+      "tone": "1",
+      "definitions": [
+        {
+          "hanzi": [
+            "拉舍尔",
+            "拉舍爾"
+          ],
+          "categories": [
+            "外来词"
+          ],
+          "speech": [
+            "名词"
+          ],
+          "meaning": "",
+          "meaning_hanzi": "",
+          "translations": [
+            {
+              "lang": "普通话",
+              "text": "毛毯。"
             }
           ],
           "examples": []
